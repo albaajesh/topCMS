@@ -289,14 +289,14 @@
 		<!-- GENERAL UTILS end -->
 
 		<!-- TEST begin -->
-		<dependency>
-			<groupId>org.springside</groupId>
-			<artifactId>springside-core</artifactId>
-			<version>${springside.version}</version>
-			<classifier>tests</classifier>
-			 <scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/springside-core-4.2.1.GA-tests.jar</systemPath>
-		</dependency> 
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.springside</groupId> -->
+<!-- 			<artifactId>springside-core</artifactId> -->
+<!-- 			<version>${springside.version}</version> -->
+<!-- 			<classifier>tests</classifier> -->
+<!-- 			 <scope>system</scope> -->
+<!-- 			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/springside-core-4.2.1.GA-tests.jar</systemPath> -->
+<!-- 		</dependency>  -->
 
 		<dependency>
 			<groupId>junit</groupId>
@@ -352,13 +352,13 @@
 			<version>3.0.10</version>
 		</dependency>
 		
-		<dependency>
-			<groupId>com.google.code</groupId>
-			<artifactId>kaptcha</artifactId>
-			<version>2.3.2</version>
-			 <scope>system</scope>
-			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/kaptcha-2.3.2.jar</systemPath>
-		</dependency> 
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.google.code</groupId> -->
+<!-- 			<artifactId>kaptcha</artifactId> -->
+<!-- 			<version>2.3.2</version> -->
+<!-- 			 <scope>system</scope> -->
+<!-- 			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/kaptcha-2.3.2.jar</systemPath> -->
+<!-- 		</dependency>  -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-ehcache</artifactId>
