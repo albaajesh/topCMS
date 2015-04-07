@@ -25,7 +25,7 @@ public class BasicLogger {
 			Map data) {
 		basicLogger = LoggerFactory.getLogger(cls);
 		String json = (data != null ? jsonMapper.toJson(data) : "{}");
-		switch (logLevel) {
+		switch (logLevel) {       
 		case 00:
 			basicLogger.trace("{},{},{},{}", cls.toString(), action, user, json);
 			break;
