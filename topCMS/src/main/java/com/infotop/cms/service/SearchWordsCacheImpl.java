@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 import net.sf.ehcache.Ehcache;
 import net.sf.ehcache.Element;
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.jeecms.cms.manager.assist.CmsSearchWordsMng;
+import com.infotop.cms.manager.assist.CmsSearchWordsMng;
 
 @Service
 public class SearchWordsCacheImpl implements SearchWordsCache, DisposableBean {
@@ -67,7 +67,7 @@ public class SearchWordsCacheImpl implements SearchWordsCache, DisposableBean {
 	private CmsSearchWordsMng manager;
 
 	@Autowired 
-	@Qualifier("com.jeecms.cms.front.CmsSearchWords")
+	@Qualifier("com.infotop.cms.front.CmsSearchWords")
 	private Ehcache cache;
 
 }

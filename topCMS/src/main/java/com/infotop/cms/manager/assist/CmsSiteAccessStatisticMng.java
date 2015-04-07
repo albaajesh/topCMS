@@ -1,9 +1,9 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.Date;
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsSiteAccessStatistic;
+import com.infotop.cms.entity.assist.CmsSiteAccessStatistic;
 
 /**
  * @author Tom

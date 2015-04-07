@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,30 +22,30 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.entity.assist.CmsAdvertising;
-import com.jeecms.cms.entity.assist.CmsAdvertisingSpace;
-import com.jeecms.cms.entity.assist.CmsDirectiveTpl;
-import com.jeecms.cms.entity.assist.CmsFriendlinkCtg;
-import com.jeecms.cms.entity.assist.CmsGuestbookCtg;
-import com.jeecms.cms.entity.assist.CmsVoteTopic;
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ContentType;
-import com.jeecms.cms.manager.assist.CmsAdvertisingMng;
-import com.jeecms.cms.manager.assist.CmsAdvertisingSpaceMng;
-import com.jeecms.cms.manager.assist.CmsDirectiveTplMng;
-import com.jeecms.cms.manager.assist.CmsFriendlinkCtgMng;
-import com.jeecms.cms.manager.assist.CmsGuestbookCtgMng;
-import com.jeecms.cms.manager.assist.CmsVoteTopicMng;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.ContentTypeMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.Constants;
+import com.infotop.cms.entity.assist.CmsAdvertising;
+import com.infotop.cms.entity.assist.CmsAdvertisingSpace;
+import com.infotop.cms.entity.assist.CmsDirectiveTpl;
+import com.infotop.cms.entity.assist.CmsFriendlinkCtg;
+import com.infotop.cms.entity.assist.CmsGuestbookCtg;
+import com.infotop.cms.entity.assist.CmsVoteTopic;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ContentType;
+import com.infotop.cms.manager.assist.CmsAdvertisingMng;
+import com.infotop.cms.manager.assist.CmsAdvertisingSpaceMng;
+import com.infotop.cms.manager.assist.CmsDirectiveTplMng;
+import com.infotop.cms.manager.assist.CmsFriendlinkCtgMng;
+import com.infotop.cms.manager.assist.CmsGuestbookCtgMng;
+import com.infotop.cms.manager.assist.CmsVoteTopicMng;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.ContentTypeMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.web.util.CmsUtils;
 
 /**
  * @author Tom

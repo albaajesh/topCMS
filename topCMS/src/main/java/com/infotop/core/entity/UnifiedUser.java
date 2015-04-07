@@ -1,7 +1,7 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 
-import com.jeecms.core.entity.base.BaseUnifiedUser;
+import com.infotop.core.entity.base.BaseUnifiedUser;
 
 public class UnifiedUser extends BaseUnifiedUser {
 	private static final long serialVersionUID = 1L;

@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin;
+package com.infotop.cms.action.admin;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.action.CommonUpload;
+import com.infotop.cms.action.CommonUpload;
 
 /**
  * @author Tom

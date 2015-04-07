@@ -1,6 +1,6 @@
-package com.jeecms.cms.staticpage;
+package com.infotop.cms.staticpage;
 
-import static com.jeecms.common.web.Constants.UTF8;
+import static com.infotop.common.web.Constants.UTF8;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -20,19 +20,19 @@ import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentCheck;
-import com.jeecms.cms.manager.assist.CmsKeywordMng;
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateSimpleDao;
-import com.jeecms.common.page.Paginable;
-import com.jeecms.common.page.SimplePage;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.FrontUtils;
-import com.jeecms.core.web.util.URLHelper;
-import com.jeecms.core.web.util.URLHelper.PageInfo;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentCheck;
+import com.infotop.cms.manager.assist.CmsKeywordMng;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateSimpleDao;
+import com.infotop.common.page.Paginable;
+import com.infotop.common.page.SimplePage;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.FrontUtils;
+import com.infotop.core.web.util.URLHelper;
+import com.infotop.core.web.util.URLHelper.PageInfo;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

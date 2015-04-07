@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
-import static com.jeecms.cms.Constants.TPLDIR_TOPIC;
+import static com.infotop.cms.Constants.TPLDIR_TOPIC;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.CmsTopic;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.CmsTopicMng;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.CmsTopic;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.CmsTopicMng;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 @Controller
 public class TopicAct {

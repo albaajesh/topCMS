@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsScoreRecord;
+import com.infotop.cms.entity.assist.base.BaseCmsScoreRecord;
 
 
 
@@ -24,8 +24,8 @@ public class CmsScoreRecord extends BaseCmsScoreRecord {
 	 */
 	public CmsScoreRecord (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsScoreItem item,
-		com.jeecms.cms.entity.main.Content content,
+		com.infotop.cms.entity.assist.CmsScoreItem item,
+		com.infotop.cms.entity.main.Content content,
 		java.lang.Integer count) {
 
 		super (

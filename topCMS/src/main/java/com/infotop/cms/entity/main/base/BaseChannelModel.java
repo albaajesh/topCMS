@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
-import com.jeecms.cms.entity.main.CmsModel;
+import com.infotop.cms.entity.main.CmsModel;
 
 
 /**

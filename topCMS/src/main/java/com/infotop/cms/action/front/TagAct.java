@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
-import static com.jeecms.cms.Constants.TPLDIR_SPECIAL;
+import static com.infotop.cms.Constants.TPLDIR_SPECIAL;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.main.ContentTag;
-import com.jeecms.cms.manager.main.ContentTagMng;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.main.ContentTag;
+import com.infotop.cms.manager.main.ContentTagMng;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 @Controller
 public class TagAct {

@@ -1,7 +1,7 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
-import com.jeecms.cms.entity.assist.CmsVoteReply;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsVoteReply;
+import com.infotop.common.page.Pagination;
 
 public interface CmsVoteReplyMng {
 

@@ -1,7 +1,7 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
 
-import static com.jeecms.cms.Constants.TPLDIR_MEMBER;
+import static com.infotop.cms.Constants.TPLDIR_MEMBER;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,20 +20,20 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.main.CmsThirdAccount;
-import com.jeecms.cms.manager.main.CmsThirdAccountMng;
-import com.jeecms.common.security.encoder.PwdEncoder;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUserExt;
-import com.jeecms.core.entity.UnifiedUser;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.UnifiedUserMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.main.CmsThirdAccount;
+import com.infotop.cms.manager.main.CmsThirdAccountMng;
+import com.infotop.common.security.encoder.PwdEncoder;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUserExt;
+import com.infotop.core.entity.UnifiedUser;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.UnifiedUserMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 
 /**

@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -40,7 +40,7 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	 */
 	public BaseCmsVoteSubTopic (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsVoteTopic voteTopic,
+		com.infotop.cms.entity.assist.CmsVoteTopic voteTopic,
 		java.lang.String title,
 		java.lang.Integer type,
 		java.lang.Integer priority) {
@@ -68,11 +68,11 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	private java.lang.Integer priority;
 
 	// many to one
-	private com.jeecms.cms.entity.assist.CmsVoteTopic voteTopic;
+	private com.infotop.cms.entity.assist.CmsVoteTopic voteTopic;
 
 	// collections
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsVoteItem> voteItems;
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsVoteReply> voteReplys;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsVoteItem> voteItems;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsVoteReply> voteReplys;
 
 
 
@@ -149,7 +149,7 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	/**
 	 * Return the value associated with the column: votetopic_id
 	 */
-	public com.jeecms.cms.entity.assist.CmsVoteTopic getVoteTopic () {
+	public com.infotop.cms.entity.assist.CmsVoteTopic getVoteTopic () {
 		return voteTopic;
 	}
 
@@ -157,7 +157,7 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	 * Set the value related to the column: votetopic_id
 	 * @param voteTopic the votetopic_id value
 	 */
-	public void setVoteTopic (com.jeecms.cms.entity.assist.CmsVoteTopic voteTopic) {
+	public void setVoteTopic (com.infotop.cms.entity.assist.CmsVoteTopic voteTopic) {
 		this.voteTopic = voteTopic;
 	}
 
@@ -165,7 +165,7 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	/**
 	 * Return the value associated with the column: voteItems
 	 */
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsVoteItem> getVoteItems () {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsVoteItem> getVoteItems () {
 		return voteItems;
 	}
 
@@ -173,7 +173,7 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	 * Set the value related to the column: voteItems
 	 * @param voteItems the voteItems value
 	 */
-	public void setVoteItems (java.util.Set<com.jeecms.cms.entity.assist.CmsVoteItem> voteItems) {
+	public void setVoteItems (java.util.Set<com.infotop.cms.entity.assist.CmsVoteItem> voteItems) {
 		this.voteItems = voteItems;
 	}
 
@@ -181,7 +181,7 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	/**
 	 * Return the value associated with the column: voteReplys
 	 */
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsVoteReply> getVoteReplys () {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsVoteReply> getVoteReplys () {
 		return voteReplys;
 	}
 
@@ -189,7 +189,7 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 	 * Set the value related to the column: voteReplys
 	 * @param voteReplys the voteReplys value
 	 */
-	public void setVoteReplys (java.util.Set<com.jeecms.cms.entity.assist.CmsVoteReply> voteReplys) {
+	public void setVoteReplys (java.util.Set<com.infotop.cms.entity.assist.CmsVoteReply> voteReplys) {
 		this.voteReplys = voteReplys;
 	}
 
@@ -197,9 +197,9 @@ public abstract class BaseCmsVoteSubTopic  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsVoteSubTopic)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsVoteSubTopic)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsVoteSubTopic cmsVoteSubTopic = (com.jeecms.cms.entity.assist.CmsVoteSubTopic) obj;
+			com.infotop.cms.entity.assist.CmsVoteSubTopic cmsVoteSubTopic = (com.infotop.cms.entity.assist.CmsVoteSubTopic) obj;
 			if (null == this.getId() || null == cmsVoteSubTopic.getId()) return false;
 			else return (this.getId().equals(cmsVoteSubTopic.getId()));
 		}

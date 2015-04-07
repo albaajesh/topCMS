@@ -1,8 +1,8 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.util.List;
 
-import com.jeecms.core.entity.CmsConfigItem;
+import com.infotop.core.entity.CmsConfigItem;
 
 public interface CmsConfigItemMng {
 	public List<CmsConfigItem> getList(Integer configId, Integer category);

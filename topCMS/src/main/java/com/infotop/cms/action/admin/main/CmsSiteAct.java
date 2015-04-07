@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
 import java.io.IOException;
 import java.util.List;
@@ -15,16 +15,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.CmsConfigMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.FtpMng;
-import com.jeecms.core.web.WebCoreErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.CmsConfigMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.FtpMng;
+import com.infotop.core.web.WebCoreErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class CmsSiteAct {

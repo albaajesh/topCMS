@@ -1,4 +1,4 @@
-package com.jeecms.core.action.front;
+package com.infotop.core.action.front;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -21,11 +21,11 @@ import org.springframework.beans.factory.BeanFactoryUtils;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.jeecms.common.ueditor.LocalizedMessages;
-import com.jeecms.common.upload.UploadUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import static com.jeecms.cms.Constants.SNAP_PATH;
+import com.infotop.common.ueditor.LocalizedMessages;
+import com.infotop.common.upload.UploadUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import static com.infotop.cms.Constants.SNAP_PATH;
 
 @SuppressWarnings("serial")
 public class SnapScreenServlet extends HttpServlet {

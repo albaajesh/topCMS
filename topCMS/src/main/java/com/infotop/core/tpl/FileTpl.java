@@ -1,4 +1,4 @@
-package com.jeecms.core.tpl;
+package com.infotop.core.tpl;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 
-import com.jeecms.common.web.Constants;
+import com.infotop.common.web.Constants;
 
 public class FileTpl implements Tpl {
 	private File file;

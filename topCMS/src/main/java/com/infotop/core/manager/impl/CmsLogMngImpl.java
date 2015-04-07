@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -12,16 +12,16 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.util.UrlPathHelper;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.springmvc.MessageResolver;
-import com.jeecms.core.dao.CmsLogDao;
-import com.jeecms.core.entity.CmsLog;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.springmvc.MessageResolver;
+import com.infotop.core.dao.CmsLogDao;
+import com.infotop.core.entity.CmsLog;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.web.util.CmsUtils;
 
 @Service
 @Transactional

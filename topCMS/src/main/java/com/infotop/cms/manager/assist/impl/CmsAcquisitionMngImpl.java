@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -7,24 +7,24 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsAcquisitionDao;
-import com.jeecms.cms.entity.assist.CmsAcquisition;
-import com.jeecms.cms.entity.assist.CmsAcquisitionHistory;
-import com.jeecms.cms.entity.assist.CmsAcquisitionTemp;
-import com.jeecms.cms.entity.assist.CmsAcquisition.AcquisitionResultType;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentExt;
-import com.jeecms.cms.entity.main.ContentTxt;
-import com.jeecms.cms.manager.assist.CmsAcquisitionHistoryMng;
-import com.jeecms.cms.manager.assist.CmsAcquisitionMng;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.CmsModelMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.cms.manager.main.ContentTypeMng;
-import com.jeecms.cms.service.ChannelDeleteChecker;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserMng;
+import com.infotop.cms.dao.assist.CmsAcquisitionDao;
+import com.infotop.cms.entity.assist.CmsAcquisition;
+import com.infotop.cms.entity.assist.CmsAcquisitionHistory;
+import com.infotop.cms.entity.assist.CmsAcquisitionTemp;
+import com.infotop.cms.entity.assist.CmsAcquisition.AcquisitionResultType;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentExt;
+import com.infotop.cms.entity.main.ContentTxt;
+import com.infotop.cms.manager.assist.CmsAcquisitionHistoryMng;
+import com.infotop.cms.manager.assist.CmsAcquisitionMng;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.CmsModelMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.cms.manager.main.ContentTypeMng;
+import com.infotop.cms.service.ChannelDeleteChecker;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserMng;
 
 @Service
 @Transactional

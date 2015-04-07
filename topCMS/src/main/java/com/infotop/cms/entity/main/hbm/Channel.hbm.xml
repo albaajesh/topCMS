@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<hibernate-mapping package="com.jeecms.cms.entity.main">
+<hibernate-mapping package="com.infotop.cms.entity.main">
 	<class name="Channel" table="jc_channel" dynamic-update="true">
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>
@@ -15,8 +15,8 @@
 		<one-to-one name="channelCount" class="ChannelCount" cascade="delete"/>
 		<many-to-one name="model" column="model_id" class="CmsModel" not-null="true"></many-to-one>
 		<many-to-one name="parent" column="parent_id" class="Channel" not-null="false"></many-to-one>
-		<many-to-one name="site" column="site_id" class="com.jeecms.core.entity.CmsSite" not-null="true"></many-to-one>
-		<set name="child" inverse="true" cascade="delete" sort="com.jeecms.common.hibernate3.PriorityComparator">
+		<many-to-one name="site" column="site_id" class="com.infotop.core.entity.CmsSite" not-null="true"></many-to-one>
+		<set name="child" inverse="true" cascade="delete" sort="com.infotop.common.hibernate3.PriorityComparator">
 			<cache usage="read-write"/>
 			<key column="parent_id"/>
 			<one-to-many class="Channel"/>
@@ -30,20 +30,20 @@
 				<many-to-one name="model" column="model_id" class="CmsModel" not-null="false"></many-to-one>
 			</composite-element>
 		</list>
-		<set name="viewGroups" table="jc_chnl_group_view" sort="com.jeecms.common.hibernate3.PriorityComparator">
+		<set name="viewGroups" table="jc_chnl_group_view" sort="com.infotop.common.hibernate3.PriorityComparator">
 			<cache usage="read-write"/>
 			<key column="channel_id"/>
-			<many-to-many column="group_id" class="com.jeecms.core.entity.CmsGroup"/>
+			<many-to-many column="group_id" class="com.infotop.core.entity.CmsGroup"/>
 		</set>
-		<set name="contriGroups" table="jc_chnl_group_contri" sort="com.jeecms.common.hibernate3.PriorityComparator">
+		<set name="contriGroups" table="jc_chnl_group_contri" sort="com.infotop.common.hibernate3.PriorityComparator">
 			<cache usage="read-write"/>
 			<key column="channel_id"/>
-			<many-to-many column="group_id" class="com.jeecms.core.entity.CmsGroup"/>
+			<many-to-many column="group_id" class="com.infotop.core.entity.CmsGroup"/>
 		</set>
-		<set name="users" table="jc_channel_user" sort="com.jeecms.common.hibernate3.PriorityComparator">
+		<set name="users" table="jc_channel_user" sort="com.infotop.common.hibernate3.PriorityComparator">
 			<cache usage="read-write"/>
 			<key column="channel_id"/>
-			<many-to-many column="user_id" class="com.jeecms.core.entity.CmsUser"/>
+			<many-to-many column="user_id" class="com.infotop.core.entity.CmsUser"/>
 		</set>
 		<set name="channelTxtSet" inverse="true" cascade="delete-orphan">
 			<cache usage="read-write"/>

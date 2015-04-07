@@ -1,4 +1,4 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
 import java.io.IOException;
 import java.util.Date;

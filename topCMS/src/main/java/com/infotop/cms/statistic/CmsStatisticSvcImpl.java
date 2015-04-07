@@ -1,21 +1,21 @@
-package com.jeecms.cms.statistic;
+package com.infotop.cms.statistic;
 
 import static java.util.Calendar.DATE;
 import static java.util.Calendar.DAY_OF_WEEK;
 import static java.util.Calendar.HOUR_OF_DAY;
 import static java.util.Calendar.MONTH;
 import static java.util.Calendar.YEAR;
-import static com.jeecms.cms.statistic.CmsStatistic.JOIN;
-import static com.jeecms.cms.statistic.CmsStatistic.TIMEPATTERN;
-import static com.jeecms.cms.statistic.CmsStatistic.MEMBER;
-import static com.jeecms.cms.statistic.CmsStatistic.CONTENT;
-import static com.jeecms.cms.statistic.CmsStatistic.COMMENT;
-import static com.jeecms.cms.statistic.CmsStatistic.GUESTBOOK;
-import static com.jeecms.cms.statistic.CmsStatistic.TODAY;
-import static com.jeecms.cms.statistic.CmsStatistic.YESTERDAY;
-import static com.jeecms.cms.statistic.CmsStatistic.THISWEEK;
-import static com.jeecms.cms.statistic.CmsStatistic.THISMONTH;
-import static com.jeecms.cms.statistic.CmsStatistic.THISYEAR;
+import static com.infotop.cms.statistic.CmsStatistic.JOIN;
+import static com.infotop.cms.statistic.CmsStatistic.TIMEPATTERN;
+import static com.infotop.cms.statistic.CmsStatistic.MEMBER;
+import static com.infotop.cms.statistic.CmsStatistic.CONTENT;
+import static com.infotop.cms.statistic.CmsStatistic.COMMENT;
+import static com.infotop.cms.statistic.CmsStatistic.GUESTBOOK;
+import static com.infotop.cms.statistic.CmsStatistic.TODAY;
+import static com.infotop.cms.statistic.CmsStatistic.YESTERDAY;
+import static com.infotop.cms.statistic.CmsStatistic.THISWEEK;
+import static com.infotop.cms.statistic.CmsStatistic.THISMONTH;
+import static com.infotop.cms.statistic.CmsStatistic.THISYEAR;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -29,9 +29,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.statistic.CmsStatistic.CmsStatisticModel;
-import com.jeecms.cms.statistic.CmsStatistic.TimeRange;
-import com.jeecms.common.util.DateFormatUtils;
+import com.infotop.cms.statistic.CmsStatistic.CmsStatisticModel;
+import com.infotop.cms.statistic.CmsStatistic.TimeRange;
+import com.infotop.common.util.DateFormatUtils;
 
 @Service
 @Transactional(readOnly = true)

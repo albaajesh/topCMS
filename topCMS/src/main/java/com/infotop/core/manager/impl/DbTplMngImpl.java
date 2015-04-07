@@ -1,7 +1,7 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
-import static com.jeecms.common.web.Constants.SPT;
-import static com.jeecms.common.web.Constants.UTF8;
+import static com.infotop.common.web.Constants.SPT;
+import static com.infotop.common.web.Constants.UTF8;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -18,12 +18,12 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.common.web.Constants;
-import com.jeecms.core.dao.DbTplDao;
-import com.jeecms.core.entity.DbTpl;
-import com.jeecms.core.tpl.ParentDirIsFileExceptioin;
-import com.jeecms.core.tpl.Tpl;
-import com.jeecms.core.tpl.TplManager;
+import com.infotop.common.web.Constants;
+import com.infotop.core.dao.DbTplDao;
+import com.infotop.core.entity.DbTpl;
+import com.infotop.core.tpl.ParentDirIsFileExceptioin;
+import com.infotop.core.tpl.Tpl;
+import com.infotop.core.tpl.TplManager;
 
 import freemarker.cache.TemplateLoader;
 

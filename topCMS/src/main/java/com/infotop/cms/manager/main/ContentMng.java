@@ -1,19 +1,19 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
 import java.util.List;
 import java.util.Map;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentExt;
-import com.jeecms.cms.entity.main.ContentTxt;
-import com.jeecms.cms.entity.main.Content.ContentStatus;
-import com.jeecms.cms.staticpage.exception.ContentNotCheckedException;
-import com.jeecms.cms.staticpage.exception.GeneratedZeroStaticPageException;
-import com.jeecms.cms.staticpage.exception.StaticPageNotOpenException;
-import com.jeecms.cms.staticpage.exception.TemplateNotFoundException;
-import com.jeecms.cms.staticpage.exception.TemplateParseException;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentExt;
+import com.infotop.cms.entity.main.ContentTxt;
+import com.infotop.cms.entity.main.Content.ContentStatus;
+import com.infotop.cms.staticpage.exception.ContentNotCheckedException;
+import com.infotop.cms.staticpage.exception.GeneratedZeroStaticPageException;
+import com.infotop.cms.staticpage.exception.StaticPageNotOpenException;
+import com.infotop.cms.staticpage.exception.TemplateNotFoundException;
+import com.infotop.cms.staticpage.exception.TemplateParseException;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsUser;
 
 public interface ContentMng {
 	public Pagination getPageByRight(String title, Integer typeId,Integer currUserId,

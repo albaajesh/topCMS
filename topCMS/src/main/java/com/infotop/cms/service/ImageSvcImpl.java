@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -14,13 +14,13 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.common.file.FileNameUtils;
-import com.jeecms.common.upload.FileRepository;
-import com.jeecms.common.upload.UploadUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.DbFileMng;
+import com.infotop.common.file.FileNameUtils;
+import com.infotop.common.upload.FileRepository;
+import com.infotop.common.upload.UploadUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.DbFileMng;
 
 /**
  * @author Tom

@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -159,9 +159,9 @@ public abstract class BaseCmsSearchWords  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsSearchWords)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsSearchWords)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsSearchWords cmsSearchWords = (com.jeecms.cms.entity.assist.CmsSearchWords) obj;
+			com.infotop.cms.entity.assist.CmsSearchWords cmsSearchWords = (com.infotop.cms.entity.assist.CmsSearchWords) obj;
 			if (null == this.getId() || null == cmsSearchWords.getId()) return false;
 			else return (this.getId().equals(cmsSearchWords.getId()));
 		}

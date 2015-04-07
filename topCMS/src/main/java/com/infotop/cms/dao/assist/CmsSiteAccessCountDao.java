@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.assist;
+package com.infotop.cms.dao.assist;
 
 import java.util.Date;
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsSiteAccessCount;
-import com.jeecms.common.hibernate3.Updater;
+import com.infotop.cms.entity.assist.CmsSiteAccessCount;
+import com.infotop.common.hibernate3.Updater;
 
 /**
  * @author Tom

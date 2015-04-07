@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.util.List;
 
@@ -9,12 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.util.ChineseCharToEn;
-import com.jeecms.cms.dao.assist.CmsSearchWordsDao;
-import com.jeecms.cms.entity.assist.CmsSearchWords;
-import com.jeecms.cms.manager.assist.CmsSearchWordsMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.util.ChineseCharToEn;
+import com.infotop.cms.dao.assist.CmsSearchWordsDao;
+import com.infotop.cms.entity.assist.CmsSearchWords;
+import com.infotop.cms.manager.assist.CmsSearchWordsMng;
 
 @Service
 @Transactional

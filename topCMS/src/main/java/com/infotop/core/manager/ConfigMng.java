@@ -1,11 +1,11 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.util.Map;
 
-import com.jeecms.common.email.EmailSender;
-import com.jeecms.common.email.MessageTemplate;
-import com.jeecms.core.entity.Config;
-import com.jeecms.core.entity.Config.ConfigLogin;
+import com.infotop.common.email.EmailSender;
+import com.infotop.common.email.MessageTemplate;
+import com.infotop.core.entity.Config;
+import com.infotop.core.entity.Config.ConfigLogin;
 
 public interface ConfigMng {
 	public Map<String, String> getMap();

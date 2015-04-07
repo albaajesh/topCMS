@@ -1,4 +1,4 @@
-package com.jeecms.core.tpl;
+package com.infotop.core.tpl;
 
 /**
  * 父目录是文件异常

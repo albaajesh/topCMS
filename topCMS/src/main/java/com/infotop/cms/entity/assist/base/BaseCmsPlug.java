@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -269,9 +269,9 @@ public abstract class BaseCmsPlug  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsPlug)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsPlug)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsPlug cmsPlug = (com.jeecms.cms.entity.assist.CmsPlug) obj;
+			com.infotop.cms.entity.assist.CmsPlug cmsPlug = (com.infotop.cms.entity.assist.CmsPlug) obj;
 			if (null == this.getId() || null == cmsPlug.getId()) return false;
 			else return (this.getId().equals(cmsPlug.getId()));
 		}

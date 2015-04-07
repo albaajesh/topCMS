@@ -1,10 +1,10 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.List;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.UnifiedUser;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.UnifiedUser;
 
 public interface UnifiedUserDao {
 	public UnifiedUser getByUsername(String username);

@@ -1,15 +1,15 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
 import java.util.Date;
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.dao.assist.CmsReceiverMessageDao;
-import com.jeecms.cms.entity.assist.CmsReceiverMessage;
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.dao.assist.CmsReceiverMessageDao;
+import com.infotop.cms.entity.assist.CmsReceiverMessage;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
 
 /**
  *江西金磊科技发展有限公司jeecms研发

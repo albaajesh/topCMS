@@ -1,7 +1,7 @@
-package com.jeecms.cms.action.member;
+package com.infotop.cms.action.member;
 
-import static com.jeecms.cms.Constants.TPLDIR_COMMENT;
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.cms.Constants.TPLDIR_COMMENT;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.util.List;
 
@@ -15,16 +15,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.assist.CmsComment;
-import com.jeecms.cms.manager.assist.CmsCommentMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.MemberConfig;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.assist.CmsComment;
+import com.infotop.cms.manager.assist.CmsCommentMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.MemberConfig;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 /**
  * 会员中心获取评论Action

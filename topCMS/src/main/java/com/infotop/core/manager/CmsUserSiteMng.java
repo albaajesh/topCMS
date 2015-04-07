@@ -1,8 +1,8 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserSite;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserSite;
 
 public interface CmsUserSiteMng {
 	public CmsUserSite findById(Integer id);

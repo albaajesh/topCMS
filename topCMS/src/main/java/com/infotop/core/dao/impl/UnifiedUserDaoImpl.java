@@ -1,4 +1,4 @@
-package com.jeecms.core.dao.impl;
+package com.infotop.core.dao.impl;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.dao.UnifiedUserDao;
-import com.jeecms.core.entity.UnifiedUser;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.dao.UnifiedUserDao;
+import com.infotop.core.entity.UnifiedUser;
 
 @Repository
 public class UnifiedUserDaoImpl extends HibernateBaseDao<UnifiedUser, Integer>

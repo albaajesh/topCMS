@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsScoreItem;
+import com.infotop.cms.entity.assist.base.BaseCmsScoreItem;
 
 
 
@@ -24,7 +24,7 @@ public class CmsScoreItem extends BaseCmsScoreItem {
 	 */
 	public CmsScoreItem (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsScoreGroup group,
+		com.infotop.cms.entity.assist.CmsScoreGroup group,
 		java.lang.String name,
 		java.lang.Integer score,
 		java.lang.Integer priority) {

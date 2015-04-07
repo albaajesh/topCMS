@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsGuestbookExt;
+import com.infotop.cms.entity.assist.base.BaseCmsGuestbookExt;
 
 public class CmsGuestbookExt extends BaseCmsGuestbookExt {
 	private static final long serialVersionUID = 1L;

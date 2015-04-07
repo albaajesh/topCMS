@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.member;
+package com.infotop.cms.action.member;
 
-import static com.jeecms.cms.Constants.TPLDIR_MEMBER;
+import static com.infotop.cms.Constants.TPLDIR_MEMBER;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,17 +14,17 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.common.email.EmailSender;
-import com.jeecms.common.email.MessageTemplate;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.UnifiedUser;
-import com.jeecms.core.manager.ConfigMng;
-import com.jeecms.core.manager.UnifiedUserMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.common.email.EmailSender;
+import com.infotop.common.email.MessageTemplate;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.UnifiedUser;
+import com.infotop.core.manager.ConfigMng;
+import com.infotop.core.manager.UnifiedUserMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 import com.octo.captcha.service.CaptchaServiceException;
 import com.octo.captcha.service.image.ImageCaptchaService;
 

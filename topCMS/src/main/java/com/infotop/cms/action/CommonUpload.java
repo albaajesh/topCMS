@@ -1,4 +1,4 @@
-package com.jeecms.cms.action;
+package com.infotop.cms.action;
 
 import java.awt.Color;
 import java.io.File;
@@ -17,21 +17,21 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.manager.assist.CmsFileMng;
-import com.jeecms.common.image.ImageScale;
-import com.jeecms.common.image.ImageUtils;
-import com.jeecms.common.upload.FileRepository;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.entity.MarkConfig;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.DbFileMng;
-import com.jeecms.core.web.WebCoreErrors;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.manager.assist.CmsFileMng;
+import com.infotop.common.image.ImageScale;
+import com.infotop.common.image.ImageUtils;
+import com.infotop.common.upload.FileRepository;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.entity.MarkConfig;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.DbFileMng;
+import com.infotop.core.web.WebCoreErrors;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 /**
  * @author Tom

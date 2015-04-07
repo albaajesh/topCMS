@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -41,7 +41,7 @@ public abstract class BaseCmsScoreItem  implements Serializable {
 	 */
 	public BaseCmsScoreItem (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsScoreGroup group,
+		com.infotop.cms.entity.assist.CmsScoreGroup group,
 		java.lang.String name,
 		java.lang.Integer score,
 		java.lang.Integer priority) {
@@ -70,10 +70,10 @@ public abstract class BaseCmsScoreItem  implements Serializable {
 	private java.lang.Integer priority;
 
 	// many to one
-	private com.jeecms.cms.entity.assist.CmsScoreGroup group;
+	private com.infotop.cms.entity.assist.CmsScoreGroup group;
 
 	// collections
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsScoreRecord> records;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsScoreRecord> records;
 
 
 
@@ -166,7 +166,7 @@ public abstract class BaseCmsScoreItem  implements Serializable {
 	/**
 	 * Return the value associated with the column: score_group_id
 	 */
-	public com.jeecms.cms.entity.assist.CmsScoreGroup getGroup () {
+	public com.infotop.cms.entity.assist.CmsScoreGroup getGroup () {
 		return group;
 	}
 
@@ -174,7 +174,7 @@ public abstract class BaseCmsScoreItem  implements Serializable {
 	 * Set the value related to the column: score_group_id
 	 * @param group the score_group_id value
 	 */
-	public void setGroup (com.jeecms.cms.entity.assist.CmsScoreGroup group) {
+	public void setGroup (com.infotop.cms.entity.assist.CmsScoreGroup group) {
 		this.group = group;
 	}
 
@@ -182,7 +182,7 @@ public abstract class BaseCmsScoreItem  implements Serializable {
 	/**
 	 * Return the value associated with the column: records
 	 */
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsScoreRecord> getRecords () {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsScoreRecord> getRecords () {
 		return records;
 	}
 
@@ -190,7 +190,7 @@ public abstract class BaseCmsScoreItem  implements Serializable {
 	 * Set the value related to the column: records
 	 * @param records the records value
 	 */
-	public void setRecords (java.util.Set<com.jeecms.cms.entity.assist.CmsScoreRecord> records) {
+	public void setRecords (java.util.Set<com.infotop.cms.entity.assist.CmsScoreRecord> records) {
 		this.records = records;
 	}
 
@@ -198,9 +198,9 @@ public abstract class BaseCmsScoreItem  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsScoreItem)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsScoreItem)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsScoreItem cmsScoreItem = (com.jeecms.cms.entity.assist.CmsScoreItem) obj;
+			com.infotop.cms.entity.assist.CmsScoreItem cmsScoreItem = (com.infotop.cms.entity.assist.CmsScoreItem) obj;
 			if (null == this.getId() || null == cmsScoreItem.getId()) return false;
 			else return (this.getId().equals(cmsScoreItem.getId()));
 		}

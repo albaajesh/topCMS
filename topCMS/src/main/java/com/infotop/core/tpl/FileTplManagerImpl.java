@@ -1,6 +1,6 @@
-package com.jeecms.core.tpl;
+package com.infotop.core.tpl;
 
-import static com.jeecms.common.web.Constants.UTF8;
+import static com.infotop.common.web.Constants.UTF8;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.common.web.springmvc.RealPathResolver;
+import com.infotop.common.web.springmvc.RealPathResolver;
 
 public class FileTplManagerImpl implements TplManager {
 	private static Logger log = LoggerFactory

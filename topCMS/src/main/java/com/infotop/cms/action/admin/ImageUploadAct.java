@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin;
+package com.infotop.cms.action.admin;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -18,12 +18,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.action.CommonUpload;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.entity.MarkConfig;
-import com.jeecms.core.web.WebCoreErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.action.CommonUpload;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.entity.MarkConfig;
+import com.infotop.core.web.WebCoreErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class ImageUploadAct extends CommonUpload {

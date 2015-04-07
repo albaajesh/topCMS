@@ -1,6 +1,6 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
-import static com.jeecms.common.web.Constants.SPT;
+import static com.infotop.common.web.Constants.SPT;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -10,9 +10,9 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.util.Assert;
 
-import com.jeecms.common.web.Constants;
-import com.jeecms.core.entity.base.BaseDbTpl;
-import com.jeecms.core.tpl.Tpl;
+import com.infotop.common.web.Constants;
+import com.infotop.core.entity.base.BaseDbTpl;
+import com.infotop.core.tpl.Tpl;
 
 public class DbTpl extends BaseDbTpl implements Tpl {
 	private static final long serialVersionUID = 1L;

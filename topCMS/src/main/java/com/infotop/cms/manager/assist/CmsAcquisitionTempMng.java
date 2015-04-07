@@ -1,8 +1,8 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsAcquisitionTemp;
+import com.infotop.cms.entity.assist.CmsAcquisitionTemp;
 
 public interface CmsAcquisitionTempMng {
 	public List<CmsAcquisitionTemp> getList(Integer siteId);

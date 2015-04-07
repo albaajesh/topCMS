@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.main.impl;
+package com.infotop.cms.dao.main.impl;
 
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.main.ContentCheckDao;
-import com.jeecms.cms.entity.main.ContentCheck;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
+import com.infotop.cms.dao.main.ContentCheckDao;
+import com.infotop.cms.entity.main.ContentCheck;
+import com.infotop.common.hibernate3.HibernateBaseDao;
 
 @Repository
 public class ContentCheckDaoImpl extends HibernateBaseDao<ContentCheck, Long>

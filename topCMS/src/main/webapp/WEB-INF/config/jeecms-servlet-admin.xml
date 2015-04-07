@@ -12,11 +12,11 @@
 	</bean>
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
 	<!--
-	<bean id="multipartResolver" class="com.jeecms.common.web.cos.CosMultipartResolver"/>
+	<bean id="multipartResolver" class="com.infotop.common.web.cos.CosMultipartResolver"/>
 	-->
 	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
 		<property name="webBindingInitializer">
-			<bean class=" com.jeecms.common.web.springmvc.BindingInitializer"/>
+			<bean class=" com.infotop.common.web.springmvc.BindingInitializer"/>
 		</property>
 	</bean>
 	
@@ -37,7 +37,7 @@
 			</list>
 		</property>
 	</bean>
-	<bean id="adminContextInterceptor" class="com.jeecms.cms.web.AdminContextInterceptor">
+	<bean id="adminContextInterceptor" class="com.infotop.cms.web.AdminContextInterceptor">
 		<!--<property name="adminId" value="1"/>-->
 		<property name="auth" value="true"/>
 		<property name="excludeUrls">
@@ -47,9 +47,9 @@
 			</list>
 		</property>
 	</bean>
-	<bean id="adminLocaleIntercept" class="com.jeecms.cms.web.AdminLocaleInterceptor"/>
+	<bean id="adminLocaleIntercept" class="com.infotop.cms.web.AdminLocaleInterceptor"/>
 	
-	<bean id="fireWallInterceptor" class="com.jeecms.cms.web.FireWallInterceptor"/>
+	<bean id="fireWallInterceptor" class="com.infotop.cms.web.FireWallInterceptor"/>
 	
 	<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor">
 	</bean>
@@ -72,9 +72,9 @@
 		</property>
 	</bean>
 	<!--
-	<bean class="com.jeecms.common.web.springmvc.HandlerExceptionResolver"/>
+	<bean class="com.infotop.common.web.springmvc.HandlerExceptionResolver"/>
 	-->
-	<bean id="freemarkerViewResolver" class="com.jeecms.common.web.springmvc.RichFreeMarkerViewResolver">
+	<bean id="freemarkerViewResolver" class="com.infotop.common.web.springmvc.RichFreeMarkerViewResolver">
 		<property name="prefix" value="/jeecms_sys/"/>
 		<property name="suffix" value=".html"/>
 		<property name="contentType" value="text/html; charset=UTF-8"/>

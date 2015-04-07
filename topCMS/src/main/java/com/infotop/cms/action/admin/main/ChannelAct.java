@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -17,26 +17,26 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ChannelExt;
-import com.jeecms.cms.entity.main.ChannelTxt;
-import com.jeecms.cms.entity.main.CmsModel;
-import com.jeecms.cms.entity.main.CmsModelItem;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.CmsModelItemMng;
-import com.jeecms.cms.manager.main.CmsModelMng;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsGroup;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsGroupMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.tpl.TplManager;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.CoreUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ChannelExt;
+import com.infotop.cms.entity.main.ChannelTxt;
+import com.infotop.cms.entity.main.CmsModel;
+import com.infotop.cms.entity.main.CmsModelItem;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.CmsModelItemMng;
+import com.infotop.cms.manager.main.CmsModelMng;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsGroup;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsGroupMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.tpl.TplManager;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.CoreUtils;
 
 @Controller
 public class ChannelAct {

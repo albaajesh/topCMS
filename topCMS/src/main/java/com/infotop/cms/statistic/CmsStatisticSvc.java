@@ -1,9 +1,9 @@
-package com.jeecms.cms.statistic;
+package com.infotop.cms.statistic;
 
 import java.util.List;
 import java.util.Map;
 
-import com.jeecms.cms.statistic.CmsStatistic.CmsStatisticModel;
+import com.infotop.cms.statistic.CmsStatistic.CmsStatisticModel;
 
 public interface CmsStatisticSvc {
 	public List<CmsStatistic> statisticByModel(int type,

@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -74,7 +74,7 @@ public abstract class BaseCmsSiteCompany  implements Serializable {
 	private java.lang.Float latitude;
 
 	// one to one
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsSite site;
 
 
 
@@ -247,7 +247,7 @@ public abstract class BaseCmsSiteCompany  implements Serializable {
 	/**
 	 * Return the value associated with the column: site
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -255,7 +255,7 @@ public abstract class BaseCmsSiteCompany  implements Serializable {
 	 * Set the value related to the column: site
 	 * @param site the site value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -263,9 +263,9 @@ public abstract class BaseCmsSiteCompany  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsSiteCompany)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsSiteCompany)) return false;
 		else {
-			com.jeecms.core.entity.CmsSiteCompany cmsSiteCompany = (com.jeecms.core.entity.CmsSiteCompany) obj;
+			com.infotop.core.entity.CmsSiteCompany cmsSiteCompany = (com.infotop.core.entity.CmsSiteCompany) obj;
 			if (null == this.getId() || null == cmsSiteCompany.getId()) return false;
 			else return (this.getId().equals(cmsSiteCompany.getId()));
 		}

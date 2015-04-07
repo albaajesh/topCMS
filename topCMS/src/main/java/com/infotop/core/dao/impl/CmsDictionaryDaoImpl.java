@@ -1,4 +1,4 @@
-package com.jeecms.core.dao.impl;
+package com.infotop.core.dao.impl;
 
 import java.util.List;
 
@@ -9,11 +9,11 @@ import org.hibernate.criterion.Criterion;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.dao.CmsDictionaryDao;
-import com.jeecms.core.entity.CmsDictionary;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.dao.CmsDictionaryDao;
+import com.infotop.core.entity.CmsDictionary;
 
 @Repository
 public class CmsDictionaryDaoImpl extends HibernateBaseDao<CmsDictionary, Integer> implements CmsDictionaryDao {

@@ -1,4 +1,4 @@
-package com.jeecms.core.web.util;
+package com.infotop.core.web.util;
 
 import javax.servlet.http.HttpServletRequest;
 

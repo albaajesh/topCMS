@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.assist;
+package com.infotop.cms.dao.assist;
 
 import java.util.Date;
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsReceiverMessage;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsReceiverMessage;
+import com.infotop.common.page.Pagination;
 
 /**
  *江西金磊科技发展有限公司jeecms研发

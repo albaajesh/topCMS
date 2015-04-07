@@ -1,12 +1,12 @@
-package com.jeecms.cms.dao.main;
+package com.infotop.cms.dao.main;
 
 import java.util.List;
 import java.util.Map;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.Content.ContentStatus;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.Content.ContentStatus;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
 
 /**
  * 内容DAO接口。

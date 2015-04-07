@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.main;
+package com.infotop.cms.dao.main;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
 
 public interface ChannelDao {
 	public List<Channel> getTopList(Integer siteId, boolean hasContentOnly,boolean displayOnly, boolean cacheable);

@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
-import static com.jeecms.common.web.Constants.SPT;
+import static com.infotop.common.web.Constants.SPT;
 
 import java.sql.Timestamp;
 import java.text.DateFormat;
@@ -17,17 +17,17 @@ import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.assist.CmsComment;
-import com.jeecms.cms.entity.assist.CmsScoreRecord;
-import com.jeecms.cms.entity.main.Channel.AfterCheckEnum;
-import com.jeecms.cms.entity.main.base.BaseContent;
-import com.jeecms.cms.staticpage.StaticPageUtils;
-import com.jeecms.cms.web.CmsThreadVariable;
-import com.jeecms.common.util.DateUtils;
-import com.jeecms.core.entity.CmsGroup;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.web.ContentInterface;
+import com.infotop.cms.entity.assist.CmsComment;
+import com.infotop.cms.entity.assist.CmsScoreRecord;
+import com.infotop.cms.entity.main.Channel.AfterCheckEnum;
+import com.infotop.cms.entity.main.base.BaseContent;
+import com.infotop.cms.staticpage.StaticPageUtils;
+import com.infotop.cms.web.CmsThreadVariable;
+import com.infotop.common.util.DateUtils;
+import com.infotop.core.entity.CmsGroup;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.web.ContentInterface;
 
 public class Content extends BaseContent implements ContentInterface {
 	private static final long serialVersionUID = 1L;
@@ -1164,7 +1164,7 @@ public class Content extends BaseContent implements ContentInterface {
 	 * Constructor for required fields
 	 */
 	public Content(java.lang.Integer id,
-			com.jeecms.core.entity.CmsSite site, java.util.Date sortDate,
+			com.infotop.core.entity.CmsSite site, java.util.Date sortDate,
 			java.lang.Byte topLevel, java.lang.Boolean hasTitleImg,
 			java.lang.Boolean recommend, java.lang.Byte status,
 			java.lang.Integer viewsDay, java.lang.Short commentsDay,

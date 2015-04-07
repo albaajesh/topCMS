@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
-import static com.jeecms.cms.Constants.TPLDIR_CSI_CUSTOM;
+import static com.infotop.cms.Constants.TPLDIR_CSI_CUSTOM;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -11,10 +11,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 /**
  * 自定义客户端包含模板

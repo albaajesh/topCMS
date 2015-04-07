@@ -1,7 +1,7 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsMessage;
-import com.jeecms.common.util.StrUtils;
+import com.infotop.cms.entity.assist.base.BaseCmsMessage;
+import com.infotop.common.util.StrUtils;
 
 
 
@@ -25,9 +25,9 @@ public class CmsMessage extends BaseCmsMessage {
 	 */
 	public CmsMessage (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser msgReceiverUser,
-		com.jeecms.core.entity.CmsUser msgSendUser,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsUser msgReceiverUser,
+		com.infotop.core.entity.CmsUser msgSendUser,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String msgTitle,
 		java.lang.Boolean msgStatus,
 		java.lang.Integer msgBox) {

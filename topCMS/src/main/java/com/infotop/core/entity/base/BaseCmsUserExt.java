@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -64,7 +64,7 @@ public abstract class BaseCmsUserExt  implements Serializable {
 	private java.lang.String userSignature;
 
 	// one to one
-	private com.jeecms.core.entity.CmsUser user;
+	private com.infotop.core.entity.CmsUser user;
 
 
 
@@ -252,7 +252,7 @@ public abstract class BaseCmsUserExt  implements Serializable {
 	/**
 	 * Return the value associated with the column: user
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -260,7 +260,7 @@ public abstract class BaseCmsUserExt  implements Serializable {
 	 * Set the value related to the column: user
 	 * @param user the user value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -268,9 +268,9 @@ public abstract class BaseCmsUserExt  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsUserExt)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsUserExt)) return false;
 		else {
-			com.jeecms.core.entity.CmsUserExt cmsUserExt = (com.jeecms.core.entity.CmsUserExt) obj;
+			com.infotop.core.entity.CmsUserExt cmsUserExt = (com.infotop.core.entity.CmsUserExt) obj;
 			if (null == this.getId() || null == cmsUserExt.getId()) return false;
 			else return (this.getId().equals(cmsUserExt.getId()));
 		}

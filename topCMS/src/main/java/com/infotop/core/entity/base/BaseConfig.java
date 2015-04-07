@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -87,9 +87,9 @@ public abstract class BaseConfig  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.Config)) return false;
+		if (!(obj instanceof com.infotop.core.entity.Config)) return false;
 		else {
-			com.jeecms.core.entity.Config config = (com.jeecms.core.entity.Config) obj;
+			com.infotop.core.entity.Config config = (com.infotop.core.entity.Config) obj;
 			if (null == this.getId() || null == config.getId()) return false;
 			else return (this.getId().equals(config.getId()));
 		}

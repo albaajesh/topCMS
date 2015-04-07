@@ -1,10 +1,10 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
-import static com.jeecms.cms.Constants.TPLDIR_ALONE;
-import static com.jeecms.cms.Constants.TPLDIR_CHANNEL;
-import static com.jeecms.cms.Constants.TPLDIR_CONTENT;
-import static com.jeecms.cms.Constants.TPL_SUFFIX;
-import static com.jeecms.common.web.Constants.DEFAULT;
+import static com.infotop.cms.Constants.TPLDIR_ALONE;
+import static com.infotop.cms.Constants.TPLDIR_CHANNEL;
+import static com.infotop.cms.Constants.TPLDIR_CONTENT;
+import static com.infotop.cms.Constants.TPL_SUFFIX;
+import static com.infotop.common.web.Constants.DEFAULT;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,7 +13,7 @@ import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.main.base.BaseCmsModel;
+import com.infotop.cms.entity.main.base.BaseCmsModel;
 
 public class CmsModel extends BaseCmsModel {
 	private static final long serialVersionUID = 1L;

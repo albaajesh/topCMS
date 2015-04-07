@@ -1,4 +1,4 @@
-package com.jeecms.cms.web;
+package com.infotop.cms.web;
 
 import java.util.Locale;
 
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
-import com.jeecms.core.entity.CmsSite;
+import com.infotop.core.entity.CmsSite;
 
 /**
  * 后台（管理员）本地化信息拦截器

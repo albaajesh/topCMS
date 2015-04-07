@@ -1,7 +1,7 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.entity.assist.CmsScoreItem;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsScoreItem;
 
 public interface CmsScoreItemMng {
 	public Pagination getPage(Integer groupId,int pageNo, int pageSize);

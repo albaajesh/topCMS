@@ -1,4 +1,4 @@
-package com.jeecms.cms.staticpage;
+package com.infotop.cms.staticpage;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -9,8 +9,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.service.ContentListenerAbstract;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.service.ContentListenerAbstract;
 
 import freemarker.template.TemplateException;
 

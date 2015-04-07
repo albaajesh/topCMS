@@ -1,14 +1,14 @@
-package com.jeecms.cms.dao.main.impl;
+package com.infotop.cms.dao.main.impl;
 
 import java.util.List;
 
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.main.ContentTypeDao;
-import com.jeecms.cms.entity.main.ContentType;
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
+import com.infotop.cms.dao.main.ContentTypeDao;
+import com.infotop.cms.entity.main.ContentType;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
 
 @Repository
 public class ContentTypeDaoImpl extends HibernateBaseDao<ContentType, Integer>

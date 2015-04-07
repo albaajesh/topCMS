@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.util.List;
 
@@ -6,19 +6,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsCommentDao;
-import com.jeecms.cms.entity.assist.CmsComment;
-import com.jeecms.cms.entity.assist.CmsCommentExt;
-import com.jeecms.cms.manager.assist.CmsCommentExtMng;
-import com.jeecms.cms.manager.assist.CmsCommentMng;
-import com.jeecms.cms.manager.assist.CmsSensitivityMng;
-import com.jeecms.cms.manager.main.ContentCountMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserMng;
+import com.infotop.cms.dao.assist.CmsCommentDao;
+import com.infotop.cms.entity.assist.CmsComment;
+import com.infotop.cms.entity.assist.CmsCommentExt;
+import com.infotop.cms.manager.assist.CmsCommentExtMng;
+import com.infotop.cms.manager.assist.CmsCommentMng;
+import com.infotop.cms.manager.assist.CmsSensitivityMng;
+import com.infotop.cms.manager.main.ContentCountMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserMng;
 
 @Service
 @Transactional

@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -45,7 +45,7 @@ public abstract class BaseCmsSiteAccessStatistic  implements Serializable {
 	 */
 	public BaseCmsSiteAccessStatistic (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.util.Date statisticDate,
 		java.lang.Integer pv,
 		java.lang.Integer ip,
@@ -86,7 +86,7 @@ public abstract class BaseCmsSiteAccessStatistic  implements Serializable {
 	private java.lang.String statisticColumnValue;
 
 	// many to one
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsSite site;
 
 
 
@@ -243,7 +243,7 @@ public abstract class BaseCmsSiteAccessStatistic  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -251,7 +251,7 @@ public abstract class BaseCmsSiteAccessStatistic  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -259,9 +259,9 @@ public abstract class BaseCmsSiteAccessStatistic  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsSiteAccessStatistic)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsSiteAccessStatistic)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsSiteAccessStatistic cmsSiteAccessStatistic = (com.jeecms.cms.entity.assist.CmsSiteAccessStatistic) obj;
+			com.infotop.cms.entity.assist.CmsSiteAccessStatistic cmsSiteAccessStatistic = (com.infotop.cms.entity.assist.CmsSiteAccessStatistic) obj;
 			if (null == this.getId() || null == cmsSiteAccessStatistic.getId()) return false;
 			else return (this.getId().equals(cmsSiteAccessStatistic.getId()));
 		}

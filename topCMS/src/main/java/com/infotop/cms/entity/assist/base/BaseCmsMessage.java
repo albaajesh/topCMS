@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -44,9 +44,9 @@ public abstract class BaseCmsMessage  implements Serializable {
 	 */
 	public BaseCmsMessage (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser msgReceiverUser,
-		com.jeecms.core.entity.CmsUser msgSendUser,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsUser msgReceiverUser,
+		com.infotop.core.entity.CmsUser msgSendUser,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String msgTitle,
 		java.lang.Boolean msgStatus,
 		java.lang.Integer msgBox) {
@@ -78,12 +78,12 @@ public abstract class BaseCmsMessage  implements Serializable {
 	private java.lang.Integer msgBox;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser msgReceiverUser;
-	private com.jeecms.core.entity.CmsUser msgSendUser;
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsUser msgReceiverUser;
+	private com.infotop.core.entity.CmsUser msgSendUser;
+	private com.infotop.core.entity.CmsSite site;
 	
 	// collections
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> receiverMsgs;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> receiverMsgs;
 
 
 
@@ -192,7 +192,7 @@ public abstract class BaseCmsMessage  implements Serializable {
 	/**
 	 * Return the value associated with the column: msg_receiver_user
 	 */
-	public com.jeecms.core.entity.CmsUser getMsgReceiverUser () {
+	public com.infotop.core.entity.CmsUser getMsgReceiverUser () {
 		return msgReceiverUser;
 	}
 
@@ -200,7 +200,7 @@ public abstract class BaseCmsMessage  implements Serializable {
 	 * Set the value related to the column: msg_receiver_user
 	 * @param msgReceiverUser the msg_receiver_user value
 	 */
-	public void setMsgReceiverUser (com.jeecms.core.entity.CmsUser msgReceiverUser) {
+	public void setMsgReceiverUser (com.infotop.core.entity.CmsUser msgReceiverUser) {
 		this.msgReceiverUser = msgReceiverUser;
 	}
 
@@ -208,7 +208,7 @@ public abstract class BaseCmsMessage  implements Serializable {
 	/**
 	 * Return the value associated with the column: msg_send_user
 	 */
-	public com.jeecms.core.entity.CmsUser getMsgSendUser () {
+	public com.infotop.core.entity.CmsUser getMsgSendUser () {
 		return msgSendUser;
 	}
 
@@ -216,7 +216,7 @@ public abstract class BaseCmsMessage  implements Serializable {
 	 * Set the value related to the column: msg_send_user
 	 * @param msgSendUser the msg_send_user value
 	 */
-	public void setMsgSendUser (com.jeecms.core.entity.CmsUser msgSendUser) {
+	public void setMsgSendUser (com.infotop.core.entity.CmsUser msgSendUser) {
 		this.msgSendUser = msgSendUser;
 	}
 
@@ -224,7 +224,7 @@ public abstract class BaseCmsMessage  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -232,24 +232,24 @@ public abstract class BaseCmsMessage  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 	
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> getReceiverMsgs() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> getReceiverMsgs() {
 		return receiverMsgs;
 	}
 
 	public void setReceiverMsgs(
-			java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> receiverMsgs) {
+			java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> receiverMsgs) {
 		this.receiverMsgs = receiverMsgs;
 	}
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsMessage)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsMessage)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsMessage cmsMessage = (com.jeecms.cms.entity.assist.CmsMessage) obj;
+			com.infotop.cms.entity.assist.CmsMessage cmsMessage = (com.infotop.cms.entity.assist.CmsMessage) obj;
 			if (null == this.getId() || null == cmsMessage.getId()) return false;
 			else return (this.getId().equals(cmsMessage.getId()));
 		}

@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 public interface AcquisitionSvc {
 	public boolean start(Integer id);

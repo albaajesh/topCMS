@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -71,8 +71,8 @@ public abstract class BaseCmsLog  implements Serializable {
 	private java.lang.String content;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser user;
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsUser user;
+	private com.infotop.core.entity.CmsSite site;
 
 
 
@@ -197,7 +197,7 @@ public abstract class BaseCmsLog  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -205,7 +205,7 @@ public abstract class BaseCmsLog  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -213,7 +213,7 @@ public abstract class BaseCmsLog  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -221,7 +221,7 @@ public abstract class BaseCmsLog  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -229,9 +229,9 @@ public abstract class BaseCmsLog  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsLog)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsLog)) return false;
 		else {
-			com.jeecms.core.entity.CmsLog cmsLog = (com.jeecms.core.entity.CmsLog) obj;
+			com.infotop.core.entity.CmsLog cmsLog = (com.infotop.core.entity.CmsLog) obj;
 			if (null == this.getId() || null == cmsLog.getId()) return false;
 			else return (this.getId().equals(cmsLog.getId()));
 		}

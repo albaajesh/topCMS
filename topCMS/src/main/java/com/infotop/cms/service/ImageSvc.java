@@ -1,7 +1,7 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 
-import com.jeecms.core.entity.CmsSite;
+import com.infotop.core.entity.CmsSite;
 
 /**
  * @author Tom

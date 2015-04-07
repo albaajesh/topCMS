@@ -56,9 +56,9 @@ $(function() {
 						<li>[@s.m "error.invalidPassword"/]</li>
 						[#elseif error=="org.apache.shiro.authc.UnknownAccountException"]
 						<li>[@s.m "error.usernameNotExist"/]</li>
-						[#elseif error=="com.jeecms.common.security.CaptchaErrorException"]
+						[#elseif error=="com.infotop.common.security.CaptchaErrorException"]
 						<li>[@s.m "error.invalidCaptcha"/]</li>
-						[#elseif error=="com.jeecms.common.security.DisabledException"]
+						[#elseif error=="com.infotop.common.security.DisabledException"]
 						<li>[@s.m "error.userDisabled"/]</li>
  						[/#if]
 					</ul>

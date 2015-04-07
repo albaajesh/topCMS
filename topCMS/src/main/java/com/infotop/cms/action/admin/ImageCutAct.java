@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin;
+package com.infotop.cms.action.admin;
 
 import java.io.File;
 
@@ -12,12 +12,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.image.ImageScale;
-import com.jeecms.common.upload.FileRepository;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.DbFileMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.image.ImageScale;
+import com.infotop.common.upload.FileRepository;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.DbFileMng;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class ImageCutAct {

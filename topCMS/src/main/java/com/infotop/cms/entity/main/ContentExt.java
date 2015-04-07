@@ -1,12 +1,12 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
 import java.sql.Timestamp;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.main.base.BaseContentExt;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.main.base.BaseContentExt;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.CmsUtils;
 
 public class ContentExt extends BaseContentExt {
 	private static final long serialVersionUID = 1L;

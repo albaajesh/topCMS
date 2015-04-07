@@ -1,4 +1,4 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,9 +11,9 @@ import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.assist.CmsMysqlDataBackDao;
-import com.jeecms.cms.entity.back.CmsField;
-import com.jeecms.cms.Constants;
+import com.infotop.cms.dao.assist.CmsMysqlDataBackDao;
+import com.infotop.cms.entity.back.CmsField;
+import com.infotop.cms.Constants;
 
 @Repository
 public class CmsMysqlDataBackDaoImpl extends JdbcDaoSupport implements

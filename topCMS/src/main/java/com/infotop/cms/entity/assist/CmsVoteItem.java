@@ -1,9 +1,9 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 import java.util.Set;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsVoteItem;
-import com.jeecms.common.hibernate3.PriorityInterface;
+import com.infotop.cms.entity.assist.base.BaseCmsVoteItem;
+import com.infotop.common.hibernate3.PriorityInterface;
 
 public class CmsVoteItem extends BaseCmsVoteItem implements PriorityInterface {
 	private static final long serialVersionUID = 1L;
@@ -57,7 +57,7 @@ public class CmsVoteItem extends BaseCmsVoteItem implements PriorityInterface {
 	 * Constructor for required fields
 	 */
 	public CmsVoteItem(java.lang.Integer id,
-			com.jeecms.cms.entity.assist.CmsVoteTopic topic,
+			com.infotop.cms.entity.assist.CmsVoteTopic topic,
 			java.lang.String title, java.lang.Integer voteCount,
 			java.lang.Integer priority) {
 

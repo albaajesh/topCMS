@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -60,7 +60,7 @@ public abstract class BaseCmsFile  implements Serializable {
 	private boolean fileIsvalid;
 
 	// many to one
-	private com.jeecms.cms.entity.main.Content content;
+	private com.infotop.cms.entity.main.Content content;
 
 
 
@@ -121,7 +121,7 @@ public abstract class BaseCmsFile  implements Serializable {
 	/**
 	 * Return the value associated with the column: content_id
 	 */
-	public com.jeecms.cms.entity.main.Content getContent () {
+	public com.infotop.cms.entity.main.Content getContent () {
 		return content;
 	}
 
@@ -129,7 +129,7 @@ public abstract class BaseCmsFile  implements Serializable {
 	 * Set the value related to the column: content_id
 	 * @param content the content_id value
 	 */
-	public void setContent (com.jeecms.cms.entity.main.Content content) {
+	public void setContent (com.infotop.cms.entity.main.Content content) {
 		this.content = content;
 	}
 
@@ -137,9 +137,9 @@ public abstract class BaseCmsFile  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsFile)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsFile)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsFile cmsFile = (com.jeecms.cms.entity.assist.CmsFile) obj;
+			com.infotop.cms.entity.assist.CmsFile cmsFile = (com.infotop.cms.entity.assist.CmsFile) obj;
 			if (null == this.getFilePath() || null == cmsFile.getFilePath()) return false;
 			else return (this.getFilePath().equals(cmsFile.getFilePath()));
 		}

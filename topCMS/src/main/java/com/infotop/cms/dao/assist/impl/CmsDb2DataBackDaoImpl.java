@@ -1,4 +1,4 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
 import java.sql.Clob;
 import java.sql.ResultSet;
@@ -15,8 +15,8 @@ import org.springframework.jdbc.support.lob.LobHandler;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.assist.CmsDb2DataBackDao;
-import com.jeecms.cms.entity.back.CmsField;
+import com.infotop.cms.dao.assist.CmsDb2DataBackDao;
+import com.infotop.cms.entity.back.CmsField;
 
 @Repository
 public class CmsDb2DataBackDaoImpl extends JdbcDaoSupport implements

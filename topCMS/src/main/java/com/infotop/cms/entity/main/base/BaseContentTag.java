@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -119,9 +119,9 @@ public abstract class BaseContentTag  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.ContentTag)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.ContentTag)) return false;
 		else {
-			com.jeecms.cms.entity.main.ContentTag contentTag = (com.jeecms.cms.entity.main.ContentTag) obj;
+			com.infotop.cms.entity.main.ContentTag contentTag = (com.infotop.cms.entity.main.ContentTag) obj;
 			if (null == this.getId() || null == contentTag.getId()) return false;
 			else return (this.getId().equals(contentTag.getId()));
 		}

@@ -1,4 +1,4 @@
-package com.jeecms.core.web;
+package com.infotop.core.web;
 
 import java.util.Date;
 

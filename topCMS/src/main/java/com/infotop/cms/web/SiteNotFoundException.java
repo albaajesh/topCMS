@@ -1,4 +1,4 @@
-package com.jeecms.cms.web;
+package com.infotop.cms.web;
 
 @SuppressWarnings("serial")
 public class SiteNotFoundException extends RuntimeException {

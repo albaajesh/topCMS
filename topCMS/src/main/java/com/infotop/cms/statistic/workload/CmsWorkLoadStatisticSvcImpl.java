@@ -1,4 +1,4 @@
-package com.jeecms.cms.statistic.workload;
+package com.infotop.cms.statistic.workload;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.statistic.workload.CmsWorkLoadStatistic.CmsWorkLoadStatisticDateKind;
-import com.jeecms.cms.statistic.workload.CmsWorkLoadStatistic.CmsWorkLoadStatisticGroup;
-import com.jeecms.common.util.DateUtils;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsUserMng;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.statistic.workload.CmsWorkLoadStatistic.CmsWorkLoadStatisticDateKind;
+import com.infotop.cms.statistic.workload.CmsWorkLoadStatistic.CmsWorkLoadStatisticGroup;
+import com.infotop.common.util.DateUtils;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsUserMng;
 
 @Service
 @Transactional(readOnly = true)

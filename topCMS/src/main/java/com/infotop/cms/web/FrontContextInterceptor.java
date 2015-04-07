@@ -1,4 +1,4 @@
-package com.jeecms.cms.web;
+package com.infotop.cms.web;
 
 import java.io.IOException;
 import java.util.List;
@@ -14,11 +14,11 @@ import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.web.util.CmsUtils;
 
 /**
  * CMS上下文信息拦截器

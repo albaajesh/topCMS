@@ -1,9 +1,9 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.util.List;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsDictionary;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsDictionary;
 
 public interface CmsDictionaryMng {
 	public Pagination getPage(String queryType,int pageNo, int pageSize);

@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 import java.io.IOException;
 import java.net.URI;
@@ -24,20 +24,20 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.jeecms.cms.entity.assist.CmsAcquisition;
-import com.jeecms.cms.entity.assist.CmsAcquisitionHistory;
-import com.jeecms.cms.entity.assist.CmsAcquisitionTemp;
-import com.jeecms.cms.entity.assist.CmsAcquisition.AcquisitionResultType;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentCount;
-import com.jeecms.cms.manager.assist.CmsAcquisitionHistoryMng;
-import com.jeecms.cms.manager.assist.CmsAcquisitionMng;
-import com.jeecms.cms.manager.assist.CmsAcquisitionTempMng;
-import com.jeecms.cms.manager.main.ContentCountMng;
-import com.jeecms.common.image.ImageUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsConfigMng;
-import com.jeecms.core.manager.CmsSiteMng;
+import com.infotop.cms.entity.assist.CmsAcquisition;
+import com.infotop.cms.entity.assist.CmsAcquisitionHistory;
+import com.infotop.cms.entity.assist.CmsAcquisitionTemp;
+import com.infotop.cms.entity.assist.CmsAcquisition.AcquisitionResultType;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentCount;
+import com.infotop.cms.manager.assist.CmsAcquisitionHistoryMng;
+import com.infotop.cms.manager.assist.CmsAcquisitionMng;
+import com.infotop.cms.manager.assist.CmsAcquisitionTempMng;
+import com.infotop.cms.manager.main.ContentCountMng;
+import com.infotop.common.image.ImageUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsConfigMng;
+import com.infotop.core.manager.CmsSiteMng;
 
 @Service
 public class AcquisitionSvcImpl implements AcquisitionSvc {

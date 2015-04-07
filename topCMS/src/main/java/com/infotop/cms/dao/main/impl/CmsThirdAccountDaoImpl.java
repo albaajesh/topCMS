@@ -1,15 +1,15 @@
-package com.jeecms.cms.dao.main.impl;
+package com.infotop.cms.dao.main.impl;
 
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.dao.main.CmsThirdAccountDao;
-import com.jeecms.cms.entity.main.CmsThirdAccount;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.dao.main.CmsThirdAccountDao;
+import com.infotop.cms.entity.main.CmsThirdAccount;
 
 @Repository
 public class CmsThirdAccountDaoImpl extends HibernateBaseDao<CmsThirdAccount, Long> implements CmsThirdAccountDao {

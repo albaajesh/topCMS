@@ -1,16 +1,16 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
 import java.util.List;
 
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.util.ChineseCharToEn;
-import com.jeecms.cms.dao.assist.CmsSearchWordsDao;
-import com.jeecms.cms.entity.assist.CmsSearchWords;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.util.ChineseCharToEn;
+import com.infotop.cms.dao.assist.CmsSearchWordsDao;
+import com.infotop.cms.entity.assist.CmsSearchWords;
 
 @Repository
 public class CmsSearchWordsDaoImpl extends HibernateBaseDao<CmsSearchWords, Integer> implements CmsSearchWordsDao {

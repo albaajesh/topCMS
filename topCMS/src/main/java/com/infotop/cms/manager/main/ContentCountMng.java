@@ -1,9 +1,9 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
 import net.sf.ehcache.Ehcache;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentCount;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentCount;
 
 /**
  * 内容计数Manager接口

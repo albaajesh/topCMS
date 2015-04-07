@@ -1,4 +1,4 @@
-package com.jeecms.core.security;
+package com.infotop.core.security;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -16,12 +16,12 @@ import org.apache.shiro.subject.SimplePrincipalCollection;
 import org.apache.shiro.util.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.cms.web.CmsThreadVariable;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.UnifiedUser;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.UnifiedUserMng;
+import com.infotop.cms.web.CmsThreadVariable;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.UnifiedUser;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.UnifiedUserMng;
 
 /**
  * 自定义DB Realm

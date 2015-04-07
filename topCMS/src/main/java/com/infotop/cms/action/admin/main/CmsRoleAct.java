@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -22,17 +22,17 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.assist.CmsPlug;
-import com.jeecms.cms.manager.assist.CmsPlugMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.core.entity.CmsRole;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsRoleMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.security.CmsAuthorizingRealm;
-import com.jeecms.core.web.WebErrors;
+import com.infotop.cms.entity.assist.CmsPlug;
+import com.infotop.cms.manager.assist.CmsPlugMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.core.entity.CmsRole;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsRoleMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.security.CmsAuthorizingRealm;
+import com.infotop.core.web.WebErrors;
 
 @Controller
 public class CmsRoleAct {

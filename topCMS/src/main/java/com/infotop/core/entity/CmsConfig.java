@@ -1,8 +1,8 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.core.entity.base.BaseCmsConfig;
+import com.infotop.core.entity.base.BaseCmsConfig;
 
 public class CmsConfig extends BaseCmsConfig {
 	private static final long serialVersionUID = 1L;

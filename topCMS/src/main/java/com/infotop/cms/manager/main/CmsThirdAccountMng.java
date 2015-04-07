@@ -1,7 +1,7 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.entity.main.CmsThirdAccount;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.entity.main.CmsThirdAccount;
 
 public interface CmsThirdAccountMng {
 	public Pagination getPage(String username,String source,int pageNo, int pageSize);

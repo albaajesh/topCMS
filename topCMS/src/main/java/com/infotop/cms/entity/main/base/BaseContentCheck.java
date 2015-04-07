@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -64,10 +64,10 @@ public abstract class BaseContentCheck  implements Serializable {
 	private java.lang.Boolean rejected;
 	private java.util.Date checkDate;
 	
-	private com.jeecms.core.entity.CmsUser reviewer;
+	private com.infotop.core.entity.CmsUser reviewer;
 
 	// one to one
-	private com.jeecms.cms.entity.main.Content content;
+	private com.infotop.cms.entity.main.Content content;
 
 
 
@@ -149,18 +149,18 @@ public abstract class BaseContentCheck  implements Serializable {
 		this.checkDate = checkDate;
 	}
 
-	public com.jeecms.core.entity.CmsUser getReviewer() {
+	public com.infotop.core.entity.CmsUser getReviewer() {
 		return reviewer;
 	}
 
-	public void setReviewer(com.jeecms.core.entity.CmsUser reviewer) {
+	public void setReviewer(com.infotop.core.entity.CmsUser reviewer) {
 		this.reviewer = reviewer;
 	}
 
 	/**
 	 * Return the value associated with the column: content
 	 */
-	public com.jeecms.cms.entity.main.Content getContent () {
+	public com.infotop.cms.entity.main.Content getContent () {
 		return content;
 	}
 
@@ -168,7 +168,7 @@ public abstract class BaseContentCheck  implements Serializable {
 	 * Set the value related to the column: content
 	 * @param content the content value
 	 */
-	public void setContent (com.jeecms.cms.entity.main.Content content) {
+	public void setContent (com.infotop.cms.entity.main.Content content) {
 		this.content = content;
 	}
 
@@ -176,9 +176,9 @@ public abstract class BaseContentCheck  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.ContentCheck)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.ContentCheck)) return false;
 		else {
-			com.jeecms.cms.entity.main.ContentCheck contentCheck = (com.jeecms.cms.entity.main.ContentCheck) obj;
+			com.infotop.cms.entity.main.ContentCheck contentCheck = (com.infotop.cms.entity.main.ContentCheck) obj;
 			if (null == this.getId() || null == contentCheck.getId()) return false;
 			else return (this.getId().equals(contentCheck.getId()));
 		}

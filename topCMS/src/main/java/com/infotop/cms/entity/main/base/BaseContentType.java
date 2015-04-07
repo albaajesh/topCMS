@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -175,9 +175,9 @@ public abstract class BaseContentType  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.ContentType)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.ContentType)) return false;
 		else {
-			com.jeecms.cms.entity.main.ContentType contentType = (com.jeecms.cms.entity.main.ContentType) obj;
+			com.infotop.cms.entity.main.ContentType contentType = (com.infotop.cms.entity.main.ContentType) obj;
 			if (null == this.getId() || null == contentType.getId()) return false;
 			else return (this.getId().equals(contentType.getId()));
 		}

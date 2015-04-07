@@ -1,9 +1,9 @@
-package com.jeecms.cms.statistic.workload;
+package com.infotop.cms.statistic.workload;
 
 import java.util.Date;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.core.entity.CmsUser;
 
 /**
  * @author Tom

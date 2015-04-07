@@ -1,15 +1,15 @@
-package com.jeecms.cms.action.member;
+package com.infotop.cms.action.member;
 
-import static com.jeecms.cms.Constants.TPLDIR_MEMBER;
+import static com.infotop.cms.Constants.TPLDIR_MEMBER;
 import static org.apache.shiro.web.filter.authc.FormAuthenticationFilter.DEFAULT_ERROR_KEY_ATTRIBUTE_NAME;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 @Controller
 public class CasLoginAct {

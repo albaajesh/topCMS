@@ -1,9 +1,9 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.Date;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsLog;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsLog;
 
 public interface CmsLogDao {
 	public Pagination getPage(Integer category, Integer siteId, Integer userId,

@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.directive.abs;
+package com.infotop.cms.action.directive.abs;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,15 +9,15 @@ import java.util.Set;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ContentTag;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.cms.manager.main.ContentTagMng;
-import com.jeecms.common.web.freemarker.DirectiveUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ContentTag;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.cms.manager.main.ContentTagMng;
+import com.infotop.common.web.freemarker.DirectiveUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.web.util.FrontUtils;
 
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveModel;

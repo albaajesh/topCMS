@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -12,13 +12,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.core.entity.CmsLog;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.core.entity.CmsLog;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class CmsLogAct {

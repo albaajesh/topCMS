@@ -1,16 +1,16 @@
-package com.jeecms.cms.statistic;
+package com.infotop.cms.statistic;
 
-import static com.jeecms.cms.statistic.CmsStatistic.SITEID;
-import static com.jeecms.cms.statistic.CmsStatistic.ISREPLYED;
-import static com.jeecms.cms.statistic.CmsStatistic.USERID;
-import static com.jeecms.cms.statistic.CmsStatistic.CHANNELID;
+import static com.infotop.cms.statistic.CmsStatistic.SITEID;
+import static com.infotop.cms.statistic.CmsStatistic.ISREPLYED;
+import static com.infotop.cms.statistic.CmsStatistic.USERID;
+import static com.infotop.cms.statistic.CmsStatistic.CHANNELID;
 import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.statistic.CmsStatistic.TimeRange;
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateSimpleDao;
+import com.infotop.cms.statistic.CmsStatistic.TimeRange;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateSimpleDao;
 
 @Repository
 public class CmsStatisticDaoImpl extends HibernateSimpleDao implements

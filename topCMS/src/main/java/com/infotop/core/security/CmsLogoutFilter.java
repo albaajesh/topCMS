@@ -1,4 +1,4 @@
-package com.jeecms.core.security;
+package com.infotop.core.security;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;

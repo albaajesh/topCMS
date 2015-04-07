@@ -1,9 +1,9 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 import java.util.Collection;
 import java.util.Set;
 
-import com.jeecms.core.entity.base.BaseCmsRole;
+import com.infotop.core.entity.base.BaseCmsRole;
 
 public class CmsRole extends BaseCmsRole {
 	private static final long serialVersionUID = 1L;

@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.assist;
+package com.infotop.cms.dao.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsAcquisitionHistory;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsAcquisitionHistory;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
 
 public interface CmsAcquisitionHistoryDao {
 	public List<CmsAcquisitionHistory> getList(Integer siteId,Integer acquId);

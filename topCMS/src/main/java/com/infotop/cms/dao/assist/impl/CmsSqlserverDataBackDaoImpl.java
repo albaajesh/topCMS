@@ -1,8 +1,8 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.dao.assist.CmsSqlserverDataBackDao;
-import com.jeecms.cms.entity.back.CmsField;
+import com.infotop.cms.Constants;
+import com.infotop.cms.dao.assist.CmsSqlserverDataBackDao;
+import com.infotop.cms.entity.back.CmsField;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

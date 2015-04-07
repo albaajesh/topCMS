@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsAcquisitionHistory;
+import com.infotop.cms.entity.assist.base.BaseCmsAcquisitionHistory;
 
 
 

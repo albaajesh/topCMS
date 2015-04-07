@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -39,8 +39,8 @@ public abstract class BaseCmsScoreRecord  implements Serializable {
 	 */
 	public BaseCmsScoreRecord (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsScoreItem item,
-		com.jeecms.cms.entity.main.Content content,
+		com.infotop.cms.entity.assist.CmsScoreItem item,
+		com.infotop.cms.entity.main.Content content,
 		java.lang.Integer count) {
 
 		this.setId(id);
@@ -63,8 +63,8 @@ public abstract class BaseCmsScoreRecord  implements Serializable {
 	private java.lang.Integer count;
 
 	// many to one
-	private com.jeecms.cms.entity.assist.CmsScoreItem item;
-	private com.jeecms.cms.entity.main.Content content;
+	private com.infotop.cms.entity.assist.CmsScoreItem item;
+	private com.infotop.cms.entity.main.Content content;
 
 
 
@@ -109,7 +109,7 @@ public abstract class BaseCmsScoreRecord  implements Serializable {
 	/**
 	 * Return the value associated with the column: score_item_id
 	 */
-	public com.jeecms.cms.entity.assist.CmsScoreItem getItem () {
+	public com.infotop.cms.entity.assist.CmsScoreItem getItem () {
 		return item;
 	}
 
@@ -117,7 +117,7 @@ public abstract class BaseCmsScoreRecord  implements Serializable {
 	 * Set the value related to the column: score_item_id
 	 * @param item the score_item_id value
 	 */
-	public void setItem (com.jeecms.cms.entity.assist.CmsScoreItem item) {
+	public void setItem (com.infotop.cms.entity.assist.CmsScoreItem item) {
 		this.item = item;
 	}
 
@@ -125,7 +125,7 @@ public abstract class BaseCmsScoreRecord  implements Serializable {
 	/**
 	 * Return the value associated with the column: content_id
 	 */
-	public com.jeecms.cms.entity.main.Content getContent () {
+	public com.infotop.cms.entity.main.Content getContent () {
 		return content;
 	}
 
@@ -133,7 +133,7 @@ public abstract class BaseCmsScoreRecord  implements Serializable {
 	 * Set the value related to the column: content_id
 	 * @param content the content_id value
 	 */
-	public void setContent (com.jeecms.cms.entity.main.Content content) {
+	public void setContent (com.infotop.cms.entity.main.Content content) {
 		this.content = content;
 	}
 
@@ -141,9 +141,9 @@ public abstract class BaseCmsScoreRecord  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsScoreRecord)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsScoreRecord)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsScoreRecord cmsScoreRecord = (com.jeecms.cms.entity.assist.CmsScoreRecord) obj;
+			com.infotop.cms.entity.assist.CmsScoreRecord cmsScoreRecord = (com.infotop.cms.entity.assist.CmsScoreRecord) obj;
 			if (null == this.getId() || null == cmsScoreRecord.getId()) return false;
 			else return (this.getId().equals(cmsScoreRecord.getId()));
 		}

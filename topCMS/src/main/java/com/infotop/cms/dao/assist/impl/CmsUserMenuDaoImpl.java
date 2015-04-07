@@ -1,13 +1,13 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
 import java.util.List;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.dao.assist.CmsUserMenuDao;
-import com.jeecms.cms.entity.assist.CmsUserMenu;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.dao.assist.CmsUserMenuDao;
+import com.infotop.cms.entity.assist.CmsUserMenu;
 
 @Repository
 public class CmsUserMenuDaoImpl extends HibernateBaseDao<CmsUserMenu, Integer> implements CmsUserMenuDao {

@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin;
+package com.infotop.cms.action.admin;
 
 import java.util.Comparator;
 import java.util.HashMap;

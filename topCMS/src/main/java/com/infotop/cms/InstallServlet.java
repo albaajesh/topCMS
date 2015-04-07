@@ -1,4 +1,4 @@
-package com.jeecms.cms;
+package com.infotop.cms;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,8 +1,8 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.main.CmsModel;
+import com.infotop.cms.entity.main.CmsModel;
 
 /**
  * 模型Manager接口

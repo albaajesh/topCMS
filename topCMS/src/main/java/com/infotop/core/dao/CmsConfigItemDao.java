@@ -1,9 +1,9 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.List;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.entity.CmsConfigItem;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.entity.CmsConfigItem;
 
 public interface CmsConfigItemDao {
 	public List<CmsConfigItem> getList(Integer configId,Integer category);

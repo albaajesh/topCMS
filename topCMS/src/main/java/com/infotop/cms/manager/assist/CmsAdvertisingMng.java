@@ -1,10 +1,10 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 import java.util.Map;
 
-import com.jeecms.cms.entity.assist.CmsAdvertising;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsAdvertising;
+import com.infotop.common.page.Pagination;
 
 public interface CmsAdvertisingMng {
 	public Pagination getPage(Integer siteId, Integer adspaceId,

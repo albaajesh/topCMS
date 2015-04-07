@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
 import java.util.Map;
 
@@ -11,8 +11,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.manager.assist.CmsScoreRecordMng;
-import com.jeecms.common.web.ResponseUtils;
+import com.infotop.cms.manager.assist.CmsScoreRecordMng;
+import com.infotop.common.web.ResponseUtils;
 
 @Controller
 public class ContentScoreAct {

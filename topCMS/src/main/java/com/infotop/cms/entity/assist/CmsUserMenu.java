@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsUserMenu;
+import com.infotop.cms.entity.assist.base.BaseCmsUserMenu;
 
 
 
@@ -24,7 +24,7 @@ public class CmsUserMenu extends BaseCmsUserMenu {
 	 */
 	public CmsUserMenu (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
+		com.infotop.core.entity.CmsUser user,
 		java.lang.String name,
 		java.lang.String url,
 		java.lang.Integer priority) {

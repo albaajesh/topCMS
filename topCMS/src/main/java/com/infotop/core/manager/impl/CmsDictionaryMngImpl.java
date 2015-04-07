@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.dao.CmsDictionaryDao;
-import com.jeecms.core.entity.CmsDictionary;
-import com.jeecms.core.manager.CmsDictionaryMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.dao.CmsDictionaryDao;
+import com.infotop.core.entity.CmsDictionary;
+import com.infotop.core.manager.CmsDictionaryMng;
 
 @Service
 @Transactional

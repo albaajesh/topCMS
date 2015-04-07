@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
 
 import java.io.BufferedInputStream;
@@ -29,20 +29,20 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.back.CmsField;
-import com.jeecms.cms.manager.assist.CmsMysqlDataBackMng;
-import com.jeecms.cms.manager.assist.CmsResourceMng;
+import com.infotop.cms.entity.back.CmsField;
+import com.infotop.cms.manager.assist.CmsMysqlDataBackMng;
+import com.infotop.cms.manager.assist.CmsResourceMng;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.common.util.DateUtils;
-import com.jeecms.common.util.StrUtils;
-import com.jeecms.common.util.Zipper;
-import com.jeecms.common.util.Zipper.FileEntry;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.web.WebErrors;
+import com.infotop.cms.Constants;
+import com.infotop.common.util.DateUtils;
+import com.infotop.common.util.StrUtils;
+import com.infotop.common.util.Zipper;
+import com.infotop.common.util.Zipper.FileEntry;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.web.WebErrors;
 
 @Controller
 public class MysqlDataAct {

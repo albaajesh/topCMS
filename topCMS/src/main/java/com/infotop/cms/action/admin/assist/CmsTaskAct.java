@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.text.ParseException;
 import java.util.ArrayList;
@@ -25,20 +25,20 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.assist.CmsAcquisition;
-import com.jeecms.cms.entity.assist.CmsTask;
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.manager.assist.CmsAcquisitionMng;
-import com.jeecms.cms.manager.assist.CmsTaskMng;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.FtpMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.assist.CmsAcquisition;
+import com.infotop.cms.entity.assist.CmsTask;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.manager.assist.CmsAcquisitionMng;
+import com.infotop.cms.manager.assist.CmsTaskMng;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.FtpMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class CmsTaskAct {

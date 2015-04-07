@@ -1,14 +1,14 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.security.BadCredentialsException;
-import com.jeecms.common.security.UsernameNotFoundException;
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.core.entity.Authentication;
-import com.jeecms.core.entity.UnifiedUser;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.security.BadCredentialsException;
+import com.infotop.common.security.UsernameNotFoundException;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.core.entity.Authentication;
+import com.infotop.core.entity.UnifiedUser;
 
 /**
  * 认证信息管理接口

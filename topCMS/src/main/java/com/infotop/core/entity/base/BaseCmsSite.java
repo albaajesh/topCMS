@@ -1,9 +1,9 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
-import com.jeecms.core.entity.CmsLog;
-import com.jeecms.core.entity.CmsSite;
+import com.infotop.core.entity.CmsLog;
+import com.infotop.core.entity.CmsSite;
 
 
 /**
@@ -60,7 +60,7 @@ public abstract class BaseCmsSite  implements Serializable {
 	 */
 	public BaseCmsSite (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsConfig config,
+		com.infotop.core.entity.CmsConfig config,
 		java.lang.String domain,
 		java.lang.String path,
 		java.lang.String name,
@@ -130,15 +130,15 @@ public abstract class BaseCmsSite  implements Serializable {
 	private java.lang.String keywords;
 	private java.lang.String description;
 	// many to one
-	private com.jeecms.core.entity.Ftp uploadFtp;
-	private com.jeecms.core.entity.CmsConfig config;
+	private com.infotop.core.entity.Ftp uploadFtp;
+	private com.infotop.core.entity.CmsConfig config;
 	// one to one
-	private com.jeecms.core.entity.CmsSiteCompany siteCompany;
+	private com.infotop.core.entity.CmsSiteCompany siteCompany;
 
 	private java.util.Map<java.lang.String, java.lang.String> attr;
 	private java.util.Map<java.lang.String, java.lang.String> txt;
 	private java.util.Map<java.lang.String, java.lang.String> cfg;
-	private java.util.Set<com.jeecms.core.entity.CmsUserSite> userSites;
+	private java.util.Set<com.infotop.core.entity.CmsUserSite> userSites;
 	private java.util.Set<CmsLog>logs;
 
 
@@ -495,7 +495,7 @@ public abstract class BaseCmsSite  implements Serializable {
 	/**
 	 * Return the value associated with the column: ftp_upload_id
 	 */
-	public com.jeecms.core.entity.Ftp getUploadFtp () {
+	public com.infotop.core.entity.Ftp getUploadFtp () {
 		return uploadFtp;
 	}
 
@@ -503,7 +503,7 @@ public abstract class BaseCmsSite  implements Serializable {
 	 * Set the value related to the column: ftp_upload_id
 	 * @param uploadFtp the ftp_upload_id value
 	 */
-	public void setUploadFtp (com.jeecms.core.entity.Ftp uploadFtp) {
+	public void setUploadFtp (com.infotop.core.entity.Ftp uploadFtp) {
 		this.uploadFtp = uploadFtp;
 	}
 
@@ -511,7 +511,7 @@ public abstract class BaseCmsSite  implements Serializable {
 	/**
 	 * Return the value associated with the column: config_id
 	 */
-	public com.jeecms.core.entity.CmsConfig getConfig () {
+	public com.infotop.core.entity.CmsConfig getConfig () {
 		return config;
 	}
 
@@ -519,15 +519,15 @@ public abstract class BaseCmsSite  implements Serializable {
 	 * Set the value related to the column: config_id
 	 * @param config the config_id value
 	 */
-	public void setConfig (com.jeecms.core.entity.CmsConfig config) {
+	public void setConfig (com.infotop.core.entity.CmsConfig config) {
 		this.config = config;
 	}
 	
-	public com.jeecms.core.entity.CmsSiteCompany getSiteCompany() {
+	public com.infotop.core.entity.CmsSiteCompany getSiteCompany() {
 		return siteCompany;
 	}
 
-	public void setSiteCompany(com.jeecms.core.entity.CmsSiteCompany siteCompany) {
+	public void setSiteCompany(com.infotop.core.entity.CmsSiteCompany siteCompany) {
 		this.siteCompany = siteCompany;
 	}
 
@@ -579,12 +579,12 @@ public abstract class BaseCmsSite  implements Serializable {
 	}
 	
 
-	public java.util.Set<com.jeecms.core.entity.CmsUserSite> getUserSites() {
+	public java.util.Set<com.infotop.core.entity.CmsUserSite> getUserSites() {
 		return userSites;
 	}
 
 	public void setUserSites(
-			java.util.Set<com.jeecms.core.entity.CmsUserSite> userSites) {
+			java.util.Set<com.infotop.core.entity.CmsUserSite> userSites) {
 		this.userSites = userSites;
 	}
 
@@ -598,9 +598,9 @@ public abstract class BaseCmsSite  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsSite)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsSite)) return false;
 		else {
-			com.jeecms.core.entity.CmsSite cmsSite = (com.jeecms.core.entity.CmsSite) obj;
+			com.infotop.core.entity.CmsSite cmsSite = (com.infotop.core.entity.CmsSite) obj;
 			if (null == this.getId() || null == cmsSite.getId()) return false;
 			else return (this.getId().equals(cmsSite.getId()));
 		}

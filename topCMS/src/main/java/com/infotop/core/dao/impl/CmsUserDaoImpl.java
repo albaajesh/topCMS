@@ -1,4 +1,4 @@
-package com.jeecms.core.dao.impl;
+package com.infotop.core.dao.impl;
 
 import java.util.List;
 
@@ -6,11 +6,11 @@ import org.apache.commons.lang.StringUtils;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.dao.CmsUserDao;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.dao.CmsUserDao;
+import com.infotop.core.entity.CmsUser;
 
 @Repository
 public class CmsUserDaoImpl extends HibernateBaseDao<CmsUser, Integer>

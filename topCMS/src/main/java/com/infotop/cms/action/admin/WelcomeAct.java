@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin;
+package com.infotop.cms.action.admin;
 
 import java.util.List;
 import java.util.Properties;
@@ -11,16 +11,16 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.assist.CmsUserMenu;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.Content.ContentStatus;
-import com.jeecms.cms.manager.assist.CmsUserMenuMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.cms.web.AdminContextInterceptor;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.assist.CmsUserMenu;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.Content.ContentStatus;
+import com.infotop.cms.manager.assist.CmsUserMenuMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.cms.web.AdminContextInterceptor;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class WelcomeAct {

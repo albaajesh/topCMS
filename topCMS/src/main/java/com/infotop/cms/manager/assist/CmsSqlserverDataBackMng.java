@@ -1,10 +1,10 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
-import com.jeecms.cms.entity.back.CmsField;
+import com.infotop.cms.entity.back.CmsField;
 
 public interface CmsSqlserverDataBackMng {
 	public  List<String> listTabels();

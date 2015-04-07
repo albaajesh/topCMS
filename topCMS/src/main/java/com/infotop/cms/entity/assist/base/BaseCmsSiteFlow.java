@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -46,7 +46,7 @@ public abstract class BaseCmsSiteFlow  implements Serializable {
 	 */
 	public BaseCmsSiteFlow (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String accessIp,
 		java.lang.String accessDate,
 		java.lang.String accessPage,
@@ -82,7 +82,7 @@ public abstract class BaseCmsSiteFlow  implements Serializable {
 	private java.lang.String sessionId;
 
 	// many to one
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsSite site;
 
 
 
@@ -255,7 +255,7 @@ public abstract class BaseCmsSiteFlow  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -263,7 +263,7 @@ public abstract class BaseCmsSiteFlow  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -271,9 +271,9 @@ public abstract class BaseCmsSiteFlow  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsSiteFlow)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsSiteFlow)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsSiteFlow cmsSiteFlow = (com.jeecms.cms.entity.assist.CmsSiteFlow) obj;
+			com.infotop.cms.entity.assist.CmsSiteFlow cmsSiteFlow = (com.infotop.cms.entity.assist.CmsSiteFlow) obj;
 			if (null == this.getId() || null == cmsSiteFlow.getId()) return false;
 			else return (this.getId().equals(cmsSiteFlow.getId()));
 		}

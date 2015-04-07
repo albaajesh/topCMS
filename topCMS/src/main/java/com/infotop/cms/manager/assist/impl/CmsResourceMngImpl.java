@@ -1,8 +1,8 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
-import static com.jeecms.common.web.Constants.SPT;
-import static com.jeecms.common.web.Constants.UTF8;
-import static com.jeecms.core.web.util.FrontUtils.RES_EXP;
+import static com.infotop.common.web.Constants.SPT;
+import static com.infotop.common.web.Constants.UTF8;
+import static com.infotop.core.web.util.FrontUtils.RES_EXP;
 
 import java.io.File;
 import java.io.FileFilter;
@@ -26,15 +26,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.entity.assist.CmsFile;
-import com.jeecms.cms.manager.assist.CmsFileMng;
-import com.jeecms.cms.manager.assist.CmsResourceMng;
-import com.jeecms.common.file.FileWrap;
-import com.jeecms.common.file.FileWrap.FileComparator;
-import com.jeecms.common.util.Zipper.FileEntry;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.assist.CmsFile;
+import com.infotop.cms.manager.assist.CmsFileMng;
+import com.infotop.cms.manager.assist.CmsResourceMng;
+import com.infotop.common.file.FileWrap;
+import com.infotop.common.file.FileWrap.FileComparator;
+import com.infotop.common.util.Zipper.FileEntry;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.FrontUtils;
 
 @Service
 public class CmsResourceMngImpl implements CmsResourceMng {

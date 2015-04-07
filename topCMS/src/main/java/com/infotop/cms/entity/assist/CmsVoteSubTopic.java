@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 
-import com.jeecms.cms.entity.assist.base.BaseCmsVoteSubTopic;
-import com.jeecms.common.hibernate3.PriorityInterface;
+import com.infotop.cms.entity.assist.base.BaseCmsVoteSubTopic;
+import com.infotop.common.hibernate3.PriorityInterface;
 
 
 
@@ -53,7 +53,7 @@ public class CmsVoteSubTopic extends BaseCmsVoteSubTopic implements PriorityInte
 	 */
 	public CmsVoteSubTopic (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsVoteTopic voteTopic,
+		com.infotop.cms.entity.assist.CmsVoteTopic voteTopic,
 		java.lang.String title,
 		java.lang.Integer type,
 		java.lang.Integer priority) {

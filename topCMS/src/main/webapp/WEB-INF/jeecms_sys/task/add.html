@@ -43,21 +43,21 @@ function selectTaskType(){
 	$("#attr_channel_id").parent().hide();
 	$("#attr_channel_id").prop("disabled","disabled");
 	if(type==1){
-		$("#jobClass").val("com.jeecms.cms.task.job.IndexStaticJob");
+		$("#jobClass").val("com.infotop.cms.task.job.IndexStaticJob");
 	}else if(type==2){
-		$("#jobClass").val("com.jeecms.cms.task.job.ChannelStaticJob");
+		$("#jobClass").val("com.infotop.cms.task.job.ChannelStaticJob");
 		$("#attr_channel_id").parent().show();
 		$("#attr_channel_id").prop("disabled","");
 	}else if(type==3){
-		$("#jobClass").val("com.jeecms.cms.task.job.ContentStaticJob");
+		$("#jobClass").val("com.infotop.cms.task.job.ContentStaticJob");
 		$("#attr_channel_id").parent().show();
 		$("#attr_channel_id").prop("disabled","");
 	}else if(type==4){
-		$("#jobClass").val("com.jeecms.cms.task.job.AcquisiteJob");
+		$("#jobClass").val("com.infotop.cms.task.job.AcquisiteJob");
 		$("#acqu").show();
 		$("#attr_acqu_id").prop("disabled","");
 	}else if(type==5){
-		$("#jobClass").val("com.jeecms.cms.task.job.DistributeJob");
+		$("#jobClass").val("com.infotop.cms.task.job.DistributeJob");
 		$("#floderTable").show();
 		$("#ftp").show();
 		$("#attr_ftp_id").prop("disabled","");
@@ -212,7 +212,7 @@ function addFloderLine() {
 
 <@p.radio width="100" colspan="2" label="cms.task.status" name="enable" value="true" list={"true":"cms.task.enable","false":"cms.task.disable"} required="true"/><@p.tr/>
 <@p.text width="100" colspan="2" label="cms.task.remark" name="remark" size="30" maxlength="100"/><@p.tr/>
-<input type="hidden" id="jobClass" name="jobClass" value="com.jeecms.cms.task.job.IndexStaticJob"/>
+<input type="hidden" id="jobClass" name="jobClass" value="com.infotop.cms.task.job.IndexStaticJob"/>
 <@p.td colspan="2"><@p.submit code="global.submit"/> &nbsp; <@p.reset code="global.reset"/></@p.td>
 </@p.form>
 </div>

@@ -1,8 +1,8 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.List;
 
-import com.jeecms.core.entity.DbTpl;
+import com.infotop.core.entity.DbTpl;
 
 public interface DbTplDao {
 	public List<DbTpl> getStartWith(String prefix);

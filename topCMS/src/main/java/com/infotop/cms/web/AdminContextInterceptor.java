@@ -1,4 +1,4 @@
-package com.jeecms.cms.web;
+package com.infotop.cms.web;
 
 import java.util.HashSet;
 import java.util.List;
@@ -18,13 +18,13 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import org.springframework.web.util.UrlPathHelper;
 
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.security.CmsAuthorizingRealm;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.security.CmsAuthorizingRealm;
+import com.infotop.core.web.util.CmsUtils;
 
 /**
  * CMS上下文信息拦截器

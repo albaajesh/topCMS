@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -9,7 +9,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
-import static com.jeecms.common.util.ParseURLKeyword.getKeyword;
+import static com.infotop.common.util.ParseURLKeyword.getKeyword;
 import net.sf.ehcache.Ehcache;
 import net.sf.ehcache.Element;
 
@@ -21,36 +21,36 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.jeecms.cms.entity.assist.CmsSiteAccess;
-import com.jeecms.cms.entity.assist.CmsSiteAccessPages;
-import com.jeecms.cms.manager.assist.CmsSiteAccessCountMng;
-import com.jeecms.cms.manager.assist.CmsSiteAccessMng;
-import com.jeecms.cms.manager.assist.CmsSiteAccessPagesMng;
-import com.jeecms.cms.web.CmsThreadVariable;
-import com.jeecms.common.ipseek.IpSeekUtils;
-import com.jeecms.common.util.DateFormatUtils;
-import com.jeecms.common.util.DateUtils;
-import com.jeecms.common.util.UserAgentUtils;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.springmvc.MessageResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.assist.CmsSiteAccess;
+import com.infotop.cms.entity.assist.CmsSiteAccessPages;
+import com.infotop.cms.manager.assist.CmsSiteAccessCountMng;
+import com.infotop.cms.manager.assist.CmsSiteAccessMng;
+import com.infotop.cms.manager.assist.CmsSiteAccessPagesMng;
+import com.infotop.cms.web.CmsThreadVariable;
+import com.infotop.common.ipseek.IpSeekUtils;
+import com.infotop.common.util.DateFormatUtils;
+import com.infotop.common.util.DateUtils;
+import com.infotop.common.util.UserAgentUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.springmvc.MessageResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.web.util.CmsUtils;
 
-import static com.jeecms.cms.entity.assist.CmsSiteAccess.ENGINE_BAIDU;
-import static com.jeecms.cms.entity.assist.CmsSiteAccess.ENGINE_GOOGLE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccess.ENGINE_YAHOO;
-import static com.jeecms.cms.entity.assist.CmsSiteAccess.ENGINE_BING;
-import static com.jeecms.cms.entity.assist.CmsSiteAccess.ENGINE_SOGOU;
-import static com.jeecms.cms.entity.assist.CmsSiteAccess.ENGINE_SOSO;
-import static com.jeecms.cms.entity.assist.CmsSiteAccess.ENGINE_SO;
+import static com.infotop.cms.entity.assist.CmsSiteAccess.ENGINE_BAIDU;
+import static com.infotop.cms.entity.assist.CmsSiteAccess.ENGINE_GOOGLE;
+import static com.infotop.cms.entity.assist.CmsSiteAccess.ENGINE_YAHOO;
+import static com.infotop.cms.entity.assist.CmsSiteAccess.ENGINE_BING;
+import static com.infotop.cms.entity.assist.CmsSiteAccess.ENGINE_SOGOU;
+import static com.infotop.cms.entity.assist.CmsSiteAccess.ENGINE_SOSO;
+import static com.infotop.cms.entity.assist.CmsSiteAccess.ENGINE_SO;
 
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ALL;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ENGINE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_KEYWORD;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ALL;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ENGINE;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_KEYWORD;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
 
 @Service
 public class CmsSiteFlowCacheImpl implements CmsSiteFlowCache, DisposableBean {

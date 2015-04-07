@@ -1,4 +1,4 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
 import java.io.IOException;
 import java.util.Date;
@@ -20,11 +20,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class LuceneContentAct {

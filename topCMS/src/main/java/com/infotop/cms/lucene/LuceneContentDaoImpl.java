@@ -1,4 +1,4 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
 import java.io.IOException;
 import java.util.Date;
@@ -11,10 +11,10 @@ import org.hibernate.ScrollableResults;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentCheck;
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentCheck;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
 
 @Repository
 public class LuceneContentDaoImpl extends HibernateBaseDao<Content, Integer>

@@ -1,5 +1,5 @@
-package com.jeecms.cms.action.member;
-import static com.jeecms.cms.Constants.TPLDIR_MEMBER;
+package com.infotop.cms.action.member;
+import static com.infotop.cms.Constants.TPLDIR_MEMBER;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -16,15 +16,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.manager.assist.CmsFileMng;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.DbFileMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.manager.assist.CmsFileMng;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.DbFileMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 /**
  * 会员投稿Action

@@ -1,9 +1,9 @@
-package com.jeecms.cms.dao.assist;
+package com.infotop.cms.dao.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsSensitivity;
-import com.jeecms.common.hibernate3.Updater;
+import com.infotop.cms.entity.assist.CmsSensitivity;
+import com.infotop.common.hibernate3.Updater;
 
 public interface CmsSensitivityDao {
 	public List<CmsSensitivity> getList(boolean cacheable);

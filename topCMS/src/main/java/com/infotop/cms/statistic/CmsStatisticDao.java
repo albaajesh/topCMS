@@ -1,8 +1,8 @@
-package com.jeecms.cms.statistic;
+package com.infotop.cms.statistic;
 
 import java.util.Map;
 
-import com.jeecms.cms.statistic.CmsStatistic.TimeRange;
+import com.infotop.cms.statistic.CmsStatistic.TimeRange;
 
 public interface CmsStatisticDao {
 	public long memberStatistic(TimeRange timeRange);

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
-<hibernate-mapping package="com.jeecms.core.entity">
+<hibernate-mapping package="com.infotop.core.entity">
 	<class name="CmsSite" table="jc_site">
 		<meta attribute="sync-DAO">false</meta>
 <!-- 		<cache usage="read-write"/> -->
@@ -28,7 +28,7 @@
 		<property name="keywords" column="keywords" type="string" not-null="false" length="255"/>
 		<property name="description" column="description" type="string" not-null="false" length="255"/>
 		<one-to-one name="siteCompany" class="CmsSiteCompany" cascade="delete"/>
-		<many-to-one name="uploadFtp" column="ftp_upload_id" class="com.jeecms.core.entity.Ftp" not-null="false"></many-to-one>
+		<many-to-one name="uploadFtp" column="ftp_upload_id" class="com.infotop.core.entity.Ftp" not-null="false"></many-to-one>
 		<many-to-one name="config" column="config_id" class="CmsConfig" not-null="true"></many-to-one>
 		<map name="attr" table="jc_site_attr" cascade="all-delete-orphan">
 <!-- 			<cache usage="read-write"/> -->

@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 import net.sf.ehcache.Ehcache;
 import net.sf.ehcache.Element;
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.jeecms.cms.entity.main.ChannelCount;
-import com.jeecms.cms.manager.main.ChannelCountMng;
-import com.jeecms.cms.manager.main.ChannelMng;
+import com.infotop.cms.entity.main.ChannelCount;
+import com.infotop.cms.manager.main.ChannelCountMng;
+import com.infotop.cms.manager.main.ChannelMng;
 
 /**
  * 栏目计数器缓存实现

@@ -8,45 +8,45 @@
 		<property name="basenames" value="#{propertyUtils.getList('messages.tpl.')}"/>
 	</bean>
 	<!--标签-->
-	<bean id="cms_pagination" class="com.jeecms.cms.action.directive.PaginationDirective"/>
-	<bean id="cms_channel_list" class="com.jeecms.cms.action.directive.ChannelListDirective"/>
-	<bean id="cms_channel_page" class="com.jeecms.cms.action.directive.ChannelPageDirective"/>
-	<bean id="cms_channel" class="com.jeecms.cms.action.directive.ChannelDirective"/>
-	<bean id="cms_content" class="com.jeecms.cms.action.directive.ContentDirective"/>
-	<bean id="cms_content_list" class="com.jeecms.cms.action.directive.ContentListDirective"/>
-	<bean id="cms_content_page" class="com.jeecms.cms.action.directive.ContentPageDirective"/>
-	<bean id="cms_tag_list" class="com.jeecms.cms.action.directive.ContentTagListDirective"/>
-	<bean id="cms_tag_page" class="com.jeecms.cms.action.directive.ContentTagPageDirective"/>
-	<bean id="cms_topic_list" class="com.jeecms.cms.action.directive.CmsTopicListDirective"/>
-	<bean id="cms_topic_page" class="com.jeecms.cms.action.directive.CmsTopicPageDirective"/>
-	<bean id="cms_comment_list" class="com.jeecms.cms.action.directive.CmsCommentListDirective"/>
-	<bean id="cms_comment_page" class="com.jeecms.cms.action.directive.CmsCommentPageDirective"/>
-	<bean id="cms_guestbook_ctg_list" class="com.jeecms.cms.action.directive.CmsGuestbookCtgListDirective"/>
-	<bean id="cms_guestbook_list" class="com.jeecms.cms.action.directive.CmsGuestbookListDirective"/>
-	<bean id="cms_guestbook_page" class="com.jeecms.cms.action.directive.CmsGuestbookPageDirective"/>
-	<bean id="cms_vote" class="com.jeecms.cms.action.directive.CmsVoteDirective"/>
-	<bean id="cms_friendlink_ctg_list" class="com.jeecms.cms.action.directive.CmsFriendlinkCtgListDirective"/>
-	<bean id="cms_friendlink_list" class="com.jeecms.cms.action.directive.CmsFriendlinkListDirective"/>
-	<bean id="cms_lucene_list" class="com.jeecms.cms.lucene.LuceneDirectiveList"/>
-	<bean id="cms_lucene_page" class="com.jeecms.cms.lucene.LuceneDirectivePage"/>
-	<bean id="cms_advertising" class="com.jeecms.cms.action.directive.CmsAdvertisingDirective"/>
-	<bean id="cms_vote_list" class="com.jeecms.cms.action.directive.CmsVoteListDirective"/>
-	<bean id="cms_model" class="com.jeecms.cms.action.directive.CmsModelDirective"/>
-	<bean id="cms_score_group" class="com.jeecms.cms.action.directive.ScoreGroupDirective"/>
+	<bean id="cms_pagination" class="com.infotop.cms.action.directive.PaginationDirective"/>
+	<bean id="cms_channel_list" class="com.infotop.cms.action.directive.ChannelListDirective"/>
+	<bean id="cms_channel_page" class="com.infotop.cms.action.directive.ChannelPageDirective"/>
+	<bean id="cms_channel" class="com.infotop.cms.action.directive.ChannelDirective"/>
+	<bean id="cms_content" class="com.infotop.cms.action.directive.ContentDirective"/>
+	<bean id="cms_content_list" class="com.infotop.cms.action.directive.ContentListDirective"/>
+	<bean id="cms_content_page" class="com.infotop.cms.action.directive.ContentPageDirective"/>
+	<bean id="cms_tag_list" class="com.infotop.cms.action.directive.ContentTagListDirective"/>
+	<bean id="cms_tag_page" class="com.infotop.cms.action.directive.ContentTagPageDirective"/>
+	<bean id="cms_topic_list" class="com.infotop.cms.action.directive.CmsTopicListDirective"/>
+	<bean id="cms_topic_page" class="com.infotop.cms.action.directive.CmsTopicPageDirective"/>
+	<bean id="cms_comment_list" class="com.infotop.cms.action.directive.CmsCommentListDirective"/>
+	<bean id="cms_comment_page" class="com.infotop.cms.action.directive.CmsCommentPageDirective"/>
+	<bean id="cms_guestbook_ctg_list" class="com.infotop.cms.action.directive.CmsGuestbookCtgListDirective"/>
+	<bean id="cms_guestbook_list" class="com.infotop.cms.action.directive.CmsGuestbookListDirective"/>
+	<bean id="cms_guestbook_page" class="com.infotop.cms.action.directive.CmsGuestbookPageDirective"/>
+	<bean id="cms_vote" class="com.infotop.cms.action.directive.CmsVoteDirective"/>
+	<bean id="cms_friendlink_ctg_list" class="com.infotop.cms.action.directive.CmsFriendlinkCtgListDirective"/>
+	<bean id="cms_friendlink_list" class="com.infotop.cms.action.directive.CmsFriendlinkListDirective"/>
+	<bean id="cms_lucene_list" class="com.infotop.cms.lucene.LuceneDirectiveList"/>
+	<bean id="cms_lucene_page" class="com.infotop.cms.lucene.LuceneDirectivePage"/>
+	<bean id="cms_advertising" class="com.infotop.cms.action.directive.CmsAdvertisingDirective"/>
+	<bean id="cms_vote_list" class="com.infotop.cms.action.directive.CmsVoteListDirective"/>
+	<bean id="cms_model" class="com.infotop.cms.action.directive.CmsModelDirective"/>
+	<bean id="cms_score_group" class="com.infotop.cms.action.directive.ScoreGroupDirective"/>
 	
 	<!--后台权限标签-->
-	<bean id="cms_perm" class="com.jeecms.cms.web.PermistionDirective"/>
+	<bean id="cms_perm" class="com.infotop.cms.web.PermistionDirective"/>
 	
 	<!--SERVICE-->
-	<bean id="contentCountCache" class="com.jeecms.cms.service.ContentCountCacheImpl"/>
-	<bean id="channelCountCache" class="com.jeecms.cms.service.ChannelCountCacheImpl"/>
-	<bean id="cmsSiteFlowCache" class="com.jeecms.cms.service.CmsSiteFlowCacheImpl"/>
-	<bean id="weixinTokenCache" class="com.jeecms.cms.service.WeixinTokenCacheImpl"/>
-	<bean id="acquisitionSvc" class="com.jeecms.cms.service.AcquisitionSvcImpl"/>
-	<bean id="luceneContentSvc" class="com.jeecms.cms.lucene.LuceneContentSvcImpl"/>
-	<bean id="searchWordsCache" class="com.jeecms.cms.service.SearchWordsCacheImpl"/>
-	<bean id="imageSvc" class="com.jeecms.cms.service.ImageSvcImpl"/>
-	<bean id="staticPageSvc" class="com.jeecms.cms.staticpage.StaticPageSvcImpl">
+	<bean id="contentCountCache" class="com.infotop.cms.service.ContentCountCacheImpl"/>
+	<bean id="channelCountCache" class="com.infotop.cms.service.ChannelCountCacheImpl"/>
+	<bean id="cmsSiteFlowCache" class="com.infotop.cms.service.CmsSiteFlowCacheImpl"/>
+	<bean id="weixinTokenCache" class="com.infotop.cms.service.WeixinTokenCacheImpl"/>
+	<bean id="acquisitionSvc" class="com.infotop.cms.service.AcquisitionSvcImpl"/>
+	<bean id="luceneContentSvc" class="com.infotop.cms.lucene.LuceneContentSvcImpl"/>
+	<bean id="searchWordsCache" class="com.infotop.cms.service.SearchWordsCacheImpl"/>
+	<bean id="imageSvc" class="com.infotop.cms.service.ImageSvcImpl"/>
+	<bean id="staticPageSvc" class="com.infotop.cms.staticpage.StaticPageSvcImpl">
 		<property name="tplMessageSource" ref="tplMessageSource"/>
 		<property name="freeMarkerConfigurer">
 			<bean class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
@@ -72,14 +72,14 @@
 			</bean>
 		</property>
 	</bean>
-	<bean id="cmsStatistSvc" class="com.jeecms.cms.statistic.CmsStatisticSvcImpl"/>
+	<bean id="cmsStatistSvc" class="com.infotop.cms.statistic.CmsStatisticSvcImpl"/>
 	
 	<!--LISTENER-->
-	<bean id="contentLuceneListener" class="com.jeecms.cms.lucene.ContentLuceneListener"/>
-	<bean id="contentStaticPageListener" class="com.jeecms.cms.staticpage.ContentStaticPageListener"/>
+	<bean id="contentLuceneListener" class="com.infotop.cms.lucene.ContentLuceneListener"/>
+	<bean id="contentStaticPageListener" class="com.infotop.cms.staticpage.ContentStaticPageListener"/>
 	
 	<!--MANAGER-->
-	<bean id="channelMng" class="com.jeecms.cms.manager.main.impl.ChannelMngImpl">
+	<bean id="channelMng" class="com.infotop.cms.manager.main.impl.ChannelMngImpl">
 		<property name="deleteCheckerList">
 			<list>
 				<ref bean="contentMng"/>
@@ -88,10 +88,10 @@
 			</list>
 		</property>
 	</bean>
-	<bean id="channelExtMng" class="com.jeecms.cms.manager.main.impl.ChannelExtMngImpl"/>
-	<bean id="channelTxtMng" class="com.jeecms.cms.manager.main.impl.ChannelTxtMngImpl"/>
-	<bean id="channelCountMng" class="com.jeecms.cms.manager.main.impl.ChannelCountMngImpl"/>
-	<bean id="contentMng" class="com.jeecms.cms.manager.main.impl.ContentMngImpl">
+	<bean id="channelExtMng" class="com.infotop.cms.manager.main.impl.ChannelExtMngImpl"/>
+	<bean id="channelTxtMng" class="com.infotop.cms.manager.main.impl.ChannelTxtMngImpl"/>
+	<bean id="channelCountMng" class="com.infotop.cms.manager.main.impl.ChannelCountMngImpl"/>
+	<bean id="contentMng" class="com.infotop.cms.manager.main.impl.ContentMngImpl">
 		<property name="listenerList">
 			<list>
 				<ref bean="contentLuceneListener"/>
@@ -99,123 +99,123 @@
 			</list>
 		</property>
 	</bean>
-	<bean id="contentTagMng" class="com.jeecms.cms.manager.main.impl.ContentTagMngImpl"/>
-	<bean id="contentTypeMng" class="com.jeecms.cms.manager.main.impl.ContentTypeMngImpl"/>
-	<bean id="contentExtMng" class="com.jeecms.cms.manager.main.impl.ContentExtMngImpl"/>
-	<bean id="contentTxtMng" class="com.jeecms.cms.manager.main.impl.ContentTxtMngImpl"/>
-	<bean id="contentCountMng" class="com.jeecms.cms.manager.main.impl.ContentCountMngImpl"/>
-	<bean id="contentCheckMng" class="com.jeecms.cms.manager.main.impl.ContentCheckMngImpl"/>
-	<bean id="cmsModelMng" class="com.jeecms.cms.manager.main.impl.CmsModelMngImpl"/>
-	<bean id="cmsModelItemMng" class="com.jeecms.cms.manager.main.impl.CmsModelItemMngImpl"/>
-	<bean id="cmsTopicMng" class="com.jeecms.cms.manager.main.impl.CmsTopicMngImpl"/>
-	<bean id="cmsThirdAccountMng" class="com.jeecms.cms.manager.main.impl.CmsThirdAccountMngImpl"/>
-	<bean id="weiXinSvc" class="com.jeecms.cms.service.WeiXinSvcImpl"/>
+	<bean id="contentTagMng" class="com.infotop.cms.manager.main.impl.ContentTagMngImpl"/>
+	<bean id="contentTypeMng" class="com.infotop.cms.manager.main.impl.ContentTypeMngImpl"/>
+	<bean id="contentExtMng" class="com.infotop.cms.manager.main.impl.ContentExtMngImpl"/>
+	<bean id="contentTxtMng" class="com.infotop.cms.manager.main.impl.ContentTxtMngImpl"/>
+	<bean id="contentCountMng" class="com.infotop.cms.manager.main.impl.ContentCountMngImpl"/>
+	<bean id="contentCheckMng" class="com.infotop.cms.manager.main.impl.ContentCheckMngImpl"/>
+	<bean id="cmsModelMng" class="com.infotop.cms.manager.main.impl.CmsModelMngImpl"/>
+	<bean id="cmsModelItemMng" class="com.infotop.cms.manager.main.impl.CmsModelItemMngImpl"/>
+	<bean id="cmsTopicMng" class="com.infotop.cms.manager.main.impl.CmsTopicMngImpl"/>
+	<bean id="cmsThirdAccountMng" class="com.infotop.cms.manager.main.impl.CmsThirdAccountMngImpl"/>
+	<bean id="weiXinSvc" class="com.infotop.cms.service.WeiXinSvcImpl"/>
 	
 	
-	<bean id="cmsAcquisitionMng" class="com.jeecms.cms.manager.assist.impl.CmsAcquisitionMngImpl"/>
-	<bean id="cmsAcquisitionHistoryMng" class="com.jeecms.cms.manager.assist.impl.CmsAcquisitionHistoryMngImpl"/>
-	<bean id="cmsAcquisitionTempMng" class="com.jeecms.cms.manager.assist.impl.CmsAcquisitionTempMngImpl"/>
-	<bean id="cmsCommentMng" class="com.jeecms.cms.manager.assist.impl.CmsCommentMngImpl"/>
-	<bean id="cmsCommentExtMng" class="com.jeecms.cms.manager.assist.impl.CmsCommentExtMngImpl"/>
-	<bean id="cmsKeywordMng" class="com.jeecms.cms.manager.assist.impl.CmsKeywordMngImpl"/>
-	<bean id="cmsSensitivityMng" class="com.jeecms.cms.manager.assist.impl.CmsSensitivityMngImpl"/>
-	<bean id="cmsResourceMng" class="com.jeecms.cms.manager.assist.impl.CmsResourceMngImpl"/>
-	<bean id="cmsGuestbookCtgMng" class="com.jeecms.cms.manager.assist.impl.CmsGuestbookCtgMngImpl"/>
-	<bean id="cmsGuestbookExtMng" class="com.jeecms.cms.manager.assist.impl.CmsGuestbookExtMngImpl"/>
-	<bean id="cmsGuestbookMng" class="com.jeecms.cms.manager.assist.impl.CmsGuestbookMngImpl"/>	
-	<bean id="cmsVoteTopicMng" class="com.jeecms.cms.manager.assist.impl.CmsVoteTopicMngImpl"/>
-	<bean id="cmsVoteItemMng" class="com.jeecms.cms.manager.assist.impl.CmsVoteItemMngImpl"/>
-	<bean id="cmsVoteRecordMng" class="com.jeecms.cms.manager.assist.impl.CmsVoteRecordMngImpl"/>
-	<bean id="cmsFriendlinkCtgMng" class="com.jeecms.cms.manager.assist.impl.CmsFriendlinkCtgMngImpl"/>
-	<bean id="cmsFriendlinkMng" class="com.jeecms.cms.manager.assist.impl.CmsFriendlinkMngImpl"/>
-	<bean id="cmsAdvertisingSpaceMng" class="com.jeecms.cms.manager.assist.impl.CmsAdvertisingSpaceMngImpl"/>
-	<bean id="cmsAdvertisingMng" class="com.jeecms.cms.manager.assist.impl.CmsAdvertisingMngImpl"/>
-	<bean id="cmsMessageMng" class="com.jeecms.cms.manager.assist.impl.CmsMessageMngImpl"/>
-	<bean id="cmsReceiverMessageMng" class="com.jeecms.cms.manager.assist.impl.CmsReceiverMessageMngImpl"/>
+	<bean id="cmsAcquisitionMng" class="com.infotop.cms.manager.assist.impl.CmsAcquisitionMngImpl"/>
+	<bean id="cmsAcquisitionHistoryMng" class="com.infotop.cms.manager.assist.impl.CmsAcquisitionHistoryMngImpl"/>
+	<bean id="cmsAcquisitionTempMng" class="com.infotop.cms.manager.assist.impl.CmsAcquisitionTempMngImpl"/>
+	<bean id="cmsCommentMng" class="com.infotop.cms.manager.assist.impl.CmsCommentMngImpl"/>
+	<bean id="cmsCommentExtMng" class="com.infotop.cms.manager.assist.impl.CmsCommentExtMngImpl"/>
+	<bean id="cmsKeywordMng" class="com.infotop.cms.manager.assist.impl.CmsKeywordMngImpl"/>
+	<bean id="cmsSensitivityMng" class="com.infotop.cms.manager.assist.impl.CmsSensitivityMngImpl"/>
+	<bean id="cmsResourceMng" class="com.infotop.cms.manager.assist.impl.CmsResourceMngImpl"/>
+	<bean id="cmsGuestbookCtgMng" class="com.infotop.cms.manager.assist.impl.CmsGuestbookCtgMngImpl"/>
+	<bean id="cmsGuestbookExtMng" class="com.infotop.cms.manager.assist.impl.CmsGuestbookExtMngImpl"/>
+	<bean id="cmsGuestbookMng" class="com.infotop.cms.manager.assist.impl.CmsGuestbookMngImpl"/>	
+	<bean id="cmsVoteTopicMng" class="com.infotop.cms.manager.assist.impl.CmsVoteTopicMngImpl"/>
+	<bean id="cmsVoteItemMng" class="com.infotop.cms.manager.assist.impl.CmsVoteItemMngImpl"/>
+	<bean id="cmsVoteRecordMng" class="com.infotop.cms.manager.assist.impl.CmsVoteRecordMngImpl"/>
+	<bean id="cmsFriendlinkCtgMng" class="com.infotop.cms.manager.assist.impl.CmsFriendlinkCtgMngImpl"/>
+	<bean id="cmsFriendlinkMng" class="com.infotop.cms.manager.assist.impl.CmsFriendlinkMngImpl"/>
+	<bean id="cmsAdvertisingSpaceMng" class="com.infotop.cms.manager.assist.impl.CmsAdvertisingSpaceMngImpl"/>
+	<bean id="cmsAdvertisingMng" class="com.infotop.cms.manager.assist.impl.CmsAdvertisingMngImpl"/>
+	<bean id="cmsMessageMng" class="com.infotop.cms.manager.assist.impl.CmsMessageMngImpl"/>
+	<bean id="cmsReceiverMessageMng" class="com.infotop.cms.manager.assist.impl.CmsReceiverMessageMngImpl"/>
 	
-	<bean id="cmsMysqlDataBackMng" class="com.jeecms.cms.manager.assist.impl.CmsMysqlDataBackMngImpl"/>
+	<bean id="cmsMysqlDataBackMng" class="com.infotop.cms.manager.assist.impl.CmsMysqlDataBackMngImpl"/>
 	
-	<bean id="cmsFileMngImpl" class="com.jeecms.cms.manager.assist.impl.CmsFileMngImpl"/>
-	<bean id="cmsWorkLoadStatisticSvc" class="com.jeecms.cms.statistic.workload.CmsWorkLoadStatisticSvcImpl"/>
-	<bean id="cmsVoteReplyMng" class="com.jeecms.cms.manager.assist.impl.CmsVoteReplyMngImpl"/>
-	<bean id="cmsVoteSubTopicMng" class="com.jeecms.cms.manager.assist.impl.CmsVoteSubTopicMngImpl"/>
-	<bean id="cmsJobApplyMng" class="com.jeecms.cms.manager.assist.impl.CmsJobApplyMngImpl"/>
-	<bean id="cmsTaskMng" class="com.jeecms.cms.manager.assist.impl.CmsTaskMngImpl"/>
-	<bean id="cmsOriginMng" class="com.jeecms.cms.manager.assist.impl.CmsOriginMngImpl"/>
-	<bean id="cmsSearchWordsMng" class="com.jeecms.cms.manager.assist.impl.CmsSearchWordsMngImpl"/>
-	<bean id="cmsPlugMng" class="com.jeecms.cms.manager.assist.impl.CmsPlugMngImpl"/>
-	<bean id="cmsSiteAccessMng" class="com.jeecms.cms.manager.assist.impl.CmsSiteAccessMngImpl"/>
-	<bean id="cmsSiteAccessPagesMng" class="com.jeecms.cms.manager.assist.impl.CmsSiteAccessPagesMngImpl"/>
-	<bean id="cmsSiteAccessStatisticMng" class="com.jeecms.cms.manager.assist.impl.CmsSiteAccessStatisticMngImpl"/>
-	<bean id="cmsSiteAccessCountMng" class="com.jeecms.cms.manager.assist.impl.CmsSiteAccessCountMngImpl"/>
-	<bean id="cmsUserMenuMng" class="com.jeecms.cms.manager.assist.impl.CmsUserMenuMngImpl"/>
-	<bean id="cmsDirectiveTplMng" class="com.jeecms.cms.manager.assist.impl.CmsDirectiveTplMngImpl"/>
-	<bean id="cmsScoreGroupMng" class="com.jeecms.cms.manager.assist.impl.CmsScoreGroupMngImpl"/>
-	<bean id="cmsScoreItemMng" class="com.jeecms.cms.manager.assist.impl.CmsScoreItemMngImpl"/>
-	<bean id="cmsScoreRecordMng" class="com.jeecms.cms.manager.assist.impl.CmsScoreRecordMngImpl"/>
+	<bean id="cmsFileMngImpl" class="com.infotop.cms.manager.assist.impl.CmsFileMngImpl"/>
+	<bean id="cmsWorkLoadStatisticSvc" class="com.infotop.cms.statistic.workload.CmsWorkLoadStatisticSvcImpl"/>
+	<bean id="cmsVoteReplyMng" class="com.infotop.cms.manager.assist.impl.CmsVoteReplyMngImpl"/>
+	<bean id="cmsVoteSubTopicMng" class="com.infotop.cms.manager.assist.impl.CmsVoteSubTopicMngImpl"/>
+	<bean id="cmsJobApplyMng" class="com.infotop.cms.manager.assist.impl.CmsJobApplyMngImpl"/>
+	<bean id="cmsTaskMng" class="com.infotop.cms.manager.assist.impl.CmsTaskMngImpl"/>
+	<bean id="cmsOriginMng" class="com.infotop.cms.manager.assist.impl.CmsOriginMngImpl"/>
+	<bean id="cmsSearchWordsMng" class="com.infotop.cms.manager.assist.impl.CmsSearchWordsMngImpl"/>
+	<bean id="cmsPlugMng" class="com.infotop.cms.manager.assist.impl.CmsPlugMngImpl"/>
+	<bean id="cmsSiteAccessMng" class="com.infotop.cms.manager.assist.impl.CmsSiteAccessMngImpl"/>
+	<bean id="cmsSiteAccessPagesMng" class="com.infotop.cms.manager.assist.impl.CmsSiteAccessPagesMngImpl"/>
+	<bean id="cmsSiteAccessStatisticMng" class="com.infotop.cms.manager.assist.impl.CmsSiteAccessStatisticMngImpl"/>
+	<bean id="cmsSiteAccessCountMng" class="com.infotop.cms.manager.assist.impl.CmsSiteAccessCountMngImpl"/>
+	<bean id="cmsUserMenuMng" class="com.infotop.cms.manager.assist.impl.CmsUserMenuMngImpl"/>
+	<bean id="cmsDirectiveTplMng" class="com.infotop.cms.manager.assist.impl.CmsDirectiveTplMngImpl"/>
+	<bean id="cmsScoreGroupMng" class="com.infotop.cms.manager.assist.impl.CmsScoreGroupMngImpl"/>
+	<bean id="cmsScoreItemMng" class="com.infotop.cms.manager.assist.impl.CmsScoreItemMngImpl"/>
+	<bean id="cmsScoreRecordMng" class="com.infotop.cms.manager.assist.impl.CmsScoreRecordMngImpl"/>
 	<!--DAO-->
-	<bean id="channelDao" class="com.jeecms.cms.dao.main.impl.ChannelDaoImpl"/>
-	<bean id="channelExtDao" class="com.jeecms.cms.dao.main.impl.ChannelExtDaoImpl"/>
-	<bean id="channelTxtDao" class="com.jeecms.cms.dao.main.impl.ChannelTxtDaoImpl"/>
-	<bean id="channelCountDao" class="com.jeecms.cms.dao.main.impl.ChannelCountDaoImpl"/>
-	<bean id="contentDao" class="com.jeecms.cms.dao.main.impl.ContentDaoImpl"/>
-	<bean id="contentTagDao" class="com.jeecms.cms.dao.main.impl.ContentTagDaoImpl"/>
-	<bean id="contentTypeDao" class="com.jeecms.cms.dao.main.impl.ContentTypeDaoImpl"/>
-	<bean id="contentExtDao" class="com.jeecms.cms.dao.main.impl.ContentExtDaoImpl"/>
-	<bean id="contentTxtDao" class="com.jeecms.cms.dao.main.impl.ContentTxtDaoImpl"/>
-	<bean id="contentCountDao" class="com.jeecms.cms.dao.main.impl.ContentCountDaoImpl"/>
-	<bean id="contentCheckDao" class="com.jeecms.cms.dao.main.impl.ContentCheckDaoImpl"/>
+	<bean id="channelDao" class="com.infotop.cms.dao.main.impl.ChannelDaoImpl"/>
+	<bean id="channelExtDao" class="com.infotop.cms.dao.main.impl.ChannelExtDaoImpl"/>
+	<bean id="channelTxtDao" class="com.infotop.cms.dao.main.impl.ChannelTxtDaoImpl"/>
+	<bean id="channelCountDao" class="com.infotop.cms.dao.main.impl.ChannelCountDaoImpl"/>
+	<bean id="contentDao" class="com.infotop.cms.dao.main.impl.ContentDaoImpl"/>
+	<bean id="contentTagDao" class="com.infotop.cms.dao.main.impl.ContentTagDaoImpl"/>
+	<bean id="contentTypeDao" class="com.infotop.cms.dao.main.impl.ContentTypeDaoImpl"/>
+	<bean id="contentExtDao" class="com.infotop.cms.dao.main.impl.ContentExtDaoImpl"/>
+	<bean id="contentTxtDao" class="com.infotop.cms.dao.main.impl.ContentTxtDaoImpl"/>
+	<bean id="contentCountDao" class="com.infotop.cms.dao.main.impl.ContentCountDaoImpl"/>
+	<bean id="contentCheckDao" class="com.infotop.cms.dao.main.impl.ContentCheckDaoImpl"/>
 	
-	<bean id="cmsModelDao" class="com.jeecms.cms.dao.main.impl.CmsModelDaoImpl"/>
-	<bean id="cmsModelItemDao" class="com.jeecms.cms.dao.main.impl.CmsModelItemDaoImpl"/>
-	<bean id="cmsTopicDao" class="com.jeecms.cms.dao.main.impl.CmsTopicDaoImpl"/>
-	<bean id="cmsThirdAccountDao" class="com.jeecms.cms.dao.main.impl.CmsThirdAccountDaoImpl"/>
+	<bean id="cmsModelDao" class="com.infotop.cms.dao.main.impl.CmsModelDaoImpl"/>
+	<bean id="cmsModelItemDao" class="com.infotop.cms.dao.main.impl.CmsModelItemDaoImpl"/>
+	<bean id="cmsTopicDao" class="com.infotop.cms.dao.main.impl.CmsTopicDaoImpl"/>
+	<bean id="cmsThirdAccountDao" class="com.infotop.cms.dao.main.impl.CmsThirdAccountDaoImpl"/>
 	
 	
-	<bean id="cmsAcquisitionDao" class="com.jeecms.cms.dao.assist.impl.CmsAcquisitionDaoImpl"/>
-	<bean id="cmsAcquisitionHistoryDao" class="com.jeecms.cms.dao.assist.impl.CmsAcquisitionHistoryDaoImpl"/>
-	<bean id="cmsAcquisitionTempDao" class="com.jeecms.cms.dao.assist.impl.CmsAcquisitionTempDaoImpl"/>
-	<bean id="cmsCommentDao" class="com.jeecms.cms.dao.assist.impl.CmsCommentDaoImpl"/>
-	<bean id="cmsCommentExtDao" class="com.jeecms.cms.dao.assist.impl.CmsCommentExtDaoImpl"/>
-	<bean id="cmsKeywordDao" class="com.jeecms.cms.dao.assist.impl.CmsKeywordDaoImpl"/>
-	<bean id="cmsSensitivityDao" class="com.jeecms.cms.dao.assist.impl.CmsSensitivityDaoImpl"/>
-	<bean id="cmsGuestbookCtgDao" class="com.jeecms.cms.dao.assist.impl.CmsGuestbookCtgDaoImpl"/>
-	<bean id="cmsGuestbookExtDao" class="com.jeecms.cms.dao.assist.impl.CmsGuestbookExtDaoImpl"/>
-	<bean id="cmsGuestbookDao" class="com.jeecms.cms.dao.assist.impl.CmsGuestbookDaoImpl"/>	
-	<bean id="cmsVoteTopicDao" class="com.jeecms.cms.dao.assist.impl.CmsVoteTopicDaoImpl"/>
-	<bean id="cmsVoteItemDao" class="com.jeecms.cms.dao.assist.impl.CmsVoteItemDaoImpl"/>
-	<bean id="cmsVoteRecordDao" class="com.jeecms.cms.dao.assist.impl.CmsVoteRecordDaoImpl"/>
-	<bean id="cmsFriendlinkCtgDao" class="com.jeecms.cms.dao.assist.impl.CmsFriendlinkCtgDaoImpl"/>
-	<bean id="cmsFriendlinkDao" class="com.jeecms.cms.dao.assist.impl.CmsFriendlinkDaoImpl"/>
-	<bean id="cmsAdvertisingSpaceDao" class="com.jeecms.cms.dao.assist.impl.CmsAdvertisingSpaceDaoImpl"/>
-	<bean id="cmsAdvertisingDao" class="com.jeecms.cms.dao.assist.impl.CmsAdvertisingDaoImpl"/>
-	<bean id="cmsMessageDao" class="com.jeecms.cms.dao.assist.impl.CmsMessageDaoImpl"/>
-	<bean id="cmsReceiverMessageDao" class="com.jeecms.cms.dao.assist.impl.CmsReceiverMessageDaoImpl"/>
+	<bean id="cmsAcquisitionDao" class="com.infotop.cms.dao.assist.impl.CmsAcquisitionDaoImpl"/>
+	<bean id="cmsAcquisitionHistoryDao" class="com.infotop.cms.dao.assist.impl.CmsAcquisitionHistoryDaoImpl"/>
+	<bean id="cmsAcquisitionTempDao" class="com.infotop.cms.dao.assist.impl.CmsAcquisitionTempDaoImpl"/>
+	<bean id="cmsCommentDao" class="com.infotop.cms.dao.assist.impl.CmsCommentDaoImpl"/>
+	<bean id="cmsCommentExtDao" class="com.infotop.cms.dao.assist.impl.CmsCommentExtDaoImpl"/>
+	<bean id="cmsKeywordDao" class="com.infotop.cms.dao.assist.impl.CmsKeywordDaoImpl"/>
+	<bean id="cmsSensitivityDao" class="com.infotop.cms.dao.assist.impl.CmsSensitivityDaoImpl"/>
+	<bean id="cmsGuestbookCtgDao" class="com.infotop.cms.dao.assist.impl.CmsGuestbookCtgDaoImpl"/>
+	<bean id="cmsGuestbookExtDao" class="com.infotop.cms.dao.assist.impl.CmsGuestbookExtDaoImpl"/>
+	<bean id="cmsGuestbookDao" class="com.infotop.cms.dao.assist.impl.CmsGuestbookDaoImpl"/>	
+	<bean id="cmsVoteTopicDao" class="com.infotop.cms.dao.assist.impl.CmsVoteTopicDaoImpl"/>
+	<bean id="cmsVoteItemDao" class="com.infotop.cms.dao.assist.impl.CmsVoteItemDaoImpl"/>
+	<bean id="cmsVoteRecordDao" class="com.infotop.cms.dao.assist.impl.CmsVoteRecordDaoImpl"/>
+	<bean id="cmsFriendlinkCtgDao" class="com.infotop.cms.dao.assist.impl.CmsFriendlinkCtgDaoImpl"/>
+	<bean id="cmsFriendlinkDao" class="com.infotop.cms.dao.assist.impl.CmsFriendlinkDaoImpl"/>
+	<bean id="cmsAdvertisingSpaceDao" class="com.infotop.cms.dao.assist.impl.CmsAdvertisingSpaceDaoImpl"/>
+	<bean id="cmsAdvertisingDao" class="com.infotop.cms.dao.assist.impl.CmsAdvertisingDaoImpl"/>
+	<bean id="cmsMessageDao" class="com.infotop.cms.dao.assist.impl.CmsMessageDaoImpl"/>
+	<bean id="cmsReceiverMessageDao" class="com.infotop.cms.dao.assist.impl.CmsReceiverMessageDaoImpl"/>
 	
-	<bean id="luceneContentDao" class="com.jeecms.cms.lucene.LuceneContentDaoImpl"/>
+	<bean id="luceneContentDao" class="com.infotop.cms.lucene.LuceneContentDaoImpl"/>
 	
-	<bean id="staticPageDao" class="com.jeecms.cms.staticpage.StaticPageDaoImpl"/>
-	<bean id="cmsStatisticDao" class="com.jeecms.cms.statistic.CmsStatisticDaoImpl"/>
-	<bean id="cmsMysqlDataDaoBack" class="com.jeecms.cms.dao.assist.impl.CmsMysqlDataBackDaoImpl">
+	<bean id="staticPageDao" class="com.infotop.cms.staticpage.StaticPageDaoImpl"/>
+	<bean id="cmsStatisticDao" class="com.infotop.cms.statistic.CmsStatisticDaoImpl"/>
+	<bean id="cmsMysqlDataDaoBack" class="com.infotop.cms.dao.assist.impl.CmsMysqlDataBackDaoImpl">
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>
-	<bean id="cmsFileDaoImpl" class="com.jeecms.cms.dao.assist.impl.CmsFileDaoImpl"/>
-	<bean id="cmsWorkLoadStatisticDao" class="com.jeecms.cms.statistic.workload.CmsWorkLoadStatisticDaoImpl"/>
-	<bean id="cmsVoteReplyDao" class="com.jeecms.cms.dao.assist.impl.CmsVoteReplyDaoImpl"/>
-	<bean id="cmsVoteSubTopicDao" class="com.jeecms.cms.dao.assist.impl.CmsVoteSubTopicDaoImpl"/>
-	<bean id="cmsJobApplyDao" class="com.jeecms.cms.dao.assist.impl.CmsJobApplyDaoImpl"/>
-	<bean id="cmsTaskDao" class="com.jeecms.cms.dao.assist.impl.CmsTaskDaoImpl"/>
-	<bean id="cmsOriginDao" class="com.jeecms.cms.dao.assist.impl.CmsOriginDaoImpl"/>
-	<bean id="cmsSearchWordsDao" class="com.jeecms.cms.dao.assist.impl.CmsSearchWordsDaoImpl"/>
-	<bean id="cmsPlugDao" class="com.jeecms.cms.dao.assist.impl.CmsPlugDaoImpl"/>
-	<bean id="cmsSiteAccessDao" class="com.jeecms.cms.dao.assist.impl.CmsSiteAccessDaoImpl"/>
-	<bean id="cmsSiteAccessPagesDao" class="com.jeecms.cms.dao.assist.impl.CmsSiteAccessPagesDaoImpl"/>
-	<bean id="cmsSiteAccessStatisticDao" class="com.jeecms.cms.dao.assist.impl.CmsSiteAccessStatisticDaoImpl"/>
-	<bean id="cmsSiteAccessCountDao" class="com.jeecms.cms.dao.assist.impl.CmsSiteAccessCountDaoImpl"/>
-	<bean id="cmsUserMenuDao" class="com.jeecms.cms.dao.assist.impl.CmsUserMenuDaoImpl"/>
-	<bean id="cmsDirectiveTplDao" class="com.jeecms.cms.dao.assist.impl.CmsDirectiveTplDaoImpl"/>
-	<bean id="cmsScoreGroupDao" class="com.jeecms.cms.dao.assist.impl.CmsScoreGroupDaoImpl"/>
-	<bean id="cmsScoreItemDao" class="com.jeecms.cms.dao.assist.impl.CmsScoreItemDaoImpl"/>
-	<bean id="cmsScoreRecordDao" class="com.jeecms.cms.dao.assist.impl.CmsScoreRecordDaoImpl"/>
+	<bean id="cmsFileDaoImpl" class="com.infotop.cms.dao.assist.impl.CmsFileDaoImpl"/>
+	<bean id="cmsWorkLoadStatisticDao" class="com.infotop.cms.statistic.workload.CmsWorkLoadStatisticDaoImpl"/>
+	<bean id="cmsVoteReplyDao" class="com.infotop.cms.dao.assist.impl.CmsVoteReplyDaoImpl"/>
+	<bean id="cmsVoteSubTopicDao" class="com.infotop.cms.dao.assist.impl.CmsVoteSubTopicDaoImpl"/>
+	<bean id="cmsJobApplyDao" class="com.infotop.cms.dao.assist.impl.CmsJobApplyDaoImpl"/>
+	<bean id="cmsTaskDao" class="com.infotop.cms.dao.assist.impl.CmsTaskDaoImpl"/>
+	<bean id="cmsOriginDao" class="com.infotop.cms.dao.assist.impl.CmsOriginDaoImpl"/>
+	<bean id="cmsSearchWordsDao" class="com.infotop.cms.dao.assist.impl.CmsSearchWordsDaoImpl"/>
+	<bean id="cmsPlugDao" class="com.infotop.cms.dao.assist.impl.CmsPlugDaoImpl"/>
+	<bean id="cmsSiteAccessDao" class="com.infotop.cms.dao.assist.impl.CmsSiteAccessDaoImpl"/>
+	<bean id="cmsSiteAccessPagesDao" class="com.infotop.cms.dao.assist.impl.CmsSiteAccessPagesDaoImpl"/>
+	<bean id="cmsSiteAccessStatisticDao" class="com.infotop.cms.dao.assist.impl.CmsSiteAccessStatisticDaoImpl"/>
+	<bean id="cmsSiteAccessCountDao" class="com.infotop.cms.dao.assist.impl.CmsSiteAccessCountDaoImpl"/>
+	<bean id="cmsUserMenuDao" class="com.infotop.cms.dao.assist.impl.CmsUserMenuDaoImpl"/>
+	<bean id="cmsDirectiveTplDao" class="com.infotop.cms.dao.assist.impl.CmsDirectiveTplDaoImpl"/>
+	<bean id="cmsScoreGroupDao" class="com.infotop.cms.dao.assist.impl.CmsScoreGroupDaoImpl"/>
+	<bean id="cmsScoreItemDao" class="com.infotop.cms.dao.assist.impl.CmsScoreItemDaoImpl"/>
+	<bean id="cmsScoreRecordDao" class="com.infotop.cms.dao.assist.impl.CmsScoreRecordDaoImpl"/>
 
 </beans>

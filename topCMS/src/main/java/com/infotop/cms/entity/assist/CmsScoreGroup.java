@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsScoreGroup;
+import com.infotop.cms.entity.assist.base.BaseCmsScoreGroup;
 
 
 
@@ -56,7 +56,7 @@ public class CmsScoreGroup extends BaseCmsScoreGroup {
 	 */
 	public CmsScoreGroup (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String name,
 		boolean enable,
 		boolean def) {

@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -40,8 +40,8 @@ public abstract class BaseCmsUserSite  implements Serializable {
 	 */
 	public BaseCmsUserSite (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsUser user,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.Byte checkStep,
 		java.lang.Boolean allChannel) {
 
@@ -67,8 +67,8 @@ public abstract class BaseCmsUserSite  implements Serializable {
 	private java.lang.Boolean allChannel;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser user;
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsUser user;
+	private com.infotop.core.entity.CmsSite site;
 
 
 
@@ -129,7 +129,7 @@ public abstract class BaseCmsUserSite  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -137,7 +137,7 @@ public abstract class BaseCmsUserSite  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -145,7 +145,7 @@ public abstract class BaseCmsUserSite  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -153,7 +153,7 @@ public abstract class BaseCmsUserSite  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -161,9 +161,9 @@ public abstract class BaseCmsUserSite  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsUserSite)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsUserSite)) return false;
 		else {
-			com.jeecms.core.entity.CmsUserSite cmsUserSite = (com.jeecms.core.entity.CmsUserSite) obj;
+			com.infotop.core.entity.CmsUserSite cmsUserSite = (com.infotop.core.entity.CmsUserSite) obj;
 			if (null == this.getId() || null == cmsUserSite.getId()) return false;
 			else return (this.getId().equals(cmsUserSite.getId()));
 		}

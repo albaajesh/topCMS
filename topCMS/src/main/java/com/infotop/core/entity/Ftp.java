@@ -1,4 +1,4 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,9 +20,9 @@ import org.apache.commons.net.ftp.FTPReply;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.jeecms.common.upload.UploadUtils;
-import com.jeecms.common.util.MyFileUtils;
-import com.jeecms.core.entity.base.BaseFtp;
+import com.infotop.common.upload.UploadUtils;
+import com.infotop.common.util.MyFileUtils;
+import com.infotop.core.entity.base.BaseFtp;
 
 public class Ftp extends BaseFtp {
 	private static final long serialVersionUID = 1L;

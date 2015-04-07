@@ -1,6 +1,6 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
-import com.jeecms.core.entity.base.BaseMarkConfig;
+import com.infotop.core.entity.base.BaseMarkConfig;
 
 
 

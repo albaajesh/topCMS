@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -40,7 +40,7 @@ public abstract class BaseCmsVoteItem  implements Serializable {
 	 */
 	public BaseCmsVoteItem (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsVoteTopic topic,
+		com.infotop.cms.entity.assist.CmsVoteTopic topic,
 		java.lang.String title,
 		java.lang.Integer voteCount,
 		java.lang.Integer priority) {
@@ -68,8 +68,8 @@ public abstract class BaseCmsVoteItem  implements Serializable {
 	private java.lang.Integer priority;
 
 	// many to one
-	private com.jeecms.cms.entity.assist.CmsVoteTopic topic;
-	private com.jeecms.cms.entity.assist.CmsVoteSubTopic subTopic;
+	private com.infotop.cms.entity.assist.CmsVoteTopic topic;
+	private com.infotop.cms.entity.assist.CmsVoteSubTopic subTopic;
 
 
 
@@ -146,7 +146,7 @@ public abstract class BaseCmsVoteItem  implements Serializable {
 	/**
 	 * Return the value associated with the column: votetopic_id
 	 */
-	public com.jeecms.cms.entity.assist.CmsVoteTopic getTopic () {
+	public com.infotop.cms.entity.assist.CmsVoteTopic getTopic () {
 		return topic;
 	}
 
@@ -154,24 +154,24 @@ public abstract class BaseCmsVoteItem  implements Serializable {
 	 * Set the value related to the column: votetopic_id
 	 * @param topic the votetopic_id value
 	 */
-	public void setTopic (com.jeecms.cms.entity.assist.CmsVoteTopic topic) {
+	public void setTopic (com.infotop.cms.entity.assist.CmsVoteTopic topic) {
 		this.topic = topic;
 	}
 	
 
-	public com.jeecms.cms.entity.assist.CmsVoteSubTopic getSubTopic() {
+	public com.infotop.cms.entity.assist.CmsVoteSubTopic getSubTopic() {
 		return subTopic;
 	}
 
-	public void setSubTopic(com.jeecms.cms.entity.assist.CmsVoteSubTopic subTopic) {
+	public void setSubTopic(com.infotop.cms.entity.assist.CmsVoteSubTopic subTopic) {
 		this.subTopic = subTopic;
 	}
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsVoteItem)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsVoteItem)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsVoteItem cmsVoteItem = (com.jeecms.cms.entity.assist.CmsVoteItem) obj;
+			com.infotop.cms.entity.assist.CmsVoteItem cmsVoteItem = (com.infotop.cms.entity.assist.CmsVoteItem) obj;
 			if (null == this.getId() || null == cmsVoteItem.getId()) return false;
 			else return (this.getId().equals(cmsVoteItem.getId()));
 		}

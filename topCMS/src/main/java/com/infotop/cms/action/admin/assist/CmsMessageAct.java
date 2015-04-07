@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.util.Date;
 import java.util.Iterator;
@@ -20,21 +20,21 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.assist.CmsMessage;
-import com.jeecms.cms.entity.assist.CmsReceiverMessage;
-import com.jeecms.cms.manager.assist.CmsMessageMng;
-import com.jeecms.cms.manager.assist.CmsReceiverMessageMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsGroup;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsGroupMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.assist.CmsMessage;
+import com.infotop.cms.entity.assist.CmsReceiverMessage;
+import com.infotop.cms.manager.assist.CmsMessageMng;
+import com.infotop.cms.manager.assist.CmsReceiverMessageMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsGroup;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsGroupMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class CmsMessageAct {

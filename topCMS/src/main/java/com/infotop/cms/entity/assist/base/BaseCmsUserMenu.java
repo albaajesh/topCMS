@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -40,7 +40,7 @@ public abstract class BaseCmsUserMenu  implements Serializable {
 	 */
 	public BaseCmsUserMenu (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
+		com.infotop.core.entity.CmsUser user,
 		java.lang.String name,
 		java.lang.String url,
 		java.lang.Integer priority) {
@@ -68,7 +68,7 @@ public abstract class BaseCmsUserMenu  implements Serializable {
 	private java.lang.Integer priority;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser user;
+	private com.infotop.core.entity.CmsUser user;
 
 
 
@@ -145,7 +145,7 @@ public abstract class BaseCmsUserMenu  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -153,7 +153,7 @@ public abstract class BaseCmsUserMenu  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -161,9 +161,9 @@ public abstract class BaseCmsUserMenu  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsUserMenu)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsUserMenu)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsUserMenu cmsUserMenu = (com.jeecms.cms.entity.assist.CmsUserMenu) obj;
+			com.infotop.cms.entity.assist.CmsUserMenu cmsUserMenu = (com.infotop.cms.entity.assist.CmsUserMenu) obj;
 			if (null == this.getId() || null == cmsUserMenu.getId()) return false;
 			else return (this.getId().equals(cmsUserMenu.getId()));
 		}

@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.io.IOException;
 import java.util.HashSet;
@@ -24,20 +24,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.entity.assist.CmsAdvertising;
-import com.jeecms.cms.entity.assist.CmsAdvertisingSpace;
-import com.jeecms.cms.manager.assist.CmsAdvertisingMng;
-import com.jeecms.cms.manager.assist.CmsAdvertisingSpaceMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.upload.FileRepository;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.DbFileMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.assist.CmsAdvertising;
+import com.infotop.cms.entity.assist.CmsAdvertisingSpace;
+import com.infotop.cms.manager.assist.CmsAdvertisingMng;
+import com.infotop.cms.manager.assist.CmsAdvertisingSpaceMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.upload.FileRepository;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.DbFileMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class CmsAdvertisingAct {

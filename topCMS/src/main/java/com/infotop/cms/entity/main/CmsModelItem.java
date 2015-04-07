@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.main.base.BaseCmsModelItem;
+import com.infotop.cms.entity.main.base.BaseCmsModelItem;
 
 public class CmsModelItem extends BaseCmsModelItem {
 	private static final long serialVersionUID = 1L;
@@ -64,7 +64,7 @@ public class CmsModelItem extends BaseCmsModelItem {
 	 */
 	public CmsModelItem (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.main.CmsModel model,
+		com.infotop.cms.entity.main.CmsModel model,
 		java.lang.String field,
 		java.lang.String label,
 		java.lang.Integer dataType,

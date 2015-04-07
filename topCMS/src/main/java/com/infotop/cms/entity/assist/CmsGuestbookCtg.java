@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 import java.util.Collection;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsGuestbookCtg;
+import com.infotop.cms.entity.assist.base.BaseCmsGuestbookCtg;
 
 
 
@@ -26,7 +26,7 @@ public class CmsGuestbookCtg extends BaseCmsGuestbookCtg {
 	 */
 	public CmsGuestbookCtg (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String name,
 		java.lang.Integer priority) {
 

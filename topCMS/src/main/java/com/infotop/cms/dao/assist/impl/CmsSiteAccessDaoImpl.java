@@ -1,15 +1,15 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ENGINE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_KEYWORD;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ENGINE;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_KEYWORD;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
 
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_IP;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_PV;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITORS;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITSECOND;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_IP;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_PV;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITORS;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITSECOND;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -19,11 +19,11 @@ import org.apache.commons.lang.StringUtils;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.assist.CmsSiteAccessDao;
-import com.jeecms.cms.entity.assist.CmsSiteAccess;
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.dao.assist.CmsSiteAccessDao;
+import com.infotop.cms.entity.assist.CmsSiteAccess;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.common.page.Pagination;
 
 /**
  * @author Tom

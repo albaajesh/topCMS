@@ -1,4 +1,4 @@
-package com.jeecms.core;
+package com.infotop.core;
 
 /**
  * jeecore 常量

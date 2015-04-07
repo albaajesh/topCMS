@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.back;
+package com.infotop.cms.entity.back;
 
-import com.jeecms.cms.entity.back.base.BaseCmsField;
+import com.infotop.cms.entity.back.base.BaseCmsField;
 
 public class CmsField extends BaseCmsField {
 	private static final long serialVersionUID = 1L;

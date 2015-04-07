@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -122,7 +122,7 @@ public abstract class BaseContentCount  implements Serializable {
 	private java.lang.Integer downs;
 
 	// one to one
-	private com.jeecms.cms.entity.main.Content content;
+	private com.infotop.cms.entity.main.Content content;
 
 
 
@@ -423,7 +423,7 @@ public abstract class BaseContentCount  implements Serializable {
 	/**
 	 * Return the value associated with the column: content
 	 */
-	public com.jeecms.cms.entity.main.Content getContent () {
+	public com.infotop.cms.entity.main.Content getContent () {
 		return content;
 	}
 
@@ -431,7 +431,7 @@ public abstract class BaseContentCount  implements Serializable {
 	 * Set the value related to the column: content
 	 * @param content the content value
 	 */
-	public void setContent (com.jeecms.cms.entity.main.Content content) {
+	public void setContent (com.infotop.cms.entity.main.Content content) {
 		this.content = content;
 	}
 
@@ -439,9 +439,9 @@ public abstract class BaseContentCount  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.ContentCount)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.ContentCount)) return false;
 		else {
-			com.jeecms.cms.entity.main.ContentCount contentCount = (com.jeecms.cms.entity.main.ContentCount) obj;
+			com.infotop.cms.entity.main.ContentCount contentCount = (com.infotop.cms.entity.main.ContentCount) obj;
 			if (null == this.getId() || null == contentCount.getId()) return false;
 			else return (this.getId().equals(contentCount.getId()));
 		}

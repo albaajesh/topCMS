@@ -1,4 +1,4 @@
-package com.jeecms.cms.task.job;
+package com.infotop.cms.task.job;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -18,10 +18,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
-import com.jeecms.cms.entity.assist.CmsTask;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.FtpMng;
+import com.infotop.cms.entity.assist.CmsTask;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.FtpMng;
 
 
 /**

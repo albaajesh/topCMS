@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.sql.Timestamp;
 import java.util.List;
@@ -7,16 +7,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsGuestbookDao;
-import com.jeecms.cms.entity.assist.CmsGuestbook;
-import com.jeecms.cms.entity.assist.CmsGuestbookExt;
-import com.jeecms.cms.manager.assist.CmsGuestbookCtgMng;
-import com.jeecms.cms.manager.assist.CmsGuestbookExtMng;
-import com.jeecms.cms.manager.assist.CmsGuestbookMng;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsSiteMng;
+import com.infotop.cms.dao.assist.CmsGuestbookDao;
+import com.infotop.cms.entity.assist.CmsGuestbook;
+import com.infotop.cms.entity.assist.CmsGuestbookExt;
+import com.infotop.cms.manager.assist.CmsGuestbookCtgMng;
+import com.infotop.cms.manager.assist.CmsGuestbookExtMng;
+import com.infotop.cms.manager.assist.CmsGuestbookMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsSiteMng;
 
 @Service
 @Transactional

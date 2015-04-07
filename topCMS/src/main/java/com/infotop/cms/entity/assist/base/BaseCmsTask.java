@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -54,8 +54,8 @@ public abstract class BaseCmsTask  implements Serializable {
 	 */
 	public BaseCmsTask (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsUser user,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.Integer type,
 		java.lang.String name,
 		java.lang.String jobClass,
@@ -101,8 +101,8 @@ public abstract class BaseCmsTask  implements Serializable {
 	private java.util.Date createTime;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser user;
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsUser user;
+	private com.infotop.core.entity.CmsSite site;
 
 	// collections
 	private java.util.Map<java.lang.String, java.lang.String> attr;
@@ -390,7 +390,7 @@ public abstract class BaseCmsTask  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -398,7 +398,7 @@ public abstract class BaseCmsTask  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -406,7 +406,7 @@ public abstract class BaseCmsTask  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -414,7 +414,7 @@ public abstract class BaseCmsTask  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -438,9 +438,9 @@ public abstract class BaseCmsTask  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsTask)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsTask)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsTask cmsTask = (com.jeecms.cms.entity.assist.CmsTask) obj;
+			com.infotop.cms.entity.assist.CmsTask cmsTask = (com.infotop.cms.entity.assist.CmsTask) obj;
 			if (null == this.getId() || null == cmsTask.getId()) return false;
 			else return (this.getId().equals(cmsTask.getId()));
 		}

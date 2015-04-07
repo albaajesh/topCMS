@@ -1,9 +1,9 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.List;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.entity.CmsRole;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.entity.CmsRole;
 
 public interface CmsRoleDao {
 	public List<CmsRole> getList();

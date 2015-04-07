@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
 import java.util.List;
 
@@ -9,16 +9,16 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.ModelMap;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsGroupMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsRoleMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserMng;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsGroupMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsRoleMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserMng;
 
 public class CmsAdminAbstract {
 	protected String channelsAddJson(Integer siteId,

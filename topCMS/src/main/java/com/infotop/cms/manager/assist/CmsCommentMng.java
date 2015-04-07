@@ -1,11 +1,11 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsComment;
-import com.jeecms.cms.entity.assist.CmsCommentExt;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.entity.assist.CmsComment;
+import com.infotop.cms.entity.assist.CmsCommentExt;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsUser;
 
 public interface CmsCommentMng {
 	public Pagination getPage(Integer siteId, Integer contentId,

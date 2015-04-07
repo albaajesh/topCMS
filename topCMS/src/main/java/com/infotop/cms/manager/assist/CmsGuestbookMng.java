@@ -1,13 +1,13 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.entity.assist.CmsGuestbook;
-import com.jeecms.cms.entity.assist.CmsGuestbookExt;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.entity.assist.CmsGuestbook;
+import com.infotop.cms.entity.assist.CmsGuestbookExt;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsUser;
 
 public interface CmsGuestbookMng {
 	public Pagination getPage(Integer siteId, Integer ctgId,Integer userId, Boolean recommend,

@@ -1,14 +1,14 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsVoteReplyDao;
-import com.jeecms.cms.entity.assist.CmsVoteReply;
-import com.jeecms.cms.manager.assist.CmsVoteReplyMng;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.dao.assist.CmsVoteReplyDao;
+import com.infotop.cms.entity.assist.CmsVoteReply;
+import com.infotop.cms.manager.assist.CmsVoteReplyMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
 
 @Service
 @Transactional

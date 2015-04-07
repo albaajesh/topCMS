@@ -1,4 +1,4 @@
-package com.jeecms.core.tpl;
+package com.infotop.core.tpl;
 
 import java.util.List;
 

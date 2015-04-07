@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.back.base;
+package com.infotop.cms.entity.back.base;
 
 import java.io.Serializable;
 

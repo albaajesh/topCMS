@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -14,15 +14,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.security.BadCredentialsException;
-import com.jeecms.common.security.UsernameNotFoundException;
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.core.dao.AuthenticationDao;
-import com.jeecms.core.entity.Authentication;
-import com.jeecms.core.entity.UnifiedUser;
-import com.jeecms.core.manager.AuthenticationMng;
-import com.jeecms.core.manager.UnifiedUserMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.security.BadCredentialsException;
+import com.infotop.common.security.UsernameNotFoundException;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.core.dao.AuthenticationDao;
+import com.infotop.core.entity.Authentication;
+import com.infotop.core.entity.UnifiedUser;
+import com.infotop.core.manager.AuthenticationMng;
+import com.infotop.core.manager.UnifiedUserMng;
 
 @Service
 @Transactional

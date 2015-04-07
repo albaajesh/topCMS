@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd"
 	default-lazy-init="true">
 	<!--缓存-->
-	<bean id="cacheManager" class="com.jeecms.common.web.WebEhCacheManagerFacotryBean">
+	<bean id="cacheManager" class="com.infotop.common.web.WebEhCacheManagerFacotryBean">
 		<property name="configLocation">
 			<value>classpath:ehcache.xml</value>
 		</property>
@@ -17,7 +17,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.common.web.Session</value>
+			<value>com.infotop.common.web.Session</value>
 		</property>
 		<qualifier value="session"/>
 	</bean>
@@ -27,7 +27,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.ContentCount</value>
+			<value>com.infotop.cms.front.ContentCount</value>
 		</property>		
 		<qualifier value="contentCount"/>
 	</bean>
@@ -37,7 +37,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.ChannelCount</value>
+			<value>com.infotop.cms.front.ChannelCount</value>
 		</property>		
 		<qualifier value="channelCount"/>
 	</bean>
@@ -47,7 +47,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.weixin.token</value>
+			<value>com.infotop.cms.weixin.token</value>
 		</property>		
 		<qualifier value="tokenCache"/>
 	</bean>
@@ -58,7 +58,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.CmsSiteFlow</value>
+			<value>com.infotop.cms.front.CmsSiteFlow</value>
 		</property>		
 		<qualifier value="cmsSiteFlow"/>
 	</bean>
@@ -68,7 +68,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.CmsAccess</value>
+			<value>com.infotop.cms.front.CmsAccess</value>
 		</property>		
 		<qualifier value="cmsAccessCache"/>
 	</bean>
@@ -78,7 +78,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.CmsLastAccess</value>
+			<value>com.infotop.cms.front.CmsLastAccess</value>
 		</property>		
 		<qualifier value="cmsLastAccessCache"/>
 	</bean>
@@ -88,7 +88,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.CmsAccessPage</value>
+			<value>com.infotop.cms.front.CmsAccessPage</value>
 		</property>		
 		<qualifier value="cmsAccessPageCache"/>
 	</bean>
@@ -98,7 +98,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.CmsSitePvTotal</value>
+			<value>com.infotop.cms.front.CmsSitePvTotal</value>
 		</property>		
 		<qualifier value="cmsPvTotalCache"/>
 	</bean>
@@ -108,7 +108,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.CmsSiteVisitorTotal</value>
+			<value>com.infotop.cms.front.CmsSiteVisitorTotal</value>
 		</property>		
 		<qualifier value="cmsVisitorTotalCache"/>
 	</bean>
@@ -119,9 +119,9 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.front.CmsSearchWords</value>
+			<value>com.infotop.cms.front.CmsSearchWords</value>
 		</property>		
-		<qualifier value="com.jeecms.cms.front.CmsSearchWords"/>
+		<qualifier value="com.infotop.cms.front.CmsSearchWords"/>
 	</bean>
 	
 	<!--shiro缓存
@@ -130,7 +130,7 @@
 			<ref local="cacheManager"/>
 		</property>
 		<property name="cacheName">
-			<value>com.jeecms.cms.shiro.shiroCache</value>
+			<value>com.infotop.cms.shiro.shiroCache</value>
 		</property>		
 		<qualifier value="shiroCache"/>
 	</bean>

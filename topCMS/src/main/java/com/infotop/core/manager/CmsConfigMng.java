@@ -1,11 +1,11 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.util.Date;
 
-import com.jeecms.core.entity.CmsConfig;
-import com.jeecms.core.entity.CmsConfigAttr;
-import com.jeecms.core.entity.MarkConfig;
-import com.jeecms.core.entity.MemberConfig;
+import com.infotop.core.entity.CmsConfig;
+import com.infotop.core.entity.CmsConfigAttr;
+import com.infotop.core.entity.MarkConfig;
+import com.infotop.core.entity.MemberConfig;
 
 public interface CmsConfigMng {
 	public CmsConfig get();

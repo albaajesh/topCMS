@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -49,7 +49,7 @@ public abstract class BaseCmsVoteTopic  implements Serializable {
 	 */
 	public BaseCmsVoteTopic (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String title,
 		java.lang.Integer totalCount,
 		java.lang.Integer multiSelect,
@@ -96,11 +96,11 @@ public abstract class BaseCmsVoteTopic  implements Serializable {
 	private java.lang.Boolean def;
 
 	// many to one
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsSite site;
 
 	// collections
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsVoteItem> items;
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsVoteSubTopic> subtopics;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsVoteItem> items;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsVoteSubTopic> subtopics;
 
 
 
@@ -321,7 +321,7 @@ public abstract class BaseCmsVoteTopic  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -329,7 +329,7 @@ public abstract class BaseCmsVoteTopic  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -337,7 +337,7 @@ public abstract class BaseCmsVoteTopic  implements Serializable {
 	/**
 	 * Return the value associated with the column: items
 	 */
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsVoteItem> getItems () {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsVoteItem> getItems () {
 		return items;
 	}
 
@@ -345,24 +345,24 @@ public abstract class BaseCmsVoteTopic  implements Serializable {
 	 * Set the value related to the column: items
 	 * @param items the items value
 	 */
-	public void setItems (java.util.Set<com.jeecms.cms.entity.assist.CmsVoteItem> items) {
+	public void setItems (java.util.Set<com.infotop.cms.entity.assist.CmsVoteItem> items) {
 		this.items = items;
 	}
 
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsVoteSubTopic> getSubtopics() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsVoteSubTopic> getSubtopics() {
 		return subtopics;
 	}
 
 	public void setSubtopics(
-			java.util.Set<com.jeecms.cms.entity.assist.CmsVoteSubTopic> subtopics) {
+			java.util.Set<com.infotop.cms.entity.assist.CmsVoteSubTopic> subtopics) {
 		this.subtopics = subtopics;
 	}
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsVoteTopic)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsVoteTopic)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsVoteTopic cmsVoteTopic = (com.jeecms.cms.entity.assist.CmsVoteTopic) obj;
+			com.infotop.cms.entity.assist.CmsVoteTopic cmsVoteTopic = (com.infotop.cms.entity.assist.CmsVoteTopic) obj;
 			if (null == this.getId() || null == cmsVoteTopic.getId()) return false;
 			else return (this.getId().equals(cmsVoteTopic.getId()));
 		}

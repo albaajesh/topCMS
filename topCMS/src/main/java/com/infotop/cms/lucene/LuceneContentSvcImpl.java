@@ -1,4 +1,4 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,11 +23,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.springmvc.RealPathResolver;
+import com.infotop.cms.Constants;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.springmvc.RealPathResolver;
 
 @Service
 @Transactional

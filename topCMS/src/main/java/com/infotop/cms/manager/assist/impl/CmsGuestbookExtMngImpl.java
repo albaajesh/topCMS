@@ -1,14 +1,14 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsGuestbookExtDao;
-import com.jeecms.cms.entity.assist.CmsGuestbook;
-import com.jeecms.cms.entity.assist.CmsGuestbookExt;
-import com.jeecms.cms.manager.assist.CmsGuestbookExtMng;
-import com.jeecms.common.hibernate3.Updater;
+import com.infotop.cms.dao.assist.CmsGuestbookExtDao;
+import com.infotop.cms.entity.assist.CmsGuestbook;
+import com.infotop.cms.entity.assist.CmsGuestbookExt;
+import com.infotop.cms.manager.assist.CmsGuestbookExtMng;
+import com.infotop.common.hibernate3.Updater;
 
 @Service
 @Transactional

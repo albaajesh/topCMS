@@ -1,16 +1,16 @@
-package com.jeecms.core.web.util;
+package com.infotop.core.web.util;
 
-import static com.jeecms.cms.Constants.RES_PATH;
-import static com.jeecms.cms.Constants.TPLDIR_COMMON;
-import static com.jeecms.cms.Constants.TPLDIR_STYLE_LIST;
-import static com.jeecms.cms.Constants.TPLDIR_TAG;
-import static com.jeecms.cms.Constants.TPL_STYLE_PAGE_CHANNEL;
-import static com.jeecms.cms.Constants.TPL_SUFFIX;
-import static com.jeecms.common.web.Constants.MESSAGE;
-import static com.jeecms.common.web.Constants.UTF8;
-import static com.jeecms.common.web.ProcessTimeFilter.START_TIME;
-import static com.jeecms.common.web.freemarker.DirectiveUtils.PARAM_TPL_SUB;
-import static com.jeecms.core.action.front.LoginAct.PROCESS_URL;
+import static com.infotop.cms.Constants.RES_PATH;
+import static com.infotop.cms.Constants.TPLDIR_COMMON;
+import static com.infotop.cms.Constants.TPLDIR_STYLE_LIST;
+import static com.infotop.cms.Constants.TPLDIR_TAG;
+import static com.infotop.cms.Constants.TPL_STYLE_PAGE_CHANNEL;
+import static com.infotop.cms.Constants.TPL_SUFFIX;
+import static com.infotop.common.web.Constants.MESSAGE;
+import static com.infotop.common.web.Constants.UTF8;
+import static com.infotop.common.web.ProcessTimeFilter.START_TIME;
+import static com.infotop.common.web.freemarker.DirectiveUtils.PARAM_TPL_SUB;
+import static com.infotop.core.action.front.LoginAct.PROCESS_URL;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -23,13 +23,13 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.propertyeditors.LocaleEditor;
 import org.springframework.context.MessageSource;
 
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.freemarker.DirectiveUtils;
-import com.jeecms.common.web.springmvc.MessageResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.URLHelper.PageInfo;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.freemarker.DirectiveUtils;
+import com.infotop.common.web.springmvc.MessageResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.URLHelper.PageInfo;
 
 import freemarker.core.Environment;
 import freemarker.template.AdapterTemplateModel;

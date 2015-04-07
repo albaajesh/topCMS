@@ -1,9 +1,9 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.util.List;
 import java.util.Set;
 
-import com.jeecms.core.entity.CmsRole;
+import com.infotop.core.entity.CmsRole;
 
 public interface CmsRoleMng {
 	

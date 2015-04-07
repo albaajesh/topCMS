@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,10 +12,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.upload.UploadUtils;
-import com.jeecms.core.dao.DbFileDao;
-import com.jeecms.core.entity.DbFile;
-import com.jeecms.core.manager.DbFileMng;
+import com.infotop.common.upload.UploadUtils;
+import com.infotop.core.dao.DbFileDao;
+import com.infotop.core.entity.DbFile;
+import com.infotop.core.manager.DbFileMng;
 
 @Service
 @Transactional

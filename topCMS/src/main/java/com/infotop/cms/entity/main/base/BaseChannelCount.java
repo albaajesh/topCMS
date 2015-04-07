@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -70,7 +70,7 @@ public abstract class BaseChannelCount  implements Serializable {
 	private java.lang.Integer viewsDay;
 
 	// one to one
-	private com.jeecms.cms.entity.main.Channel channel;
+	private com.infotop.cms.entity.main.Channel channel;
 
 
 
@@ -163,7 +163,7 @@ public abstract class BaseChannelCount  implements Serializable {
 	/**
 	 * Return the value associated with the column: channel
 	 */
-	public com.jeecms.cms.entity.main.Channel getChannel () {
+	public com.infotop.cms.entity.main.Channel getChannel () {
 		return channel;
 	}
 
@@ -171,7 +171,7 @@ public abstract class BaseChannelCount  implements Serializable {
 	 * Set the value related to the column: channel
 	 * @param channel the channel value
 	 */
-	public void setChannel (com.jeecms.cms.entity.main.Channel channel) {
+	public void setChannel (com.infotop.cms.entity.main.Channel channel) {
 		this.channel = channel;
 	}
 
@@ -179,9 +179,9 @@ public abstract class BaseChannelCount  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.ChannelCount)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.ChannelCount)) return false;
 		else {
-			com.jeecms.cms.entity.main.ChannelCount channelCount = (com.jeecms.cms.entity.main.ChannelCount) obj;
+			com.infotop.cms.entity.main.ChannelCount channelCount = (com.infotop.cms.entity.main.ChannelCount) obj;
 			if (null == this.getId() || null == channelCount.getId()) return false;
 			else return (this.getId().equals(channelCount.getId()));
 		}

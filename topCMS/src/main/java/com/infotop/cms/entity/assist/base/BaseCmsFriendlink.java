@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -46,8 +46,8 @@ public abstract class BaseCmsFriendlink  implements Serializable {
 	 */
 	public BaseCmsFriendlink (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsFriendlinkCtg category,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.cms.entity.assist.CmsFriendlinkCtg category,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String name,
 		java.lang.String domain,
 		java.lang.Integer views,
@@ -85,8 +85,8 @@ public abstract class BaseCmsFriendlink  implements Serializable {
 	private java.lang.Boolean enabled;
 
 	// many to one
-	private com.jeecms.cms.entity.assist.CmsFriendlinkCtg category;
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.cms.entity.assist.CmsFriendlinkCtg category;
+	private com.infotop.core.entity.CmsSite site;
 
 
 
@@ -243,7 +243,7 @@ public abstract class BaseCmsFriendlink  implements Serializable {
 	/**
 	 * Return the value associated with the column: friendlinkctg_id
 	 */
-	public com.jeecms.cms.entity.assist.CmsFriendlinkCtg getCategory () {
+	public com.infotop.cms.entity.assist.CmsFriendlinkCtg getCategory () {
 		return category;
 	}
 
@@ -251,7 +251,7 @@ public abstract class BaseCmsFriendlink  implements Serializable {
 	 * Set the value related to the column: friendlinkctg_id
 	 * @param category the friendlinkctg_id value
 	 */
-	public void setCategory (com.jeecms.cms.entity.assist.CmsFriendlinkCtg category) {
+	public void setCategory (com.infotop.cms.entity.assist.CmsFriendlinkCtg category) {
 		this.category = category;
 	}
 
@@ -259,7 +259,7 @@ public abstract class BaseCmsFriendlink  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -267,7 +267,7 @@ public abstract class BaseCmsFriendlink  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -275,9 +275,9 @@ public abstract class BaseCmsFriendlink  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsFriendlink)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsFriendlink)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsFriendlink cmsFriendlink = (com.jeecms.cms.entity.assist.CmsFriendlink) obj;
+			com.infotop.cms.entity.assist.CmsFriendlink cmsFriendlink = (com.infotop.cms.entity.assist.CmsFriendlink) obj;
 			if (null == this.getId() || null == cmsFriendlink.getId()) return false;
 			else return (this.getId().equals(cmsFriendlink.getId()));
 		}

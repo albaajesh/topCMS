@@ -1,7 +1,7 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
-import static com.jeecms.cms.Constants.TPL_BASE;
-import static com.jeecms.cms.Constants.TPLDIR_INDEX;
+import static com.infotop.cms.Constants.TPL_BASE;
+import static com.infotop.cms.Constants.TPLDIR_INDEX;
 
 import java.util.List;
 
@@ -16,20 +16,20 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.core.entity.CmsDictionary;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsSiteCompany;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.manager.CmsConfigMng;
-import com.jeecms.core.manager.CmsDictionaryMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsSiteCompanyMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.FtpMng;
-import com.jeecms.core.tpl.TplManager;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.CoreUtils;
+import com.infotop.core.entity.CmsDictionary;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsSiteCompany;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.manager.CmsConfigMng;
+import com.infotop.core.manager.CmsDictionaryMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsSiteCompanyMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.FtpMng;
+import com.infotop.core.tpl.TplManager;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.CoreUtils;
 
 @Controller
 public class CmsSiteConfigAct {

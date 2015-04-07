@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsDirectiveTpl;
+import com.infotop.cms.entity.assist.base.BaseCmsDirectiveTpl;
 
 
 
@@ -24,7 +24,7 @@ public class CmsDirectiveTpl extends BaseCmsDirectiveTpl {
 	 */
 	public CmsDirectiveTpl (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
+		com.infotop.core.entity.CmsUser user,
 		java.lang.String name) {
 
 		super (

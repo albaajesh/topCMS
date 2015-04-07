@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.directive;
+package com.infotop.cms.action.directive;
 
-import static com.jeecms.common.web.freemarker.DirectiveUtils.OUT_BEAN;
+import static com.infotop.common.web.freemarker.DirectiveUtils.OUT_BEAN;
 import static freemarker.template.ObjectWrapper.DEFAULT_WRAPPER;
 
 import java.io.IOException;
@@ -9,9 +9,9 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.cms.entity.assist.CmsAdvertising;
-import com.jeecms.cms.manager.assist.CmsAdvertisingMng;
-import com.jeecms.common.web.freemarker.DirectiveUtils;
+import com.infotop.cms.entity.assist.CmsAdvertising;
+import com.infotop.cms.manager.assist.CmsAdvertisingMng;
+import com.infotop.common.web.freemarker.DirectiveUtils;
 
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;

@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,17 +37,17 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentExt;
-import com.jeecms.cms.entity.main.ContentTxt;
-import com.jeecms.common.upload.FileUpload;
-import com.jeecms.common.util.PropertyUtils;
-import com.jeecms.common.util.StrUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsConfig;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsConfigMng;
+import com.infotop.cms.Constants;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentExt;
+import com.infotop.cms.entity.main.ContentTxt;
+import com.infotop.common.upload.FileUpload;
+import com.infotop.common.util.PropertyUtils;
+import com.infotop.common.util.StrUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsConfig;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsConfigMng;
 
 /**
  * @author Tom

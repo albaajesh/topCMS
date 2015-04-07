@@ -1,7 +1,7 @@
-package com.jeecms.cms.action.member;
+package com.infotop.cms.action.member;
 
-import static com.jeecms.cms.Constants.TPLDIR_MEMBER;
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.cms.Constants.TPLDIR_MEMBER;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.util.List;
 import java.util.Set;
@@ -13,26 +13,26 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.ModelMap;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.CmsModel;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentExt;
-import com.jeecms.cms.entity.main.ContentTxt;
-import com.jeecms.cms.entity.main.ContentType;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.CmsModelMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.cms.manager.main.ContentTypeMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.upload.FileRepository;
-import com.jeecms.common.util.StrUtils;
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.MemberConfig;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.CmsModel;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentExt;
+import com.infotop.cms.entity.main.ContentTxt;
+import com.infotop.cms.entity.main.ContentType;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.CmsModelMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.cms.manager.main.ContentTypeMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.upload.FileRepository;
+import com.infotop.common.util.StrUtils;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.MemberConfig;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 import com.octo.captcha.service.CaptchaServiceException;
 import com.octo.captcha.service.image.ImageCaptchaService;
 

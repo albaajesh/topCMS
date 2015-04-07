@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
 import java.io.IOException;
 import java.util.List;
@@ -15,14 +15,14 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentAttachment;
-import com.jeecms.cms.manager.main.ContentCountMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.common.security.encoder.PwdEncoder;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsConfig;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentAttachment;
+import com.infotop.cms.manager.main.ContentCountMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.common.security.encoder.PwdEncoder;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsConfig;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class AttachmentAct {

@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -43,7 +43,7 @@ public abstract class BaseCmsSiteAccessPages  implements Serializable {
 	 */
 	public BaseCmsSiteAccessPages (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String accessPage,
 		java.lang.String sessionId,
 		java.util.Date accessTime,
@@ -80,7 +80,7 @@ public abstract class BaseCmsSiteAccessPages  implements Serializable {
 	private java.lang.Integer pageIndex;
 
 	// many to one
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsSite site;
 
 
 
@@ -205,7 +205,7 @@ public abstract class BaseCmsSiteAccessPages  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -213,7 +213,7 @@ public abstract class BaseCmsSiteAccessPages  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -221,9 +221,9 @@ public abstract class BaseCmsSiteAccessPages  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsSiteAccessPages)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsSiteAccessPages)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsSiteAccessPages cmsSiteAccessPages = (com.jeecms.cms.entity.assist.CmsSiteAccessPages) obj;
+			com.infotop.cms.entity.assist.CmsSiteAccessPages cmsSiteAccessPages = (com.infotop.cms.entity.assist.CmsSiteAccessPages) obj;
 			if (null == this.getId() || null == cmsSiteAccessPages.getId()) return false;
 			else return (this.getId().equals(cmsSiteAccessPages.getId()));
 		}

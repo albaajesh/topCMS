@@ -1,10 +1,10 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 import java.util.Set;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentExt;
-import com.jeecms.cms.entity.main.ContentTxt;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentExt;
+import com.infotop.cms.entity.main.ContentTxt;
 
 
 /**

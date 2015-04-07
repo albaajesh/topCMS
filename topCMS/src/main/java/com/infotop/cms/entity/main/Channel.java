@@ -1,7 +1,7 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
-import static com.jeecms.common.web.Constants.INDEX;
-import static com.jeecms.common.web.Constants.SPT;
+import static com.infotop.common.web.Constants.INDEX;
+import static com.infotop.common.web.Constants.SPT;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -12,14 +12,14 @@ import java.util.TreeSet;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.main.base.BaseChannel;
-import com.jeecms.cms.staticpage.StaticPageUtils;
-import com.jeecms.common.hibernate3.HibernateTree;
-import com.jeecms.common.hibernate3.PriorityComparator;
-import com.jeecms.common.hibernate3.PriorityInterface;
-import com.jeecms.core.entity.CmsGroup;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.entity.main.base.BaseChannel;
+import com.infotop.cms.staticpage.StaticPageUtils;
+import com.infotop.common.hibernate3.HibernateTree;
+import com.infotop.common.hibernate3.PriorityComparator;
+import com.infotop.common.hibernate3.PriorityInterface;
+import com.infotop.core.entity.CmsGroup;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
 
 /**
  * 栏目实体类
@@ -996,8 +996,8 @@ public class Channel extends BaseChannel implements HibernateTree<Integer>,
 	 * Constructor for required fields
 	 */
 	public Channel(java.lang.Integer id,
-			com.jeecms.core.entity.CmsSite site,
-			com.jeecms.cms.entity.main.CmsModel model, java.lang.Integer lft,
+			com.infotop.core.entity.CmsSite site,
+			com.infotop.cms.entity.main.CmsModel model, java.lang.Integer lft,
 			java.lang.Integer rgt, java.lang.Integer priority,
 			java.lang.Boolean hasContent, java.lang.Boolean display) {
 

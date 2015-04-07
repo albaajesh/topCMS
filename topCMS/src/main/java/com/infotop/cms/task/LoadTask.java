@@ -1,4 +1,4 @@
-package com.jeecms.cms.task;
+package com.infotop.cms.task;
 
 import java.text.ParseException;
 import java.util.Iterator;
@@ -15,8 +15,8 @@ import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.cms.entity.assist.CmsTask;
-import com.jeecms.cms.manager.assist.CmsTaskMng;
+import com.infotop.cms.entity.assist.CmsTask;
+import com.infotop.cms.manager.assist.CmsTaskMng;
 
 /**
  * @author Tom

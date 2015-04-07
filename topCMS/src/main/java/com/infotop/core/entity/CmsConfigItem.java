@@ -1,8 +1,8 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.core.entity.base.BaseCmsConfigItem;
+import com.infotop.core.entity.base.BaseCmsConfigItem;
 
 
 
@@ -64,7 +64,7 @@ public class CmsConfigItem extends BaseCmsConfigItem {
 	 */
 	public CmsConfigItem (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsConfig config,
+		com.infotop.core.entity.CmsConfig config,
 		java.lang.String field,
 		java.lang.String label,
 		java.lang.Integer priority,

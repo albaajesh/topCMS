@@ -1,4 +1,4 @@
-package com.jeecms.cms.template;
+package com.infotop.cms.template;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -200,7 +200,7 @@ public class ModuleGenerator {
 	}
 
 	public static void main(String[] args) {
-		String packName = "com.jeecms.common.developer.template";
+		String packName = "com.infotop.common.developer.template";
 		String fileName = "template.properties";
 		new ModuleGenerator(packName, fileName).generate();
 	}

@@ -1,4 +1,4 @@
-package com.jeecms.cms.web;
+package com.infotop.cms.web;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -15,9 +15,9 @@ import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
+import com.infotop.cms.Constants;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
 
 /**
  * 网站防火墙拦截器

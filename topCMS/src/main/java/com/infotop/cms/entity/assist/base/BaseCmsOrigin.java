@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -139,9 +139,9 @@ public abstract class BaseCmsOrigin  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsOrigin)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsOrigin)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsOrigin cmsOrigin = (com.jeecms.cms.entity.assist.CmsOrigin) obj;
+			com.infotop.cms.entity.assist.CmsOrigin cmsOrigin = (com.infotop.cms.entity.assist.CmsOrigin) obj;
 			if (null == this.getId() || null == cmsOrigin.getId()) return false;
 			else return (this.getId().equals(cmsOrigin.getId()));
 		}

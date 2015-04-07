@@ -1,9 +1,9 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
 import net.sf.ehcache.Ehcache;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ChannelCount;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ChannelCount;
 
 /**
  * 栏目计数Manager接口

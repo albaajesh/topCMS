@@ -1,4 +1,4 @@
-package com.jeecms.cms;
+package com.infotop.cms;
 
 /**
  * CMS常量

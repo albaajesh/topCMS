@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,12 +14,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.dao.assist.CmsDb2DataBackDao;
-import com.jeecms.cms.entity.back.CmsField;
-import com.jeecms.cms.manager.assist.CmsDb2DataBackMng;
-import com.jeecms.common.util.StrUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
+import com.infotop.cms.Constants;
+import com.infotop.cms.dao.assist.CmsDb2DataBackDao;
+import com.infotop.cms.entity.back.CmsField;
+import com.infotop.cms.manager.assist.CmsDb2DataBackMng;
+import com.infotop.common.util.StrUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
 
 @Service
 @Transactional

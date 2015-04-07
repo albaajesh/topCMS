@@ -1,7 +1,7 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.entity.CmsUserSite;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.entity.CmsUserSite;
 
 public interface CmsUserSiteDao {
 	public CmsUserSite findById(Integer id);

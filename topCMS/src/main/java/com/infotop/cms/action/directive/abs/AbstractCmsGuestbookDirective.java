@@ -1,11 +1,11 @@
-package com.jeecms.cms.action.directive.abs;
+package com.infotop.cms.action.directive.abs;
 
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.cms.manager.assist.CmsGuestbookMng;
-import com.jeecms.common.web.freemarker.DirectiveUtils;
+import com.infotop.cms.manager.assist.CmsGuestbookMng;
+import com.infotop.common.web.freemarker.DirectiveUtils;
 
 import freemarker.template.TemplateDirectiveModel;
 import freemarker.template.TemplateException;

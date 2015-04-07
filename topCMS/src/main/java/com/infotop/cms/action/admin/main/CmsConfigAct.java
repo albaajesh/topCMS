@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
-import static com.jeecms.common.web.Constants.MESSAGE;
+import static com.infotop.common.web.Constants.MESSAGE;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,21 +14,21 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsConfig;
-import com.jeecms.core.entity.CmsConfigAttr;
-import com.jeecms.core.entity.CmsConfigItem;
-import com.jeecms.core.entity.MarkConfig;
-import com.jeecms.core.entity.MemberConfig;
-import com.jeecms.core.entity.Config.ConfigEmailSender;
-import com.jeecms.core.entity.Config.ConfigLogin;
-import com.jeecms.core.entity.Config.ConfigMessageTemplate;
-import com.jeecms.core.manager.CmsConfigItemMng;
-import com.jeecms.core.manager.CmsConfigMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.ConfigMng;
-import com.jeecms.core.web.WebErrors;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsConfig;
+import com.infotop.core.entity.CmsConfigAttr;
+import com.infotop.core.entity.CmsConfigItem;
+import com.infotop.core.entity.MarkConfig;
+import com.infotop.core.entity.MemberConfig;
+import com.infotop.core.entity.Config.ConfigEmailSender;
+import com.infotop.core.entity.Config.ConfigLogin;
+import com.infotop.core.entity.Config.ConfigMessageTemplate;
+import com.infotop.core.manager.CmsConfigItemMng;
+import com.infotop.core.manager.CmsConfigMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.ConfigMng;
+import com.infotop.core.web.WebErrors;
 
 @Controller
 public class CmsConfigAct {

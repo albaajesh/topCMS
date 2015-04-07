@@ -1,12 +1,12 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
 import java.util.List;
 import java.util.Map;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ChannelExt;
-import com.jeecms.cms.entity.main.ChannelTxt;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ChannelExt;
+import com.infotop.cms.entity.main.ChannelTxt;
+import com.infotop.common.page.Pagination;
 
 /**
  * 栏目管理接口

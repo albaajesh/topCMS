@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -12,13 +12,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.assist.CmsScoreGroup;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.cms.manager.assist.CmsScoreGroupMng;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
+import com.infotop.cms.entity.assist.CmsScoreGroup;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.cms.manager.assist.CmsScoreGroupMng;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.WebErrors;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
 
 @Controller
 public class CmsScoreGroupAct {

@@ -1,14 +1,14 @@
-package com.jeecms.cms.manager.main.impl;
+package com.infotop.cms.manager.main.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.main.ChannelExtDao;
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ChannelExt;
-import com.jeecms.cms.manager.main.ChannelExtMng;
-import com.jeecms.common.hibernate3.Updater;
+import com.infotop.cms.dao.main.ChannelExtDao;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ChannelExt;
+import com.infotop.cms.manager.main.ChannelExtMng;
+import com.infotop.common.hibernate3.Updater;
 
 @Service
 @Transactional

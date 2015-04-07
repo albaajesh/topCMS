@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -251,9 +251,9 @@ public abstract class BaseFtp  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.Ftp)) return false;
+		if (!(obj instanceof com.infotop.core.entity.Ftp)) return false;
 		else {
-			com.jeecms.core.entity.Ftp ftp = (com.jeecms.core.entity.Ftp) obj;
+			com.infotop.core.entity.Ftp ftp = (com.infotop.core.entity.Ftp) obj;
 			if (null == this.getId() || null == ftp.getId()) return false;
 			else return (this.getId().equals(ftp.getId()));
 		}

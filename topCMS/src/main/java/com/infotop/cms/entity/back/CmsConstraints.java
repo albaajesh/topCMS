@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.back;
+package com.infotop.cms.entity.back;
 
-import com.jeecms.cms.entity.back.base.BaseCmsConstraints;
+import com.infotop.cms.entity.back.base.BaseCmsConstraints;
 
 public class CmsConstraints extends BaseCmsConstraints {
 	private static final long serialVersionUID = 1L;

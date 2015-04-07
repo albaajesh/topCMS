@@ -1,4 +1,4 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
 import java.io.IOException;
 import java.util.Date;
@@ -8,8 +8,8 @@ import org.apache.lucene.index.CorruptIndexException;
 import org.apache.lucene.queryParser.ParseException;
 import org.apache.lucene.store.Directory;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.common.page.Pagination;
 
 public interface LuceneContentSvc {
 	public Integer createIndex(Integer siteId, Integer channelId,

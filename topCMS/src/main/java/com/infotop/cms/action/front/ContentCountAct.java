@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,14 +15,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ContentCount;
-import com.jeecms.cms.entity.main.ContentCount.ContentViewCount;
-import com.jeecms.cms.manager.main.ContentCountMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.cms.service.ChannelCountCache;
-import com.jeecms.cms.service.ContentCountCache;
-import com.jeecms.common.web.ResponseUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ContentCount;
+import com.infotop.cms.entity.main.ContentCount.ContentViewCount;
+import com.infotop.cms.manager.main.ContentCountMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.cms.service.ChannelCountCache;
+import com.infotop.cms.service.ContentCountCache;
+import com.infotop.common.web.ResponseUtils;
 
 @Controller
 public class ContentCountAct {

@@ -1,11 +1,11 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
 
 public interface CmsSiteMng {
 	public List<CmsSite> getList();

@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -50,7 +50,7 @@ public abstract class BaseCmsConfigItem  implements Serializable {
 	 */
 	public BaseCmsConfigItem (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsConfig config,
+		com.infotop.core.entity.CmsConfig config,
 		java.lang.String field,
 		java.lang.String label,
 		java.lang.Integer priority,
@@ -94,7 +94,7 @@ public abstract class BaseCmsConfigItem  implements Serializable {
 	private java.lang.Integer category;
 
 	// many to one
-	private com.jeecms.core.entity.CmsConfig config;
+	private com.infotop.core.entity.CmsConfig config;
 
 
 
@@ -331,7 +331,7 @@ public abstract class BaseCmsConfigItem  implements Serializable {
 	/**
 	 * Return the value associated with the column: config_id
 	 */
-	public com.jeecms.core.entity.CmsConfig getConfig () {
+	public com.infotop.core.entity.CmsConfig getConfig () {
 		return config;
 	}
 
@@ -339,7 +339,7 @@ public abstract class BaseCmsConfigItem  implements Serializable {
 	 * Set the value related to the column: config_id
 	 * @param config the config_id value
 	 */
-	public void setConfig (com.jeecms.core.entity.CmsConfig config) {
+	public void setConfig (com.infotop.core.entity.CmsConfig config) {
 		this.config = config;
 	}
 
@@ -347,9 +347,9 @@ public abstract class BaseCmsConfigItem  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsConfigItem)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsConfigItem)) return false;
 		else {
-			com.jeecms.core.entity.CmsConfigItem cmsConfigItem = (com.jeecms.core.entity.CmsConfigItem) obj;
+			com.infotop.core.entity.CmsConfigItem cmsConfigItem = (com.infotop.core.entity.CmsConfigItem) obj;
 			if (null == this.getId() || null == cmsConfigItem.getId()) return false;
 			else return (this.getId().equals(cmsConfigItem.getId()));
 		}

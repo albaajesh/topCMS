@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.util.List;
 
@@ -11,9 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsKeywordDao;
-import com.jeecms.cms.entity.assist.CmsKeyword;
-import com.jeecms.cms.manager.assist.CmsKeywordMng;
+import com.infotop.cms.dao.assist.CmsKeywordDao;
+import com.infotop.cms.entity.assist.CmsKeyword;
+import com.infotop.cms.manager.assist.CmsKeywordMng;
 
 @Service
 @Transactional

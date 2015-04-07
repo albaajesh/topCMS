@@ -1,7 +1,7 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.entity.DbFile;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.entity.DbFile;
 
 public interface DbFileDao {
 	public DbFile findById(String id);

@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -52,7 +52,7 @@ public abstract class BaseContentTxt  implements Serializable {
 	private java.lang.String txt3;
 
 	// one to one
-	private com.jeecms.cms.entity.main.Content content;
+	private com.infotop.cms.entity.main.Content content;
 
 
 
@@ -145,7 +145,7 @@ public abstract class BaseContentTxt  implements Serializable {
 	/**
 	 * Return the value associated with the column: content
 	 */
-	public com.jeecms.cms.entity.main.Content getContent () {
+	public com.infotop.cms.entity.main.Content getContent () {
 		return content;
 	}
 
@@ -153,7 +153,7 @@ public abstract class BaseContentTxt  implements Serializable {
 	 * Set the value related to the column: content
 	 * @param content the content value
 	 */
-	public void setContent (com.jeecms.cms.entity.main.Content content) {
+	public void setContent (com.infotop.cms.entity.main.Content content) {
 		this.content = content;
 	}
 
@@ -161,9 +161,9 @@ public abstract class BaseContentTxt  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.ContentTxt)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.ContentTxt)) return false;
 		else {
-			com.jeecms.cms.entity.main.ContentTxt contentTxt = (com.jeecms.cms.entity.main.ContentTxt) obj;
+			com.infotop.cms.entity.main.ContentTxt contentTxt = (com.infotop.cms.entity.main.ContentTxt) obj;
 			if (null == this.getId() || null == contentTxt.getId()) return false;
 			else return (this.getId().equals(contentTxt.getId()));
 		}

@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.io.File;
 import java.io.IOException;
@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.common.file.FileWrap;
-import com.jeecms.common.util.Zipper.FileEntry;
-import com.jeecms.core.entity.CmsSite;
+import com.infotop.common.file.FileWrap;
+import com.infotop.common.util.Zipper.FileEntry;
+import com.infotop.core.entity.CmsSite;
 
 /**
  * 模板资源管理接口

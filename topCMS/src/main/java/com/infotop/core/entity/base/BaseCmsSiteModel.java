@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -283,9 +283,9 @@ public abstract class BaseCmsSiteModel  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsSiteModel)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsSiteModel)) return false;
 		else {
-			com.jeecms.core.entity.CmsSiteModel cmsSiteModel = (com.jeecms.core.entity.CmsSiteModel) obj;
+			com.infotop.core.entity.CmsSiteModel cmsSiteModel = (com.infotop.core.entity.CmsSiteModel) obj;
 			if (null == this.getId() || null == cmsSiteModel.getId()) return false;
 			else return (this.getId().equals(cmsSiteModel.getId()));
 		}

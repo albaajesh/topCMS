@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsJobApply;
+import com.infotop.cms.entity.assist.base.BaseCmsJobApply;
 
 
 
@@ -24,8 +24,8 @@ public class CmsJobApply extends BaseCmsJobApply {
 	 */
 	public CmsJobApply (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.main.Content content,
-		com.jeecms.core.entity.CmsUser user,
+		com.infotop.cms.entity.main.Content content,
+		com.infotop.core.entity.CmsUser user,
 		java.util.Date applyTime) {
 
 		super (

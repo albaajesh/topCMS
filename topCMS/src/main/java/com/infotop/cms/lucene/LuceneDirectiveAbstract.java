@@ -1,9 +1,9 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
 import java.util.Date;
 import java.util.Map;
 
-import com.jeecms.common.web.freemarker.DirectiveUtils;
+import com.infotop.common.web.freemarker.DirectiveUtils;
 
 import freemarker.template.TemplateDirectiveModel;
 import freemarker.template.TemplateException;

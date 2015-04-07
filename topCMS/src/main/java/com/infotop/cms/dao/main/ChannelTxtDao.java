@@ -1,7 +1,7 @@
-package com.jeecms.cms.dao.main;
+package com.infotop.cms.dao.main;
 
-import com.jeecms.cms.entity.main.ChannelTxt;
-import com.jeecms.common.hibernate3.Updater;
+import com.infotop.cms.entity.main.ChannelTxt;
+import com.infotop.common.hibernate3.Updater;
 
 public interface ChannelTxtDao {
 	public ChannelTxt findById(Integer id);

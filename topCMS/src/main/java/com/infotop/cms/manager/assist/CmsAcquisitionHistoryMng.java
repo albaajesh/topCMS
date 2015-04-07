@@ -1,9 +1,9 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsAcquisitionHistory;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsAcquisitionHistory;
+import com.infotop.common.page.Pagination;
 
 public interface CmsAcquisitionHistoryMng {
 	public List<CmsAcquisitionHistory> getList(Integer siteId, Integer acquId);

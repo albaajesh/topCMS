@@ -1,11 +1,11 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.common.util.StrUtils;
+import com.infotop.common.util.StrUtils;
 
 public class MemberConfig {
 	public MemberConfig() {

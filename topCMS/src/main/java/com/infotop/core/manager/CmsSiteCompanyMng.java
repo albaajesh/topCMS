@@ -1,7 +1,7 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsSiteCompany;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsSiteCompany;
 
 public interface CmsSiteCompanyMng {
 	public CmsSiteCompany save(CmsSite site,CmsSiteCompany bean);

@@ -1,7 +1,7 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.entity.CmsConfig;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.entity.CmsConfig;
 
 public interface CmsConfigDao {
 	public CmsConfig findById(Integer id);

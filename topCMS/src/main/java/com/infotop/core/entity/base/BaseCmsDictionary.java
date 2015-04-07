@@ -1,5 +1,4 @@
-package com.jeecms.core.entity.base;
-
+package com.infotop.core.entity.base;
 import java.io.Serializable;
 
 
@@ -139,9 +138,9 @@ public abstract class BaseCmsDictionary  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsDictionary)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsDictionary)) return false;
 		else {
-			com.jeecms.core.entity.CmsDictionary cmsDictionary = (com.jeecms.core.entity.CmsDictionary) obj;
+			com.infotop.core.entity.CmsDictionary cmsDictionary = (com.infotop.core.entity.CmsDictionary) obj;
 			if (null == this.getId() || null == cmsDictionary.getId()) return false;
 			else return (this.getId().equals(cmsDictionary.getId()));
 		}

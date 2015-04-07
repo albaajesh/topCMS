@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.assist;
+package com.infotop.cms.dao.assist;
 
 import java.util.List;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.entity.assist.CmsTask;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsTask;
 
 public interface CmsTaskDao {
 	public Pagination getPage(Integer siteId,int pageNo, int pageSize);

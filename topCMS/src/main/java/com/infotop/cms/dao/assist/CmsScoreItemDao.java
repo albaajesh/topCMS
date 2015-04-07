@@ -1,8 +1,8 @@
-package com.jeecms.cms.dao.assist;
+package com.infotop.cms.dao.assist;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.entity.assist.CmsScoreItem;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsScoreItem;
 
 public interface CmsScoreItemDao {
 	public Pagination getPage(Integer groupId,int pageNo, int pageSize);

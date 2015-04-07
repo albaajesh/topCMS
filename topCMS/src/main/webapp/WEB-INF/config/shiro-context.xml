@@ -33,20 +33,20 @@
 		</property>
 	</bean>
 	<!-- Shiro Filter -->	
-	<bean id="adminUrlBean" class="com.jeecms.core.security.CmsAdminUrl">
+	<bean id="adminUrlBean" class="com.infotop.core.security.CmsAdminUrl">
 		<property name="adminLogin" value="/jeeadmin/jeecms/login.do"/>
 		<property name="adminPrefix" value="/jeeadmin/jeecms/"/>
 	</bean>
-	<bean id="authcFilter" class="com.jeecms.core.security.CmsAuthenticationFilter" parent="adminUrlBean">
+	<bean id="authcFilter" class="com.infotop.core.security.CmsAuthenticationFilter" parent="adminUrlBean">
 		<property name="adminIndex" value="/jeeadmin/jeecms/index.do"/>
 	</bean>
-	<bean id="userFilter" class="com.jeecms.core.security.CmsUserFilter" parent="adminUrlBean"/>
-	<bean id="logoutFilter" class="com.jeecms.core.security.CmsLogoutFilter" parent="adminUrlBean"/>
+	<bean id="userFilter" class="com.infotop.core.security.CmsUserFilter" parent="adminUrlBean"/>
+	<bean id="logoutFilter" class="com.infotop.core.security.CmsLogoutFilter" parent="adminUrlBean"/>
 	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
 		<property name="realm" ref="authorizingRealm" />
 <!-- 		<property name="cacheManager" ref="shiroEhcacheManager"/> -->
 	</bean>
-	<bean id="authorizingRealm" class="com.jeecms.core.security.CmsAuthorizingRealm">
+	<bean id="authorizingRealm" class="com.infotop.core.security.CmsAuthorizingRealm">
 		<property name="credentialsMatcher">
            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
                <property name="hashAlgorithmName" value="MD5"/>

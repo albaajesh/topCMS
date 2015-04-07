@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -66,11 +66,11 @@ public abstract class BaseCmsRole  implements Serializable {
 	private java.lang.Boolean all;
 
 	// many to one
-	private com.jeecms.core.entity.CmsSite site;
+	private com.infotop.core.entity.CmsSite site;
 
 	// collections
 	private java.util.Set<java.lang.String> perms;
-	private java.util.Set<com.jeecms.core.entity.CmsUser> users;
+	private java.util.Set<com.infotop.core.entity.CmsUser> users;
 
 
 	/**
@@ -140,7 +140,7 @@ public abstract class BaseCmsRole  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -148,7 +148,7 @@ public abstract class BaseCmsRole  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -168,19 +168,19 @@ public abstract class BaseCmsRole  implements Serializable {
 		this.perms = perms;
 	}
 	
-	public java.util.Set<com.jeecms.core.entity.CmsUser> getUsers() {
+	public java.util.Set<com.infotop.core.entity.CmsUser> getUsers() {
 		return users;
 	}
 
-	public void setUsers(java.util.Set<com.jeecms.core.entity.CmsUser> users) {
+	public void setUsers(java.util.Set<com.infotop.core.entity.CmsUser> users) {
 		this.users = users;
 	}
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsRole)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsRole)) return false;
 		else {
-			com.jeecms.core.entity.CmsRole cmsRole = (com.jeecms.core.entity.CmsRole) obj;
+			com.infotop.core.entity.CmsRole cmsRole = (com.infotop.core.entity.CmsRole) obj;
 			if (null == this.getId() || null == cmsRole.getId()) return false;
 			else return (this.getId().equals(cmsRole.getId()));
 		}

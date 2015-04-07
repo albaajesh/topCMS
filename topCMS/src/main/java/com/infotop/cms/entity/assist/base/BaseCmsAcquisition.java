@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -67,10 +67,10 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	 */
 	public BaseCmsAcquisition (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
-		com.jeecms.cms.entity.main.ContentType type,
-		com.jeecms.core.entity.CmsSite site,
-		com.jeecms.cms.entity.main.Channel channel,
+		com.infotop.core.entity.CmsUser user,
+		com.infotop.cms.entity.main.ContentType type,
+		com.infotop.core.entity.CmsSite site,
+		com.infotop.cms.entity.main.Channel channel,
 		java.lang.String name,
 		java.lang.Integer status,
 		java.lang.Integer currNum,
@@ -151,10 +151,10 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	private java.lang.Integer queue;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser user;
-	private com.jeecms.cms.entity.main.ContentType type;
-	private com.jeecms.core.entity.CmsSite site;
-	private com.jeecms.cms.entity.main.Channel channel;
+	private com.infotop.core.entity.CmsUser user;
+	private com.infotop.cms.entity.main.ContentType type;
+	private com.infotop.core.entity.CmsSite site;
+	private com.infotop.cms.entity.main.Channel channel;
 
 
 
@@ -754,7 +754,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -762,7 +762,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -770,7 +770,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	/**
 	 * Return the value associated with the column: type_id
 	 */
-	public com.jeecms.cms.entity.main.ContentType getType () {
+	public com.infotop.cms.entity.main.ContentType getType () {
 		return type;
 	}
 
@@ -778,7 +778,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	 * Set the value related to the column: type_id
 	 * @param type the type_id value
 	 */
-	public void setType (com.jeecms.cms.entity.main.ContentType type) {
+	public void setType (com.infotop.cms.entity.main.ContentType type) {
 		this.type = type;
 	}
 
@@ -786,7 +786,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -794,7 +794,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -802,7 +802,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	/**
 	 * Return the value associated with the column: channel_id
 	 */
-	public com.jeecms.cms.entity.main.Channel getChannel () {
+	public com.infotop.cms.entity.main.Channel getChannel () {
 		return channel;
 	}
 
@@ -810,7 +810,7 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 	 * Set the value related to the column: channel_id
 	 * @param channel the channel_id value
 	 */
-	public void setChannel (com.jeecms.cms.entity.main.Channel channel) {
+	public void setChannel (com.infotop.cms.entity.main.Channel channel) {
 		this.channel = channel;
 	}
 
@@ -818,9 +818,9 @@ public abstract class BaseCmsAcquisition  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsAcquisition)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsAcquisition)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsAcquisition cmsAcquisition = (com.jeecms.cms.entity.assist.CmsAcquisition) obj;
+			com.infotop.cms.entity.assist.CmsAcquisition cmsAcquisition = (com.infotop.cms.entity.assist.CmsAcquisition) obj;
 			if (null == this.getId() || null == cmsAcquisition.getId()) return false;
 			else return (this.getId().equals(cmsAcquisition.getId()));
 		}

@@ -1,9 +1,9 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.List;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.entity.CmsSite;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.entity.CmsSite;
 
 /**
  * 站点DAO接口

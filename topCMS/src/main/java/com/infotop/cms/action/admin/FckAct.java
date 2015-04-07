@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin;
+package com.infotop.cms.action.admin;
 
 import java.awt.Color;
 import java.io.File;
@@ -23,22 +23,22 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
-import com.jeecms.common.fck.Command;
-import com.jeecms.common.fck.ResourceType;
-import com.jeecms.common.fck.UploadResponse;
-import com.jeecms.common.fck.Utils;
-import com.jeecms.common.image.ImageScale;
-import com.jeecms.common.image.ImageUtils;
-import com.jeecms.common.upload.FileRepository;
-import com.jeecms.common.upload.UploadUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.Ftp;
-import com.jeecms.core.entity.MarkConfig;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.DbFileMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.fck.Command;
+import com.infotop.common.fck.ResourceType;
+import com.infotop.common.fck.UploadResponse;
+import com.infotop.common.fck.Utils;
+import com.infotop.common.image.ImageScale;
+import com.infotop.common.image.ImageUtils;
+import com.infotop.common.upload.FileRepository;
+import com.infotop.common.upload.UploadUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.Ftp;
+import com.infotop.core.entity.MarkConfig;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.DbFileMng;
+import com.infotop.core.web.util.CmsUtils;
 
 /**
  * FCK服务器端接口

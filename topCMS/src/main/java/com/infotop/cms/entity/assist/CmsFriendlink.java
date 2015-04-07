@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsFriendlink;
+import com.infotop.cms.entity.assist.base.BaseCmsFriendlink;
 
 public class CmsFriendlink extends BaseCmsFriendlink {
 	private static final long serialVersionUID = 1L;
@@ -42,8 +42,8 @@ public class CmsFriendlink extends BaseCmsFriendlink {
 	 * Constructor for required fields
 	 */
 	public CmsFriendlink(java.lang.Integer id,
-			com.jeecms.cms.entity.assist.CmsFriendlinkCtg category,
-			com.jeecms.core.entity.CmsSite site, java.lang.String name,
+			com.infotop.cms.entity.assist.CmsFriendlinkCtg category,
+			com.infotop.core.entity.CmsSite site, java.lang.String name,
 			java.lang.String domain, java.lang.Integer views,
 			java.lang.Integer priority, java.lang.Boolean enabled) {
 

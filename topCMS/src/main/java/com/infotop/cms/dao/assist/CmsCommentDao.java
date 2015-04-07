@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.assist;
+package com.infotop.cms.dao.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsComment;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsComment;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
 
 public interface CmsCommentDao{
 	public Pagination getPage(Integer siteId, Integer contentId,

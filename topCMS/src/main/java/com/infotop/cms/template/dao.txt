@@ -1,7 +1,7 @@
 package #{dao_p};
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
 import #{entity_p}.#{Entity};
 
 public interface #{Entity}Dao {

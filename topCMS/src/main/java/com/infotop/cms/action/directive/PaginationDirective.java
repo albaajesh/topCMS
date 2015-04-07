@@ -1,21 +1,21 @@
-package com.jeecms.cms.action.directive;
+package com.infotop.cms.action.directive;
 
-import static com.jeecms.cms.Constants.TPLDIR_STYLE_PAGE;
-import static com.jeecms.cms.Constants.TPL_STYLE_PAGE_CONTENT;
-import static com.jeecms.cms.Constants.TPL_SUFFIX;
-import static com.jeecms.common.web.Constants.UTF8;
-import static com.jeecms.core.web.util.FrontUtils.PARAM_SYS_PAGE;
-import static com.jeecms.core.web.util.FrontUtils.PARAM_USER_PAGE;
-import static com.jeecms.core.web.util.FrontUtils.getTplPath;
+import static com.infotop.cms.Constants.TPLDIR_STYLE_PAGE;
+import static com.infotop.cms.Constants.TPL_STYLE_PAGE_CONTENT;
+import static com.infotop.cms.Constants.TPL_SUFFIX;
+import static com.infotop.common.web.Constants.UTF8;
+import static com.infotop.core.web.util.FrontUtils.PARAM_SYS_PAGE;
+import static com.infotop.core.web.util.FrontUtils.PARAM_USER_PAGE;
+import static com.infotop.core.web.util.FrontUtils.getTplPath;
 
 import java.io.IOException;
 import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.common.web.freemarker.DirectiveUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.common.web.freemarker.DirectiveUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.FrontUtils;
 
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;

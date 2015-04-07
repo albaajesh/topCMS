@@ -16,7 +16,7 @@
 	
 	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
 		<property name="webBindingInitializer">
-			<bean class="com.jeecms.common.web.springmvc.BindingInitializer"/>
+			<bean class="com.infotop.common.web.springmvc.BindingInitializer"/>
 		</property>
 	</bean>
 	
@@ -29,8 +29,8 @@
 		</property>
 	</bean>
 	
-	<bean id="frontContextInterceptor" class="com.jeecms.cms.web.FrontContextInterceptor"/>
-	<bean id="frontLocaleInterceptor" class="com.jeecms.cms.web.FrontLocaleInterceptor"/>
+	<bean id="frontContextInterceptor" class="com.infotop.cms.web.FrontContextInterceptor"/>
+	<bean id="frontLocaleInterceptor" class="com.infotop.cms.web.FrontLocaleInterceptor"/>
 	<bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver">
 		<property name="cookieName" value="clientlanguage"/>
 		<property name="cookieMaxAge" value="-1"/>
@@ -42,11 +42,11 @@
 				<prop key="org.springframework.web.bind.MissingServletRequestParameterException">/WEB-INF/error/requiredParameter.html</prop>
 				<prop key="org.springframework.beans.TypeMismatchException">/WEB-INF/error/mismatchParameter.html</prop>
 				<prop key="org.springframework.web.bind.ServletRequestBindingException">/WEB-INF/error/bindException.html</prop>
-				<prop key="com.jeecms.cms.web.SiteNotFoundException">/WEB-INF/error/siteNotFoundException.html</prop>
+				<prop key="com.infotop.cms.web.SiteNotFoundException">/WEB-INF/error/siteNotFoundException.html</prop>
 			</props>
 		</property>
 	</bean>
-	<bean id="freemarkerViewResolver" class="com.jeecms.common.web.springmvc.SimpleFreeMarkerViewResolver">
+	<bean id="freemarkerViewResolver" class="com.infotop.common.web.springmvc.SimpleFreeMarkerViewResolver">
 		<property name="contentType" value="text/html; charset=UTF-8"/>
 		<property name="exposeRequestAttributes" value="false"/>
 		<property name="exposeSessionAttributes" value="false"/>

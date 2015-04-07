@@ -1,9 +1,9 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 import java.sql.Timestamp;
 import java.util.Date;
 
-import com.jeecms.core.entity.base.BaseAuthentication;
+import com.infotop.core.entity.base.BaseAuthentication;
 
 public class Authentication extends BaseAuthentication {
 	private static final long serialVersionUID = 1L;

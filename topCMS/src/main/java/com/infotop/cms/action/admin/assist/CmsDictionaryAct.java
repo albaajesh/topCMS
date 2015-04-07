@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.util.List;
 
@@ -18,15 +18,15 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsDictionary;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsDictionaryMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsDictionary;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsDictionaryMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class CmsDictionaryAct {

@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -46,7 +46,7 @@ public abstract class BaseCmsVoteReply  implements Serializable {
 	private java.lang.String reply;
 
 	// many to one
-	private com.jeecms.cms.entity.assist.CmsVoteSubTopic subTopic;
+	private com.infotop.cms.entity.assist.CmsVoteSubTopic subTopic;
 
 
 
@@ -91,7 +91,7 @@ public abstract class BaseCmsVoteReply  implements Serializable {
 	/**
 	 * Return the value associated with the column: subtopic_id
 	 */
-	public com.jeecms.cms.entity.assist.CmsVoteSubTopic getSubTopic () {
+	public com.infotop.cms.entity.assist.CmsVoteSubTopic getSubTopic () {
 		return subTopic;
 	}
 
@@ -99,7 +99,7 @@ public abstract class BaseCmsVoteReply  implements Serializable {
 	 * Set the value related to the column: subtopic_id
 	 * @param subTopic the subtopic_id value
 	 */
-	public void setSubTopic (com.jeecms.cms.entity.assist.CmsVoteSubTopic subTopic) {
+	public void setSubTopic (com.infotop.cms.entity.assist.CmsVoteSubTopic subTopic) {
 		this.subTopic = subTopic;
 	}
 
@@ -107,9 +107,9 @@ public abstract class BaseCmsVoteReply  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsVoteReply)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsVoteReply)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsVoteReply cmsVoteReply = (com.jeecms.cms.entity.assist.CmsVoteReply) obj;
+			com.infotop.cms.entity.assist.CmsVoteReply cmsVoteReply = (com.infotop.cms.entity.assist.CmsVoteReply) obj;
 			if (null == this.getId() || null == cmsVoteReply.getId()) return false;
 			else return (this.getId().equals(cmsVoteReply.getId()));
 		}

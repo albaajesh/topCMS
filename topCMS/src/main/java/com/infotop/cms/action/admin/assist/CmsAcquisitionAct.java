@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,24 +18,24 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.assist.CmsAcquisition;
-import com.jeecms.cms.entity.assist.CmsAcquisitionHistory;
-import com.jeecms.cms.entity.assist.CmsAcquisitionTemp;
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ContentType;
-import com.jeecms.cms.manager.assist.CmsAcquisitionHistoryMng;
-import com.jeecms.cms.manager.assist.CmsAcquisitionMng;
-import com.jeecms.cms.manager.assist.CmsAcquisitionTempMng;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.ContentTypeMng;
-import com.jeecms.cms.service.AcquisitionSvc;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.assist.CmsAcquisition;
+import com.infotop.cms.entity.assist.CmsAcquisitionHistory;
+import com.infotop.cms.entity.assist.CmsAcquisitionTemp;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ContentType;
+import com.infotop.cms.manager.assist.CmsAcquisitionHistoryMng;
+import com.infotop.cms.manager.assist.CmsAcquisitionMng;
+import com.infotop.cms.manager.assist.CmsAcquisitionTempMng;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.ContentTypeMng;
+import com.infotop.cms.service.AcquisitionSvc;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class CmsAcquisitionAct {

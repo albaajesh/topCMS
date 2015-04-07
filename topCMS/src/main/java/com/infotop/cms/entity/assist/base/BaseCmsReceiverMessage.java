@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -45,9 +45,9 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	 */
 	public BaseCmsReceiverMessage (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser msgReceiverUser,
-		com.jeecms.core.entity.CmsUser msgSendUser,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsUser msgReceiverUser,
+		com.infotop.core.entity.CmsUser msgSendUser,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String msgTitle,
 		java.lang.String msgContent,
 		java.util.Date sendTime,
@@ -85,10 +85,10 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser msgReceiverUser;
-	private com.jeecms.core.entity.CmsUser msgSendUser;
-	private com.jeecms.core.entity.CmsSite site;
-	private com.jeecms.cms.entity.assist.CmsMessage message;
+	private com.infotop.core.entity.CmsUser msgReceiverUser;
+	private com.infotop.core.entity.CmsUser msgSendUser;
+	private com.infotop.core.entity.CmsSite site;
+	private com.infotop.cms.entity.assist.CmsMessage message;
 
 
 
@@ -197,7 +197,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	/**
 	 * Return the value associated with the column: message
 	 */
-	public com.jeecms.cms.entity.assist.CmsMessage getMessage () {
+	public com.infotop.cms.entity.assist.CmsMessage getMessage () {
 		return message;
 	}
 
@@ -205,7 +205,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	 * Set the value related to the column: message
 	 * @param message the message value
 	 */
-	public void setMessage (com.jeecms.cms.entity.assist.CmsMessage message) {
+	public void setMessage (com.infotop.cms.entity.assist.CmsMessage message) {
 		this.message = message;
 	}
 
@@ -213,7 +213,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	/**
 	 * Return the value associated with the column: msg_receiver_user
 	 */
-	public com.jeecms.core.entity.CmsUser getMsgReceiverUser () {
+	public com.infotop.core.entity.CmsUser getMsgReceiverUser () {
 		return msgReceiverUser;
 	}
 
@@ -221,7 +221,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	 * Set the value related to the column: msg_receiver_user
 	 * @param msgReceiverUser the msg_receiver_user value
 	 */
-	public void setMsgReceiverUser (com.jeecms.core.entity.CmsUser msgReceiverUser) {
+	public void setMsgReceiverUser (com.infotop.core.entity.CmsUser msgReceiverUser) {
 		this.msgReceiverUser = msgReceiverUser;
 	}
 
@@ -229,7 +229,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	/**
 	 * Return the value associated with the column: msg_send_user
 	 */
-	public com.jeecms.core.entity.CmsUser getMsgSendUser () {
+	public com.infotop.core.entity.CmsUser getMsgSendUser () {
 		return msgSendUser;
 	}
 
@@ -237,7 +237,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	 * Set the value related to the column: msg_send_user
 	 * @param msgSendUser the msg_send_user value
 	 */
-	public void setMsgSendUser (com.jeecms.core.entity.CmsUser msgSendUser) {
+	public void setMsgSendUser (com.infotop.core.entity.CmsUser msgSendUser) {
 		this.msgSendUser = msgSendUser;
 	}
 
@@ -245,7 +245,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	/**
 	 * Return the value associated with the column: site_id
 	 */
-	public com.jeecms.core.entity.CmsSite getSite () {
+	public com.infotop.core.entity.CmsSite getSite () {
 		return site;
 	}
 
@@ -253,7 +253,7 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 	 * Set the value related to the column: site_id
 	 * @param site the site_id value
 	 */
-	public void setSite (com.jeecms.core.entity.CmsSite site) {
+	public void setSite (com.infotop.core.entity.CmsSite site) {
 		this.site = site;
 	}
 
@@ -261,9 +261,9 @@ public abstract class BaseCmsReceiverMessage  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsReceiverMessage)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsReceiverMessage)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsReceiverMessage cmsReceiverMessage = (com.jeecms.cms.entity.assist.CmsReceiverMessage) obj;
+			com.infotop.cms.entity.assist.CmsReceiverMessage cmsReceiverMessage = (com.infotop.cms.entity.assist.CmsReceiverMessage) obj;
 			if (null == this.getId() || null == cmsReceiverMessage.getId()) return false;
 			else return (this.getId().equals(cmsReceiverMessage.getId()));
 		}

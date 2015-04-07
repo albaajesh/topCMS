@@ -1,6 +1,6 @@
-package com.jeecms.core.action.front;
+package com.infotop.core.action.front;
 
-import static com.jeecms.core.manager.AuthenticationMng.AUTH_KEY;
+import static com.infotop.core.manager.AuthenticationMng.AUTH_KEY;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -12,13 +12,13 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.common.security.BadCredentialsException;
-import com.jeecms.common.security.UsernameNotFoundException;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.core.entity.Authentication;
-import com.jeecms.core.manager.AuthenticationMng;
-import com.jeecms.core.web.WebCoreErrors;
+import com.infotop.common.security.BadCredentialsException;
+import com.infotop.common.security.UsernameNotFoundException;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.core.entity.Authentication;
+import com.infotop.core.manager.AuthenticationMng;
+import com.infotop.core.web.WebCoreErrors;
 
 /**
  * 统一认证中心Action

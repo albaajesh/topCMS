@@ -1,8 +1,8 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
-import com.jeecms.core.entity.CmsLog;
+import com.infotop.core.entity.CmsLog;
 
 
 /**
@@ -54,7 +54,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	 */
 	public BaseCmsUser (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsGroup group,
+		com.infotop.core.entity.CmsGroup group,
 		java.lang.String username,
 		java.util.Date registerTime,
 		java.lang.String registerIp,
@@ -108,25 +108,25 @@ public abstract class BaseCmsUser  implements Serializable {
 	private java.lang.Boolean disabled;
 
 	// many to one
-	private com.jeecms.core.entity.CmsGroup group;
+	private com.infotop.core.entity.CmsGroup group;
 
 	// collections
 	private java.util.Map<java.lang.String, java.lang.String> attr;
-	private java.util.Set<com.jeecms.core.entity.CmsUserExt> userExtSet;
-	private java.util.Set<com.jeecms.core.entity.CmsUserSite> userSites;
-	private java.util.Set<com.jeecms.core.entity.CmsRole> roles;
-	private java.util.Set<com.jeecms.cms.entity.main.Channel> channels;
-	private java.util.Set<com.jeecms.cms.entity.main.Content> collectContents;
+	private java.util.Set<com.infotop.core.entity.CmsUserExt> userExtSet;
+	private java.util.Set<com.infotop.core.entity.CmsUserSite> userSites;
+	private java.util.Set<com.infotop.core.entity.CmsRole> roles;
+	private java.util.Set<com.infotop.cms.entity.main.Channel> channels;
+	private java.util.Set<com.infotop.cms.entity.main.Content> collectContents;
 	
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsMessage> sendMessages;
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsMessage> receivMessages;
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> sendReceiverMessages;
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> receivReceiverMessages;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsMessage> sendMessages;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsMessage> receivMessages;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> sendReceiverMessages;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> receivReceiverMessages;
 	
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsJobApply> jobApplys;
-	private java.util.Set<com.jeecms.core.entity.CmsUserResume> userResumeSet;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsJobApply> jobApplys;
+	private java.util.Set<com.infotop.core.entity.CmsUserResume> userResumeSet;
 	private java.util.Set<CmsLog> logs;
-	private java.util.Set<com.jeecms.cms.entity.assist.CmsUserMenu> menus;
+	private java.util.Set<com.infotop.cms.entity.assist.CmsUserMenu> menus;
 
 
 
@@ -378,7 +378,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	/**
 	 * Return the value associated with the column: group_id
 	 */
-	public com.jeecms.core.entity.CmsGroup getGroup () {
+	public com.infotop.core.entity.CmsGroup getGroup () {
 		return group;
 	}
 
@@ -386,7 +386,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	 * Set the value related to the column: group_id
 	 * @param group the group_id value
 	 */
-	public void setGroup (com.jeecms.core.entity.CmsGroup group) {
+	public void setGroup (com.infotop.core.entity.CmsGroup group) {
 		this.group = group;
 	}
 	
@@ -401,7 +401,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	/**
 	 * Return the value associated with the column: userExtSet
 	 */
-	public java.util.Set<com.jeecms.core.entity.CmsUserExt> getUserExtSet () {
+	public java.util.Set<com.infotop.core.entity.CmsUserExt> getUserExtSet () {
 		return userExtSet;
 	}
 
@@ -409,7 +409,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	 * Set the value related to the column: userExtSet
 	 * @param userExtSet the userExtSet value
 	 */
-	public void setUserExtSet (java.util.Set<com.jeecms.core.entity.CmsUserExt> userExtSet) {
+	public void setUserExtSet (java.util.Set<com.infotop.core.entity.CmsUserExt> userExtSet) {
 		this.userExtSet = userExtSet;
 	}
 
@@ -417,7 +417,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	/**
 	 * Return the value associated with the column: userSites
 	 */
-	public java.util.Set<com.jeecms.core.entity.CmsUserSite> getUserSites () {
+	public java.util.Set<com.infotop.core.entity.CmsUserSite> getUserSites () {
 		return userSites;
 	}
 
@@ -425,7 +425,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	 * Set the value related to the column: userSites
 	 * @param userSites the userSites value
 	 */
-	public void setUserSites (java.util.Set<com.jeecms.core.entity.CmsUserSite> userSites) {
+	public void setUserSites (java.util.Set<com.infotop.core.entity.CmsUserSite> userSites) {
 		this.userSites = userSites;
 	}
 
@@ -433,7 +433,7 @@ public abstract class BaseCmsUser  implements Serializable {
 	/**
 	 * Return the value associated with the column: roles
 	 */
-	public java.util.Set<com.jeecms.core.entity.CmsRole> getRoles () {
+	public java.util.Set<com.infotop.core.entity.CmsRole> getRoles () {
 		return roles;
 	}
 
@@ -441,14 +441,14 @@ public abstract class BaseCmsUser  implements Serializable {
 	 * Set the value related to the column: roles
 	 * @param roles the roles value
 	 */
-	public void setRoles (java.util.Set<com.jeecms.core.entity.CmsRole> roles) {
+	public void setRoles (java.util.Set<com.infotop.core.entity.CmsRole> roles) {
 		this.roles = roles;
 	}
 
 	/**
 	 * Return the value associated with the column: channels
 	 */
-	public java.util.Set<com.jeecms.cms.entity.main.Channel> getChannels () {
+	public java.util.Set<com.infotop.cms.entity.main.Channel> getChannels () {
 		return channels;
 	}
 
@@ -456,71 +456,71 @@ public abstract class BaseCmsUser  implements Serializable {
 	 * Set the value related to the column: channels
 	 * @param channels the channels value
 	 */
-	public void setChannels (java.util.Set<com.jeecms.cms.entity.main.Channel> channels) {
+	public void setChannels (java.util.Set<com.infotop.cms.entity.main.Channel> channels) {
 		this.channels = channels;
 	}
 	
 
-	public java.util.Set<com.jeecms.cms.entity.main.Content> getCollectContents() {
+	public java.util.Set<com.infotop.cms.entity.main.Content> getCollectContents() {
 		return collectContents;
 	}
 
 	public void setCollectContents(
-			java.util.Set<com.jeecms.cms.entity.main.Content> collectContents) {
+			java.util.Set<com.infotop.cms.entity.main.Content> collectContents) {
 		this.collectContents = collectContents;
 	}
 	
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsMessage> getSendMessages() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsMessage> getSendMessages() {
 		return sendMessages;
 	}
 
 	public void setSendMessages(
-			java.util.Set<com.jeecms.cms.entity.assist.CmsMessage> sendMessages) {
+			java.util.Set<com.infotop.cms.entity.assist.CmsMessage> sendMessages) {
 		this.sendMessages = sendMessages;
 	}
 
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsMessage> getReceivMessages() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsMessage> getReceivMessages() {
 		return receivMessages;
 	}
 
 	public void setReceivMessages(
-			java.util.Set<com.jeecms.cms.entity.assist.CmsMessage> receivMessages) {
+			java.util.Set<com.infotop.cms.entity.assist.CmsMessage> receivMessages) {
 		this.receivMessages = receivMessages;
 	}
 
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> getSendReceiverMessages() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> getSendReceiverMessages() {
 		return sendReceiverMessages;
 	}
 
 	public void setSendReceiverMessages(
-			java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> sendReceiverMessages) {
+			java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> sendReceiverMessages) {
 		this.sendReceiverMessages = sendReceiverMessages;
 	}
 
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> getReceivReceiverMessages() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> getReceivReceiverMessages() {
 		return receivReceiverMessages;
 	}
 
 	public void setReceivReceiverMessages(
-			java.util.Set<com.jeecms.cms.entity.assist.CmsReceiverMessage> receivReceiverMessages) {
+			java.util.Set<com.infotop.cms.entity.assist.CmsReceiverMessage> receivReceiverMessages) {
 		this.receivReceiverMessages = receivReceiverMessages;
 	}
 	
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsJobApply> getJobApplys() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsJobApply> getJobApplys() {
 		return jobApplys;
 	}
 
 	public void setJobApplys(
-				java.util.Set<com.jeecms.cms.entity.assist.CmsJobApply> jobApplys) {
+				java.util.Set<com.infotop.cms.entity.assist.CmsJobApply> jobApplys) {
 			this.jobApplys = jobApplys;
 		}
 		
-	public java.util.Set<com.jeecms.core.entity.CmsUserResume> getUserResumeSet() {
+	public java.util.Set<com.infotop.core.entity.CmsUserResume> getUserResumeSet() {
 			return userResumeSet;
 		}
 	
 	public void setUserResumeSet(
-				java.util.Set<com.jeecms.core.entity.CmsUserResume> userResumeSet) {
+				java.util.Set<com.infotop.core.entity.CmsUserResume> userResumeSet) {
 			this.userResumeSet = userResumeSet;
 	}
 	
@@ -532,20 +532,20 @@ public abstract class BaseCmsUser  implements Serializable {
 		this.logs = logs;
 	}
 
-	public java.util.Set<com.jeecms.cms.entity.assist.CmsUserMenu> getMenus() {
+	public java.util.Set<com.infotop.cms.entity.assist.CmsUserMenu> getMenus() {
 		return menus;
 	}
 
 	public void setMenus(
-			java.util.Set<com.jeecms.cms.entity.assist.CmsUserMenu> menus) {
+			java.util.Set<com.infotop.cms.entity.assist.CmsUserMenu> menus) {
 		this.menus = menus;
 	}
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsUser)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsUser)) return false;
 		else {
-			com.jeecms.core.entity.CmsUser cmsUser = (com.jeecms.core.entity.CmsUser) obj;
+			com.infotop.core.entity.CmsUser cmsUser = (com.infotop.core.entity.CmsUser) obj;
 			if (null == this.getId() || null == cmsUser.getId()) return false;
 			else return (this.getId().equals(cmsUser.getId()));
 		}

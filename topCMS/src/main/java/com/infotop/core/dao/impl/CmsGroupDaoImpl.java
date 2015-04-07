@@ -1,12 +1,12 @@
-package com.jeecms.core.dao.impl;
+package com.infotop.core.dao.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.core.dao.CmsGroupDao;
-import com.jeecms.core.entity.CmsGroup;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.core.dao.CmsGroupDao;
+import com.infotop.core.entity.CmsGroup;
 
 @Repository
 public class CmsGroupDaoImpl extends HibernateBaseDao<CmsGroup, Integer>

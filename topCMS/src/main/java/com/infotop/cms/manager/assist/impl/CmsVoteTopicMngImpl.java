@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,18 +10,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsVoteTopicDao;
-import com.jeecms.cms.entity.assist.CmsVoteItem;
-import com.jeecms.cms.entity.assist.CmsVoteReply;
-import com.jeecms.cms.entity.assist.CmsVoteSubTopic;
-import com.jeecms.cms.entity.assist.CmsVoteTopic;
-import com.jeecms.cms.manager.assist.CmsVoteRecordMng;
-import com.jeecms.cms.manager.assist.CmsVoteReplyMng;
-import com.jeecms.cms.manager.assist.CmsVoteSubTopicMng;
-import com.jeecms.cms.manager.assist.CmsVoteTopicMng;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.dao.assist.CmsVoteTopicDao;
+import com.infotop.cms.entity.assist.CmsVoteItem;
+import com.infotop.cms.entity.assist.CmsVoteReply;
+import com.infotop.cms.entity.assist.CmsVoteSubTopic;
+import com.infotop.cms.entity.assist.CmsVoteTopic;
+import com.infotop.cms.manager.assist.CmsVoteRecordMng;
+import com.infotop.cms.manager.assist.CmsVoteReplyMng;
+import com.infotop.cms.manager.assist.CmsVoteSubTopicMng;
+import com.infotop.cms.manager.assist.CmsVoteTopicMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsUser;
 
 @Service
 @Transactional

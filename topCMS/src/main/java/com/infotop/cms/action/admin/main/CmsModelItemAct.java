@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
-import static com.jeecms.common.web.Constants.MESSAGE;
+import static com.infotop.common.web.Constants.MESSAGE;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,12 +16,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.main.CmsModel;
-import com.jeecms.cms.entity.main.CmsModelItem;
-import com.jeecms.cms.manager.main.CmsModelItemMng;
-import com.jeecms.cms.manager.main.CmsModelMng;
-import com.jeecms.common.web.springmvc.MessageResolver;
-import com.jeecms.core.web.WebErrors;
+import com.infotop.cms.entity.main.CmsModel;
+import com.infotop.cms.entity.main.CmsModelItem;
+import com.infotop.cms.manager.main.CmsModelItemMng;
+import com.infotop.cms.manager.main.CmsModelMng;
+import com.infotop.common.web.springmvc.MessageResolver;
+import com.infotop.core.web.WebErrors;
 
 @Controller
 public class CmsModelItemAct {

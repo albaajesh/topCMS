@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin;
+package com.infotop.cms.action.admin;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,13 +9,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserExt;
-import com.jeecms.core.manager.CmsUserExtMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserExt;
+import com.infotop.core.manager.CmsUserExtMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 @Controller
 public class PersonalAct {

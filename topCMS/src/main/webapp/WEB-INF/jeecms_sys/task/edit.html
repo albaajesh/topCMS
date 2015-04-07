@@ -50,21 +50,21 @@ function selectTaskType(){
 	$("#attr_channel_id").parent().hide();
 	$("#attr_channel_id").prop("disabled","disabled");
 	if(type==1){
-		$("#jobClass").val("com.jeecms.cms.task.job.IndexStaticJob");
+		$("#jobClass").val("com.infotop.cms.task.job.IndexStaticJob");
 	}else if(type==2){
-		$("#jobClass").val("com.jeecms.cms.task.job.ChannelStaticJob");
+		$("#jobClass").val("com.infotop.cms.task.job.ChannelStaticJob");
 		$("#attr_channel_id").parent().show();
 		$("#attr_channel_id").prop("disabled","");
 	}else if(type==3){
-		$("#jobClass").val("com.jeecms.cms.task.job.ContentStaticJob");
+		$("#jobClass").val("com.infotop.cms.task.job.ContentStaticJob");
 		$("#attr_channel_id").parent().show();
 		$("#attr_channel_id").prop("disabled","");
 	}else if(type==4){
-		$("#jobClass").val("com.jeecms.cms.task.job.AcquisiteJob");
+		$("#jobClass").val("com.infotop.cms.task.job.AcquisiteJob");
 		$("#acqu").show();
 		$("#attr_acqu_id").prop("disabled","");
 	}else if(type==5){
-		$("#jobClass").val("com.jeecms.cms.task.job.DistributeJob");
+		$("#jobClass").val("com.infotop.cms.task.job.DistributeJob");
 		$("#floderTable").show();
 		$("#ftp").show();
 		$("#attr_ftp_id").prop("disabled","");

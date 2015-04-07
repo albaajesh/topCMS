@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -78,7 +78,7 @@ public abstract class BaseCmsTopic  implements Serializable {
 	private java.lang.Boolean recommend;
 
 	// many to one
-	private com.jeecms.cms.entity.main.Channel channel;
+	private com.infotop.cms.entity.main.Channel channel;
 
 
 
@@ -251,7 +251,7 @@ public abstract class BaseCmsTopic  implements Serializable {
 	/**
 	 * Return the value associated with the column: channel_id
 	 */
-	public com.jeecms.cms.entity.main.Channel getChannel () {
+	public com.infotop.cms.entity.main.Channel getChannel () {
 		return channel;
 	}
 
@@ -259,7 +259,7 @@ public abstract class BaseCmsTopic  implements Serializable {
 	 * Set the value related to the column: channel_id
 	 * @param channel the channel_id value
 	 */
-	public void setChannel (com.jeecms.cms.entity.main.Channel channel) {
+	public void setChannel (com.infotop.cms.entity.main.Channel channel) {
 		this.channel = channel;
 	}
 
@@ -267,9 +267,9 @@ public abstract class BaseCmsTopic  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.CmsTopic)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.CmsTopic)) return false;
 		else {
-			com.jeecms.cms.entity.main.CmsTopic cmsTopic = (com.jeecms.cms.entity.main.CmsTopic) obj;
+			com.infotop.cms.entity.main.CmsTopic cmsTopic = (com.infotop.cms.entity.main.CmsTopic) obj;
 			if (null == this.getId() || null == cmsTopic.getId()) return false;
 			else return (this.getId().equals(cmsTopic.getId()));
 		}

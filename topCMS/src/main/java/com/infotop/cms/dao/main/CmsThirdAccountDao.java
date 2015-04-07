@@ -1,8 +1,8 @@
-package com.jeecms.cms.dao.main;
+package com.infotop.cms.dao.main;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.entity.main.CmsThirdAccount;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.entity.main.CmsThirdAccount;
 
 public interface CmsThirdAccountDao {
 	public Pagination getPage(String username,String source,int pageNo, int pageSize);

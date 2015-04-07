@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,14 +16,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.core.entity.CmsGroup;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsGroupMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.web.WebErrors;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.core.entity.CmsGroup;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsGroupMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.web.WebErrors;
 
 @Controller
 public class CmsGroupAct {

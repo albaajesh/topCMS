@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsSiteAccessCount;
+import com.infotop.cms.entity.assist.base.BaseCmsSiteAccessCount;
 
 
 
@@ -25,7 +25,7 @@ public class CmsSiteAccessCount extends BaseCmsSiteAccessCount {
 	 */
 	public CmsSiteAccessCount (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.Integer pageCount,
 		java.lang.Integer visitors,
 		java.util.Date statisticDate) {

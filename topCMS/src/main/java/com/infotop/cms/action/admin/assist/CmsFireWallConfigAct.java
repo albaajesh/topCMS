@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -19,13 +19,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.web.util.CmsUtils;
 
-import com.jeecms.cms.Constants;
+import com.infotop.cms.Constants;
 
 /**
  * @author Tom

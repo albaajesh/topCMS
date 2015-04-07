@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
 import java.io.File;
 import java.io.IOException;
@@ -20,20 +20,20 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.manager.assist.CmsDirectiveTplMng;
-import com.jeecms.cms.manager.assist.CmsResourceMng;
-import com.jeecms.common.util.Zipper;
-import com.jeecms.common.util.Zipper.FileEntry;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.tpl.Tpl;
-import com.jeecms.core.tpl.TplManager;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.Constants;
+import com.infotop.cms.manager.assist.CmsDirectiveTplMng;
+import com.infotop.cms.manager.assist.CmsResourceMng;
+import com.infotop.common.util.Zipper;
+import com.infotop.common.util.Zipper.FileEntry;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.tpl.Tpl;
+import com.infotop.core.tpl.TplManager;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 /**
  * JEECMS模板的Action

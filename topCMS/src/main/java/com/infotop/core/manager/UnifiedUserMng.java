@@ -1,16 +1,16 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 import javax.mail.MessagingException;
 
-import com.jeecms.common.email.EmailSender;
-import com.jeecms.common.email.MessageTemplate;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.security.BadCredentialsException;
-import com.jeecms.common.security.UsernameNotFoundException;
-import com.jeecms.core.entity.UnifiedUser;
+import com.infotop.common.email.EmailSender;
+import com.infotop.common.email.MessageTemplate;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.security.BadCredentialsException;
+import com.infotop.common.security.UsernameNotFoundException;
+import com.infotop.core.entity.UnifiedUser;
 
 public interface UnifiedUserMng {
 	/**

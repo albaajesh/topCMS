@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsSiteAccessStatisticDao;
-import com.jeecms.cms.entity.assist.CmsSiteAccessStatistic;
-import com.jeecms.cms.manager.assist.CmsSiteAccessStatisticMng;
+import com.infotop.cms.dao.assist.CmsSiteAccessStatisticDao;
+import com.infotop.cms.entity.assist.CmsSiteAccessStatistic;
+import com.infotop.cms.manager.assist.CmsSiteAccessStatisticMng;
 
 /**
  * @author Tom

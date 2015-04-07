@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,17 +10,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.manager.assist.CmsResourceMng;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.dao.CmsSiteDao;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsSiteCompany;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsSiteCompanyMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.CmsUserSiteMng;
-import com.jeecms.core.manager.FtpMng;
+import com.infotop.cms.manager.assist.CmsResourceMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.dao.CmsSiteDao;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsSiteCompany;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsSiteCompanyMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.CmsUserSiteMng;
+import com.infotop.core.manager.FtpMng;
 
 @Service
 @Transactional

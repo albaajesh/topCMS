@@ -1,12 +1,12 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 import java.util.Set;
 
-import com.jeecms.cms.entity.assist.CmsVoteSubTopic;
-import com.jeecms.cms.entity.assist.CmsVoteTopic;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.entity.assist.CmsVoteSubTopic;
+import com.infotop.cms.entity.assist.CmsVoteTopic;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsUser;
 
 public interface CmsVoteTopicMng {
 	public Pagination getPage(Integer siteId, int pageNo, int pageSize);

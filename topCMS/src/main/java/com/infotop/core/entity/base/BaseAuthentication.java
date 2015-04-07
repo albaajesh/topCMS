@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -197,9 +197,9 @@ public abstract class BaseAuthentication  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.Authentication)) return false;
+		if (!(obj instanceof com.infotop.core.entity.Authentication)) return false;
 		else {
-			com.jeecms.core.entity.Authentication authentication = (com.jeecms.core.entity.Authentication) obj;
+			com.infotop.core.entity.Authentication authentication = (com.infotop.core.entity.Authentication) obj;
 			if (null == this.getId() || null == authentication.getId()) return false;
 			else return (this.getId().equals(authentication.getId()));
 		}

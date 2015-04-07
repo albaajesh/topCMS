@@ -1,6 +1,6 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
-import com.jeecms.core.entity.base.BaseCmsUserSite;
+import com.infotop.core.entity.base.BaseCmsUserSite;
 
 public class CmsUserSite extends BaseCmsUserSite {
 	private static final long serialVersionUID = 1L;
@@ -22,8 +22,8 @@ public class CmsUserSite extends BaseCmsUserSite {
 	 */
 	public CmsUserSite (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsUser user,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.Byte checkStep,
 		java.lang.Boolean allChannel) {
 

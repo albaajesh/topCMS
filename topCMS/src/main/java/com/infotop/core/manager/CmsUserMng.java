@@ -1,4 +1,4 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import java.io.UnsupportedEncodingException;
 import java.util.List;
@@ -6,12 +6,12 @@ import java.util.Map;
 
 import javax.mail.MessagingException;
 
-import com.jeecms.common.email.EmailSender;
-import com.jeecms.common.email.MessageTemplate;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserExt;
+import com.infotop.common.email.EmailSender;
+import com.infotop.common.email.MessageTemplate;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserExt;
 
 public interface CmsUserMng {
 	public Pagination getPage(String username, String email, Integer siteId,

@@ -1,10 +1,10 @@
-package com.jeecms.cms.dao.main.impl;
+package com.infotop.cms.dao.main.impl;
 
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.main.ContentTxtDao;
-import com.jeecms.cms.entity.main.ContentTxt;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
+import com.infotop.cms.dao.main.ContentTxtDao;
+import com.infotop.cms.entity.main.ContentTxt;
+import com.infotop.common.hibernate3.HibernateBaseDao;
 
 @Repository
 public class ContentTxtDaoImpl extends HibernateBaseDao<ContentTxt, Integer>

@@ -1,4 +1,4 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -10,8 +10,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.service.ContentListenerAbstract;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.service.ContentListenerAbstract;
 
 @Component
 public class ContentLuceneListener extends ContentListenerAbstract {

@@ -1,4 +1,4 @@
-package com.jeecms.core.security;
+package com.infotop.core.security;
 
 
 import javax.servlet.ServletRequest;
@@ -18,18 +18,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.common.security.CaptchaErrorException;
-import com.jeecms.common.security.CaptchaRequiredException;
-import com.jeecms.common.security.DisabledException;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.session.SessionProvider;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.Config.ConfigLogin;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.ConfigMng;
-import com.jeecms.core.manager.UnifiedUserMng;
+import com.infotop.common.security.CaptchaErrorException;
+import com.infotop.common.security.CaptchaRequiredException;
+import com.infotop.common.security.DisabledException;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.session.SessionProvider;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.Config.ConfigLogin;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.ConfigMng;
+import com.infotop.core.manager.UnifiedUserMng;
 import com.octo.captcha.service.image.ImageCaptchaService;
 
 /**

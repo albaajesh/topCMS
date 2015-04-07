@@ -1,8 +1,8 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsKeyword;
+import com.infotop.cms.entity.assist.CmsKeyword;
 
 public interface CmsKeywordMng {
 	public List<CmsKeyword> getListBySiteId(Integer siteId,

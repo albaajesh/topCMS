@@ -1,8 +1,8 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsFriendlinkCtg;
+import com.infotop.cms.entity.assist.CmsFriendlinkCtg;
 
 public interface CmsFriendlinkCtgMng {
 	public List<CmsFriendlinkCtg> getList(Integer siteId);

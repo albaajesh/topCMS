@@ -1,4 +1,4 @@
-package com.jeecms.cms.service;
+package com.infotop.cms.service;
 
 
 import net.sf.ehcache.Ehcache;
@@ -11,8 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.jeecms.cms.entity.main.ContentCount;
-import com.jeecms.cms.manager.main.ContentCountMng;
+import com.infotop.cms.entity.main.ContentCount;
+import com.infotop.cms.manager.main.ContentCountMng;
 
 /**
  * 内容计数器缓存实现

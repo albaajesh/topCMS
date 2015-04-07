@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -39,8 +39,8 @@ public abstract class BaseCmsJobApply  implements Serializable {
 	 */
 	public BaseCmsJobApply (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.main.Content content,
-		com.jeecms.core.entity.CmsUser user,
+		com.infotop.cms.entity.main.Content content,
+		com.infotop.core.entity.CmsUser user,
 		java.util.Date applyTime) {
 
 		this.setId(id);
@@ -63,8 +63,8 @@ public abstract class BaseCmsJobApply  implements Serializable {
 	private java.util.Date applyTime;
 
 	// many to one
-	private com.jeecms.cms.entity.main.Content content;
-	private com.jeecms.core.entity.CmsUser user;
+	private com.infotop.cms.entity.main.Content content;
+	private com.infotop.core.entity.CmsUser user;
 
 
 
@@ -109,7 +109,7 @@ public abstract class BaseCmsJobApply  implements Serializable {
 	/**
 	 * Return the value associated with the column: content_id
 	 */
-	public com.jeecms.cms.entity.main.Content getContent () {
+	public com.infotop.cms.entity.main.Content getContent () {
 		return content;
 	}
 
@@ -117,7 +117,7 @@ public abstract class BaseCmsJobApply  implements Serializable {
 	 * Set the value related to the column: content_id
 	 * @param content the content_id value
 	 */
-	public void setContent (com.jeecms.cms.entity.main.Content content) {
+	public void setContent (com.infotop.cms.entity.main.Content content) {
 		this.content = content;
 	}
 
@@ -125,7 +125,7 @@ public abstract class BaseCmsJobApply  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -133,7 +133,7 @@ public abstract class BaseCmsJobApply  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -141,9 +141,9 @@ public abstract class BaseCmsJobApply  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsJobApply)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsJobApply)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsJobApply cmsJobApply = (com.jeecms.cms.entity.assist.CmsJobApply) obj;
+			com.infotop.cms.entity.assist.CmsJobApply cmsJobApply = (com.infotop.cms.entity.assist.CmsJobApply) obj;
 			if (null == this.getId() || null == cmsJobApply.getId()) return false;
 			else return (this.getId().equals(cmsJobApply.getId()));
 		}

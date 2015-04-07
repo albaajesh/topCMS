@@ -1,8 +1,8 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
-import com.jeecms.core.entity.CmsConfigItem;
+import com.infotop.core.entity.CmsConfigItem;
 
 
 /**
@@ -113,8 +113,8 @@ public abstract class BaseCmsConfig  implements Serializable {
 	private java.lang.Boolean viewOnlyChecked;
 
 	// components
-	 com.jeecms.core.entity.MarkConfig m_markConfig;
-	 com.jeecms.core.entity.EmailConfig m_emailConfig;
+	 com.infotop.core.entity.MarkConfig m_markConfig;
+	 com.infotop.core.entity.EmailConfig m_emailConfig;
 
 	// collections
 	private java.util.Map<java.lang.String, java.lang.String> attr;
@@ -352,7 +352,7 @@ public abstract class BaseCmsConfig  implements Serializable {
 		this.viewOnlyChecked = viewOnlyChecked;
 	}
 	
-	public com.jeecms.core.entity.MarkConfig getMarkConfig () {
+	public com.infotop.core.entity.MarkConfig getMarkConfig () {
 		return m_markConfig;
 	}
 
@@ -360,12 +360,12 @@ public abstract class BaseCmsConfig  implements Serializable {
 	 * Set the value related to the column: ${prop.Column}
 	 * @param m_markConfig the ${prop.Column} value
 	 */
-	public void setMarkConfig (com.jeecms.core.entity.MarkConfig m_markConfig) {
+	public void setMarkConfig (com.infotop.core.entity.MarkConfig m_markConfig) {
 		this.m_markConfig = m_markConfig;
 	}
 
 
-	public com.jeecms.core.entity.EmailConfig getEmailConfig () {
+	public com.infotop.core.entity.EmailConfig getEmailConfig () {
 		return m_emailConfig;
 	}
 
@@ -373,7 +373,7 @@ public abstract class BaseCmsConfig  implements Serializable {
 	 * Set the value related to the column: ${prop.Column}
 	 * @param m_emailConfig the ${prop.Column} value
 	 */
-	public void setEmailConfig (com.jeecms.core.entity.EmailConfig m_emailConfig) {
+	public void setEmailConfig (com.infotop.core.entity.EmailConfig m_emailConfig) {
 		this.m_emailConfig = m_emailConfig;
 	}
 
@@ -403,9 +403,9 @@ public abstract class BaseCmsConfig  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.CmsConfig)) return false;
+		if (!(obj instanceof com.infotop.core.entity.CmsConfig)) return false;
 		else {
-			com.jeecms.core.entity.CmsConfig cmsConfig = (com.jeecms.core.entity.CmsConfig) obj;
+			com.infotop.core.entity.CmsConfig cmsConfig = (com.infotop.core.entity.CmsConfig) obj;
 			if (null == this.getId() || null == cmsConfig.getId()) return false;
 			else return (this.getId().equals(cmsConfig.getId()));
 		}

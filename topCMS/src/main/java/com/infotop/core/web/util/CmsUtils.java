@@ -1,9 +1,9 @@
-package com.jeecms.core.web.util;
+package com.infotop.core.web.util;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
 
 /**
  * 提供一些CMS系统中使用到的共用方法

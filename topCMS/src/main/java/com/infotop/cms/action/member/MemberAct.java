@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.member;
+package com.infotop.cms.action.member;
 
-import static com.jeecms.cms.Constants.TPLDIR_MEMBER;
+import static com.infotop.cms.Constants.TPLDIR_MEMBER;
 
 import java.io.IOException;
 
@@ -15,16 +15,16 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserExt;
-import com.jeecms.core.entity.MemberConfig;
-import com.jeecms.core.manager.CmsUserExtMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserExt;
+import com.infotop.core.entity.MemberConfig;
+import com.infotop.core.manager.CmsUserExtMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 /**
  * 会员中心Action

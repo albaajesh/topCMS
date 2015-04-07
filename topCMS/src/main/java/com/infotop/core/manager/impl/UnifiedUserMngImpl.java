@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.io.UnsupportedEncodingException;
 import java.sql.Timestamp;
@@ -18,18 +18,18 @@ import org.springframework.mail.javamail.MimeMessagePreparator;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.email.EmailSendTool;
-import com.jeecms.common.email.EmailSender;
-import com.jeecms.common.email.MessageTemplate;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.security.BadCredentialsException;
-import com.jeecms.common.security.UsernameNotFoundException;
-import com.jeecms.common.security.encoder.PwdEncoder;
-import com.jeecms.core.dao.UnifiedUserDao;
-import com.jeecms.core.entity.UnifiedUser;
-import com.jeecms.core.entity.Config.ConfigLogin;
-import com.jeecms.core.manager.ConfigMng;
-import com.jeecms.core.manager.UnifiedUserMng;
+import com.infotop.common.email.EmailSendTool;
+import com.infotop.common.email.EmailSender;
+import com.infotop.common.email.MessageTemplate;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.security.BadCredentialsException;
+import com.infotop.common.security.UsernameNotFoundException;
+import com.infotop.common.security.encoder.PwdEncoder;
+import com.infotop.core.dao.UnifiedUserDao;
+import com.infotop.core.entity.UnifiedUser;
+import com.infotop.core.entity.Config.ConfigLogin;
+import com.infotop.core.manager.ConfigMng;
+import com.infotop.core.manager.UnifiedUserMng;
 
 @Service
 @Transactional

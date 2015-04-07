@@ -1,7 +1,7 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.entity.assist.CmsJobApply;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsJobApply;
 
 public interface CmsJobApplyMng {
 	public Pagination getPage(Integer userId,Integer contentId,Integer siteId,boolean cacheable,int pageNo, int pageSize);

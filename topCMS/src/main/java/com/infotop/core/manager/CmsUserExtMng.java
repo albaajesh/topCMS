@@ -1,7 +1,7 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserExt;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserExt;
 
 public interface CmsUserExtMng {
 	public CmsUserExt save(CmsUserExt ext, CmsUser user);

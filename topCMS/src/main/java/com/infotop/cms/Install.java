@@ -1,6 +1,6 @@
-package com.jeecms.cms;
+package com.infotop.cms;
 
-import static com.jeecms.common.web.Constants.UTF8;
+import static com.infotop.common.web.Constants.UTF8;
 
 import java.io.BufferedReader;
 import java.io.File;

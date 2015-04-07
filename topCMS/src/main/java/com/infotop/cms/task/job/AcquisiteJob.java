@@ -1,4 +1,4 @@
-package com.jeecms.cms.task.job;
+package com.infotop.cms.task.job;
 import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
@@ -9,8 +9,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
-import com.jeecms.cms.entity.assist.CmsTask;
-import com.jeecms.cms.service.AcquisitionSvc;
+import com.infotop.cms.entity.assist.CmsTask;
+import com.infotop.cms.service.AcquisitionSvc;
 /**
  * @Description 采集job类
 * @author tom

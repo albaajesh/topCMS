@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsSiteAccess;
+import com.infotop.cms.entity.assist.base.BaseCmsSiteAccess;
 
 
 
@@ -32,7 +32,7 @@ public class CmsSiteAccess extends BaseCmsSiteAccess {
 	 */
 	public CmsSiteAccess (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String sessionId,
 		java.util.Date accessTime,
 		java.util.Date accessDate) {

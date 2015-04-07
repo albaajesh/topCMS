@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.admin.main;
+package com.infotop.cms.action.admin.main;
 
 import java.util.List;
 
@@ -12,10 +12,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.main.CmsModel;
-import com.jeecms.cms.manager.main.CmsModelMng;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.web.WebErrors;
+import com.infotop.cms.entity.main.CmsModel;
+import com.infotop.cms.manager.main.CmsModelMng;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.web.WebErrors;
 
 @Controller
 public class CmsModelAct {

@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -139,9 +139,9 @@ public abstract class BaseCmsThirdAccount  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.CmsThirdAccount)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.CmsThirdAccount)) return false;
 		else {
-			com.jeecms.cms.entity.main.CmsThirdAccount cmsThirdAccount = (com.jeecms.cms.entity.main.CmsThirdAccount) obj;
+			com.infotop.cms.entity.main.CmsThirdAccount cmsThirdAccount = (com.infotop.cms.entity.main.CmsThirdAccount) obj;
 			if (null == this.getId() || null == cmsThirdAccount.getId()) return false;
 			else return (this.getId().equals(cmsThirdAccount.getId()));
 		}

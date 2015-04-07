@@ -1,6 +1,6 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
-import com.jeecms.core.entity.base.BaseCmsLog;
+import com.infotop.core.entity.base.BaseCmsLog;
 
 public class CmsLog extends BaseCmsLog {
 	private static final long serialVersionUID = 1L;

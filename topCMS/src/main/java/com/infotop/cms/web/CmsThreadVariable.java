@@ -1,7 +1,7 @@
-package com.jeecms.cms.web;
+package com.infotop.cms.web;
 
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
 
 /**
  * CMS线程变量

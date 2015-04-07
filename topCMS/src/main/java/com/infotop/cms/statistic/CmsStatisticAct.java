@@ -1,4 +1,4 @@
-package com.jeecms.cms.statistic;
+package com.infotop.cms.statistic;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -20,36 +20,36 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.manager.assist.CmsSiteAccessCountMng;
-import com.jeecms.cms.manager.assist.CmsSiteAccessMng;
-import com.jeecms.cms.manager.assist.CmsSiteAccessPagesMng;
-import com.jeecms.cms.manager.assist.CmsSiteAccessStatisticMng;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.statistic.CmsStatistic.CmsStatisticModel;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.util.DateFormatUtils;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.springmvc.MessageResolver;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.manager.assist.CmsSiteAccessCountMng;
+import com.infotop.cms.manager.assist.CmsSiteAccessMng;
+import com.infotop.cms.manager.assist.CmsSiteAccessPagesMng;
+import com.infotop.cms.manager.assist.CmsSiteAccessStatisticMng;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.statistic.CmsStatistic.CmsStatisticModel;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.util.DateFormatUtils;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.springmvc.MessageResolver;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.web.util.CmsUtils;
 
-import static com.jeecms.cms.statistic.CmsStatistic.MEMBER;
-import static com.jeecms.cms.statistic.CmsStatistic.CONTENT;
-import static com.jeecms.cms.statistic.CmsStatistic.COMMENT;
-import static com.jeecms.cms.statistic.CmsStatistic.GUESTBOOK;
-import static com.jeecms.cms.statistic.CmsStatistic.SITEID;
-import static com.jeecms.cms.statistic.CmsStatistic.ISREPLYED;
-import static com.jeecms.cms.statistic.CmsStatistic.USERID;
-import static com.jeecms.cms.statistic.CmsStatistic.CHANNELID;
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.cms.statistic.CmsStatistic.MEMBER;
+import static com.infotop.cms.statistic.CmsStatistic.CONTENT;
+import static com.infotop.cms.statistic.CmsStatistic.COMMENT;
+import static com.infotop.cms.statistic.CmsStatistic.GUESTBOOK;
+import static com.infotop.cms.statistic.CmsStatistic.SITEID;
+import static com.infotop.cms.statistic.CmsStatistic.ISREPLYED;
+import static com.infotop.cms.statistic.CmsStatistic.USERID;
+import static com.infotop.cms.statistic.CmsStatistic.CHANNELID;
+import static com.infotop.common.page.SimplePage.cpn;
 
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ALL;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ALL;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
 
 @Controller
 public class CmsStatisticAct {

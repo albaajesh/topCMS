@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.main.impl;
+package com.infotop.cms.manager.main.impl;
 
 import java.util.List;
 
@@ -6,14 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.main.CmsTopicDao;
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.CmsTopic;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.CmsTopicMng;
-import com.jeecms.cms.service.ChannelDeleteChecker;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.dao.main.CmsTopicDao;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.CmsTopic;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.CmsTopicMng;
+import com.infotop.cms.service.ChannelDeleteChecker;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
 
 @Service
 @Transactional

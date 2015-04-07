@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsFriendlinkCtg;
+import com.infotop.cms.entity.assist.base.BaseCmsFriendlinkCtg;
 
 
 
@@ -24,7 +24,7 @@ public class CmsFriendlinkCtg extends BaseCmsFriendlinkCtg {
 	 */
 	public CmsFriendlinkCtg (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String name,
 		java.lang.Integer priority) {
 

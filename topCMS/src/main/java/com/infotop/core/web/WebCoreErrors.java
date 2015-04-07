@@ -1,4 +1,4 @@
-package com.jeecms.core.web;
+package com.infotop.core.web;
 
 import java.util.Locale;
 
@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.context.MessageSource;
 
-public class WebCoreErrors extends com.jeecms.common.web.springmvc.WebErrors {
+public class WebCoreErrors extends com.infotop.common.web.springmvc.WebErrors {
 	/**
 	 * 默认错误页面
 	 */

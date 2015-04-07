@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
-import com.jeecms.cms.entity.main.base.BaseContentType;
+import com.infotop.cms.entity.main.base.BaseContentType;
 
 public class ContentType extends BaseContentType {
 	private static final long serialVersionUID = 1L;

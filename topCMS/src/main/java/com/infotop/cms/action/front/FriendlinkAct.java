@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,8 +9,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.manager.assist.CmsFriendlinkMng;
-import com.jeecms.common.web.ResponseUtils;
+import com.infotop.cms.manager.assist.CmsFriendlinkMng;
+import com.infotop.common.web.ResponseUtils;
 
 /**
  * 友情链接点击次数Action

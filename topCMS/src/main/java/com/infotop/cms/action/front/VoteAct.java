@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
-import static com.jeecms.cms.Constants.TPLDIR_SPECIAL;
+import static com.infotop.cms.Constants.TPLDIR_SPECIAL;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -20,23 +20,23 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.assist.CmsVoteItem;
-import com.jeecms.cms.entity.assist.CmsVoteSubTopic;
-import com.jeecms.cms.entity.assist.CmsVoteTopic;
-import com.jeecms.cms.manager.assist.CmsVoteRecordMng;
-import com.jeecms.cms.manager.assist.CmsVoteReplyMng;
-import com.jeecms.cms.manager.assist.CmsVoteSubTopicMng;
-import com.jeecms.cms.manager.assist.CmsVoteTopicMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.assist.CmsVoteItem;
+import com.infotop.cms.entity.assist.CmsVoteSubTopic;
+import com.infotop.cms.entity.assist.CmsVoteTopic;
+import com.infotop.cms.manager.assist.CmsVoteRecordMng;
+import com.infotop.cms.manager.assist.CmsVoteReplyMng;
+import com.infotop.cms.manager.assist.CmsVoteSubTopicMng;
+import com.infotop.cms.manager.assist.CmsVoteTopicMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 @Controller
 public class VoteAct {
@@ -171,7 +171,7 @@ public class VoteAct {
 	
 	private Integer[] getSubItemIdsParam(HttpServletRequest request,Integer subId){
 		String[] paramValues=request.getParameterValues("itemIds"+subId);
-		return com.jeecms.common.util.ArrayUtils.convertStrArrayToInt(paramValues);
+		return com.infotop.common.util.ArrayUtils.convertStrArrayToInt(paramValues);
 	}
 	
 

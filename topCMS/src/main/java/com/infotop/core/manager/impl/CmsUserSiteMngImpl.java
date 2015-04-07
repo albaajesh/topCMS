@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -8,13 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.dao.CmsUserSiteDao;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserSite;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserSiteMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.dao.CmsUserSiteDao;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserSite;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserSiteMng;
 
 @Service
 @Transactional

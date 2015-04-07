@@ -1,12 +1,12 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.assist.CmsVoteRecordDao;
-import com.jeecms.cms.entity.assist.CmsVoteRecord;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
+import com.infotop.cms.dao.assist.CmsVoteRecordDao;
+import com.infotop.cms.entity.assist.CmsVoteRecord;
+import com.infotop.common.hibernate3.HibernateBaseDao;
 
 @Repository
 public class CmsVoteRecordDaoImpl extends

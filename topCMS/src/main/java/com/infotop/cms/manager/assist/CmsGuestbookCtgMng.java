@@ -1,8 +1,8 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsGuestbookCtg;
+import com.infotop.cms.entity.assist.CmsGuestbookCtg;
 
 public interface CmsGuestbookCtgMng {
 	public List<CmsGuestbookCtg> getList(Integer siteId);

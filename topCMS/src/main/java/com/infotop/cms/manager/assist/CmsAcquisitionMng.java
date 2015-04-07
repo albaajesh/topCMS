@@ -1,13 +1,13 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.Date;
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsAcquisition;
-import com.jeecms.cms.entity.assist.CmsAcquisitionHistory;
-import com.jeecms.cms.entity.assist.CmsAcquisitionTemp;
-import com.jeecms.cms.entity.assist.CmsAcquisition.AcquisitionResultType;
-import com.jeecms.cms.entity.main.Content;
+import com.infotop.cms.entity.assist.CmsAcquisition;
+import com.infotop.cms.entity.assist.CmsAcquisitionHistory;
+import com.infotop.cms.entity.assist.CmsAcquisitionTemp;
+import com.infotop.cms.entity.assist.CmsAcquisition.AcquisitionResultType;
+import com.infotop.cms.entity.main.Content;
 
 public interface CmsAcquisitionMng {
 	public List<CmsAcquisition> getList(Integer siteId);

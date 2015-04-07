@@ -1,10 +1,10 @@
-package com.jeecms.core.manager;
+package com.infotop.core.manager;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsLog;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsLog;
+import com.infotop.core.entity.CmsUser;
 
 public interface CmsLogMng {
 	public Pagination getPage(Integer category, Integer siteId,

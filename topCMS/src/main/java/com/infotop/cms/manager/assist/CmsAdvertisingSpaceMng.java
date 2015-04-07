@@ -1,8 +1,8 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.assist.CmsAdvertisingSpace;
+import com.infotop.cms.entity.assist.CmsAdvertisingSpace;
 
 public interface CmsAdvertisingSpaceMng {
 	public List<CmsAdvertisingSpace> getList(Integer siteId);

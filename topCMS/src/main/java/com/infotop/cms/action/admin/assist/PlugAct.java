@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.admin.assist;
+package com.infotop.cms.action.admin.assist;
 
-import static com.jeecms.common.page.SimplePage.cpn;
+import static com.infotop.common.page.SimplePage.cpn;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -28,21 +28,21 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.entity.assist.CmsPlug;
-import com.jeecms.cms.manager.assist.CmsPlugMng;
-import com.jeecms.cms.manager.assist.CmsResourceMng;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.common.upload.FileRepository;
-import com.jeecms.common.web.CookieUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.manager.CmsLogMng;
-import com.jeecms.core.tpl.TplManager;
-import com.jeecms.core.web.WebErrors;
-import com.jeecms.core.web.util.CmsUtils;
+import com.infotop.cms.Constants;
+import com.infotop.cms.entity.assist.CmsPlug;
+import com.infotop.cms.manager.assist.CmsPlugMng;
+import com.infotop.cms.manager.assist.CmsResourceMng;
+import com.infotop.common.page.Pagination;
+import com.infotop.common.upload.FileRepository;
+import com.infotop.common.web.CookieUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.manager.CmsLogMng;
+import com.infotop.core.tpl.TplManager;
+import com.infotop.core.web.WebErrors;
+import com.infotop.core.web.util.CmsUtils;
 
 /**
  * @author Tom

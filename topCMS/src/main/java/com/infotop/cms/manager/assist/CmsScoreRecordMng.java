@@ -1,9 +1,9 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.Map;
 
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.entity.assist.CmsScoreRecord;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.entity.assist.CmsScoreRecord;
 
 public interface CmsScoreRecordMng {
 	public Pagination getPage(int pageNo, int pageSize);

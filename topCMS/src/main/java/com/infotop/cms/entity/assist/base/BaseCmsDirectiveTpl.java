@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -40,7 +40,7 @@ public abstract class BaseCmsDirectiveTpl  implements Serializable {
 	 */
 	public BaseCmsDirectiveTpl (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsUser user,
+		com.infotop.core.entity.CmsUser user,
 		java.lang.String name) {
 
 		this.setId(id);
@@ -64,7 +64,7 @@ public abstract class BaseCmsDirectiveTpl  implements Serializable {
 	private java.lang.String code;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser user;
+	private com.infotop.core.entity.CmsUser user;
 
 
 
@@ -141,7 +141,7 @@ public abstract class BaseCmsDirectiveTpl  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -149,7 +149,7 @@ public abstract class BaseCmsDirectiveTpl  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -157,9 +157,9 @@ public abstract class BaseCmsDirectiveTpl  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsDirectiveTpl)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsDirectiveTpl)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsDirectiveTpl cmsDirectiveTpl = (com.jeecms.cms.entity.assist.CmsDirectiveTpl) obj;
+			com.infotop.cms.entity.assist.CmsDirectiveTpl cmsDirectiveTpl = (com.infotop.cms.entity.assist.CmsDirectiveTpl) obj;
 			if (null == this.getId() || null == cmsDirectiveTpl.getId()) return false;
 			else return (this.getId().equals(cmsDirectiveTpl.getId()));
 		}

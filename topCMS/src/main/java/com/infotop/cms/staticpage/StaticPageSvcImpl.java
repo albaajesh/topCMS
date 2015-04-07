@@ -1,6 +1,6 @@
-package com.jeecms.cms.staticpage;
+package com.infotop.cms.staticpage;
 
-import static com.jeecms.common.web.Constants.UTF8;
+import static com.infotop.common.web.Constants.UTF8;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -22,12 +22,12 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.Assert;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.common.web.Constants;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.common.web.Constants;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.FrontUtils;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

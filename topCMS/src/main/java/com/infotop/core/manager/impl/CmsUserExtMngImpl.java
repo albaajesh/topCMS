@@ -1,14 +1,14 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.dao.CmsUserExtDao;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserExt;
-import com.jeecms.core.manager.CmsUserExtMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.dao.CmsUserExtDao;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserExt;
+import com.infotop.core.manager.CmsUserExtMng;
 
 @Service
 @Transactional

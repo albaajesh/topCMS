@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.util.Date;
 
@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.core.dao.CmsConfigDao;
-import com.jeecms.core.entity.CmsConfig;
-import com.jeecms.core.entity.CmsConfigAttr;
-import com.jeecms.core.entity.MarkConfig;
-import com.jeecms.core.entity.MemberConfig;
-import com.jeecms.core.manager.CmsConfigMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.core.dao.CmsConfigDao;
+import com.infotop.core.entity.CmsConfig;
+import com.infotop.core.entity.CmsConfigAttr;
+import com.infotop.core.entity.MarkConfig;
+import com.infotop.core.entity.MemberConfig;
+import com.infotop.core.manager.CmsConfigMng;
 
 @Service
 @Transactional

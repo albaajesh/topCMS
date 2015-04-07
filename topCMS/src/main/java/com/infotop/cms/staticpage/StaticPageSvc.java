@@ -1,12 +1,12 @@
-package com.jeecms.cms.staticpage;
+package com.infotop.cms.staticpage;
 
 import java.io.IOException;
 import java.util.Date;
 import java.util.Map;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.core.entity.CmsSite;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.core.entity.CmsSite;
 
 import freemarker.template.TemplateException;
 

@@ -1,4 +1,4 @@
-package com.jeecms.core.manager.impl;
+package com.infotop.core.manager.impl;
 
 import java.io.UnsupportedEncodingException;
 import java.sql.Timestamp;
@@ -15,26 +15,26 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.ContentMng;
-import com.jeecms.common.email.EmailSender;
-import com.jeecms.common.email.MessageTemplate;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.dao.CmsUserDao;
-import com.jeecms.core.entity.CmsGroup;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserExt;
-import com.jeecms.core.entity.UnifiedUser;
-import com.jeecms.core.manager.CmsGroupMng;
-import com.jeecms.core.manager.CmsRoleMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserExtMng;
-import com.jeecms.core.manager.CmsUserMng;
-import com.jeecms.core.manager.CmsUserSiteMng;
-import com.jeecms.core.manager.UnifiedUserMng;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.ContentMng;
+import com.infotop.common.email.EmailSender;
+import com.infotop.common.email.MessageTemplate;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.dao.CmsUserDao;
+import com.infotop.core.entity.CmsGroup;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserExt;
+import com.infotop.core.entity.UnifiedUser;
+import com.infotop.core.manager.CmsGroupMng;
+import com.infotop.core.manager.CmsRoleMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserExtMng;
+import com.infotop.core.manager.CmsUserMng;
+import com.infotop.core.manager.CmsUserSiteMng;
+import com.infotop.core.manager.UnifiedUserMng;
 
 @Service
 @Transactional

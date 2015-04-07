@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
-import com.jeecms.cms.entity.main.base.BaseContentTag;
+import com.infotop.cms.entity.main.base.BaseContentTag;
 
 public class ContentTag extends BaseContentTag {
 	private static final long serialVersionUID = 1L;

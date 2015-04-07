@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -7,11 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.assist.CmsVoteRecordDao;
-import com.jeecms.cms.entity.assist.CmsVoteRecord;
-import com.jeecms.cms.entity.assist.CmsVoteTopic;
-import com.jeecms.cms.manager.assist.CmsVoteRecordMng;
-import com.jeecms.core.entity.CmsUser;
+import com.infotop.cms.dao.assist.CmsVoteRecordDao;
+import com.infotop.cms.entity.assist.CmsVoteRecord;
+import com.infotop.cms.entity.assist.CmsVoteTopic;
+import com.infotop.cms.manager.assist.CmsVoteRecordMng;
+import com.infotop.core.entity.CmsUser;
 
 @Service
 @Transactional

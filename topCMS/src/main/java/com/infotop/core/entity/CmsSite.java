@@ -1,18 +1,18 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
-import static com.jeecms.cms.Constants.RES_PATH;
-import static com.jeecms.cms.Constants.TPL_BASE;
-import static com.jeecms.cms.Constants.TPLDIR_INDEX;
-import static com.jeecms.cms.Constants.TPL_SUFFIX;
-import static com.jeecms.cms.Constants.UPLOAD_PATH;
-import static com.jeecms.cms.Constants.LIBRARY_PATH;
-import static com.jeecms.common.web.Constants.INDEX;
-import static com.jeecms.common.web.Constants.SPT;
+import static com.infotop.cms.Constants.RES_PATH;
+import static com.infotop.cms.Constants.TPL_BASE;
+import static com.infotop.cms.Constants.TPLDIR_INDEX;
+import static com.infotop.cms.Constants.TPL_SUFFIX;
+import static com.infotop.cms.Constants.UPLOAD_PATH;
+import static com.infotop.cms.Constants.LIBRARY_PATH;
+import static com.infotop.common.web.Constants.INDEX;
+import static com.infotop.common.web.Constants.SPT;
 
 import java.util.Collection;
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.core.entity.base.BaseCmsSite;
+import com.infotop.core.entity.base.BaseCmsSite;
 
 public class CmsSite extends BaseCmsSite {
 	private static final long serialVersionUID = 1L;
@@ -348,7 +348,7 @@ public class CmsSite extends BaseCmsSite {
 	 */
 	public CmsSite (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsConfig config,
+		com.infotop.core.entity.CmsConfig config,
 		java.lang.String domain,
 		java.lang.String path,
 		java.lang.String name,

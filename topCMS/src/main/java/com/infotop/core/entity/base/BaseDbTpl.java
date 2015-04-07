@@ -1,4 +1,4 @@
-package com.jeecms.core.entity.base;
+package com.infotop.core.entity.base;
 
 import java.io.Serializable;
 
@@ -137,9 +137,9 @@ public abstract class BaseDbTpl  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.core.entity.DbTpl)) return false;
+		if (!(obj instanceof com.infotop.core.entity.DbTpl)) return false;
 		else {
-			com.jeecms.core.entity.DbTpl dbTpl = (com.jeecms.core.entity.DbTpl) obj;
+			com.infotop.core.entity.DbTpl dbTpl = (com.infotop.core.entity.DbTpl) obj;
 			if (null == this.getId() || null == dbTpl.getId()) return false;
 			else return (this.getId().equals(dbTpl.getId()));
 		}

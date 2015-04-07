@@ -1,12 +1,12 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 
-import com.jeecms.cms.entity.assist.CmsVoteItem;
-import com.jeecms.cms.entity.assist.CmsVoteSubTopic;
-import com.jeecms.cms.entity.assist.CmsVoteTopic;
+import com.infotop.cms.entity.assist.CmsVoteItem;
+import com.infotop.cms.entity.assist.CmsVoteSubTopic;
+import com.infotop.cms.entity.assist.CmsVoteTopic;
 
 public interface CmsVoteSubTopicMng {
 

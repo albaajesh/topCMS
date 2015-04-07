@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.main.impl;
+package com.infotop.cms.manager.main.impl;
 
 import java.util.List;
 import java.util.Map;
@@ -7,26 +7,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.cms.dao.main.ChannelDao;
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ChannelCount;
-import com.jeecms.cms.entity.main.ChannelExt;
-import com.jeecms.cms.entity.main.ChannelTxt;
-import com.jeecms.cms.entity.main.CmsModel;
-import com.jeecms.cms.manager.main.ChannelCountMng;
-import com.jeecms.cms.manager.main.ChannelExtMng;
-import com.jeecms.cms.manager.main.ChannelMng;
-import com.jeecms.cms.manager.main.ChannelTxtMng;
-import com.jeecms.cms.manager.main.CmsModelMng;
-import com.jeecms.cms.service.ChannelDeleteChecker;
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsGroup;
-import com.jeecms.core.entity.CmsUser;
-import com.jeecms.core.entity.CmsUserSite;
-import com.jeecms.core.manager.CmsGroupMng;
-import com.jeecms.core.manager.CmsSiteMng;
-import com.jeecms.core.manager.CmsUserMng;
+import com.infotop.cms.dao.main.ChannelDao;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ChannelCount;
+import com.infotop.cms.entity.main.ChannelExt;
+import com.infotop.cms.entity.main.ChannelTxt;
+import com.infotop.cms.entity.main.CmsModel;
+import com.infotop.cms.manager.main.ChannelCountMng;
+import com.infotop.cms.manager.main.ChannelExtMng;
+import com.infotop.cms.manager.main.ChannelMng;
+import com.infotop.cms.manager.main.ChannelTxtMng;
+import com.infotop.cms.manager.main.CmsModelMng;
+import com.infotop.cms.service.ChannelDeleteChecker;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsGroup;
+import com.infotop.core.entity.CmsUser;
+import com.infotop.core.entity.CmsUserSite;
+import com.infotop.core.manager.CmsGroupMng;
+import com.infotop.core.manager.CmsSiteMng;
+import com.infotop.core.manager.CmsUserMng;
 
 @Service
 @Transactional

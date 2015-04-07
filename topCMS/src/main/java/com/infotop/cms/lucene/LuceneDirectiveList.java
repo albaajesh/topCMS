@@ -1,10 +1,10 @@
-package com.jeecms.cms.lucene;
+package com.infotop.cms.lucene;
 
-import static com.jeecms.cms.Constants.TPL_STYLE_LIST;
-import static com.jeecms.cms.Constants.TPL_SUFFIX;
-import static com.jeecms.common.web.Constants.UTF8;
-import static com.jeecms.common.web.freemarker.DirectiveUtils.OUT_LIST;
-import static com.jeecms.core.web.util.FrontUtils.PARAM_STYLE_LIST;
+import static com.infotop.cms.Constants.TPL_STYLE_LIST;
+import static com.infotop.cms.Constants.TPL_SUFFIX;
+import static com.infotop.common.web.Constants.UTF8;
+import static com.infotop.common.web.freemarker.DirectiveUtils.OUT_LIST;
+import static com.infotop.core.web.util.FrontUtils.PARAM_STYLE_LIST;
 import static freemarker.template.ObjectWrapper.DEFAULT_WRAPPER;
 
 import java.io.IOException;
@@ -17,14 +17,14 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.lucene.queryParser.ParseException;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.jeecms.cms.Constants;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.common.web.freemarker.DirectiveUtils;
-import com.jeecms.common.web.freemarker.ParamsRequiredException;
-import com.jeecms.common.web.freemarker.DirectiveUtils.InvokeType;
-import com.jeecms.common.web.springmvc.RealPathResolver;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.Constants;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.common.web.freemarker.DirectiveUtils;
+import com.infotop.common.web.freemarker.ParamsRequiredException;
+import com.infotop.common.web.freemarker.DirectiveUtils.InvokeType;
+import com.infotop.common.web.springmvc.RealPathResolver;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.FrontUtils;
 
 import freemarker.core.Environment;
 import freemarker.template.TemplateDirectiveBody;

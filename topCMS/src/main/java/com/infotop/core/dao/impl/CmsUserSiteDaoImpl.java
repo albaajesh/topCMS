@@ -1,10 +1,10 @@
-package com.jeecms.core.dao.impl;
+package com.infotop.core.dao.impl;
 
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import com.jeecms.core.dao.CmsUserSiteDao;
-import com.jeecms.core.entity.CmsUserSite;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import com.infotop.core.dao.CmsUserSiteDao;
+import com.infotop.core.entity.CmsUserSite;
 
 @Repository
 public class CmsUserSiteDaoImpl extends HibernateBaseDao<CmsUserSite, Integer>

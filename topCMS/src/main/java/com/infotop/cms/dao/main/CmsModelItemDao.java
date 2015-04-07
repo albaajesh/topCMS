@@ -1,9 +1,9 @@
-package com.jeecms.cms.dao.main;
+package com.infotop.cms.dao.main;
 
 import java.util.List;
 
-import com.jeecms.cms.entity.main.CmsModelItem;
-import com.jeecms.common.hibernate3.Updater;
+import com.infotop.cms.entity.main.CmsModelItem;
+import com.infotop.common.hibernate3.Updater;
 
 public interface CmsModelItemDao {
 	public List<CmsModelItem> getList(Integer modelId, boolean isChannel,

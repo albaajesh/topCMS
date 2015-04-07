@@ -1,4 +1,4 @@
-package com.jeecms.core.web;
+package com.infotop.core.web;
 
 import java.io.Serializable;
 import java.util.Locale;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.context.MessageSource;
 
-public class WebErrors extends com.jeecms.core.web.WebCoreErrors {
+public class WebErrors extends com.infotop.core.web.WebCoreErrors {
 
 	/**
 	 * 通过HttpServletRequest创建WebErrors

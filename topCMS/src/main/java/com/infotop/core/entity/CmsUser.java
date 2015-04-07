@@ -1,4 +1,4 @@
-package com.jeecms.core.entity;
+package com.infotop.core.entity;
 
 import java.util.Calendar;
 import java.util.Collection;
@@ -7,12 +7,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 
-import com.jeecms.cms.entity.assist.CmsJobApply;
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.common.hibernate3.PriorityInterface;
-import com.jeecms.common.util.DateUtils;
-import com.jeecms.core.entity.base.BaseCmsUser;
+import com.infotop.cms.entity.assist.CmsJobApply;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.common.hibernate3.PriorityInterface;
+import com.infotop.common.util.DateUtils;
+import com.infotop.core.entity.base.BaseCmsUser;
 
 public class CmsUser extends BaseCmsUser implements PriorityInterface {
 	private static final long serialVersionUID = 1L;
@@ -462,7 +462,7 @@ public class CmsUser extends BaseCmsUser implements PriorityInterface {
 	 * Constructor for required fields
 	 */
 	public CmsUser(java.lang.Integer id,
-			com.jeecms.core.entity.CmsGroup group,
+			com.infotop.core.entity.CmsGroup group,
 			java.lang.String username, java.util.Date registerTime,
 			java.lang.String registerIp, java.lang.Integer loginCount,
 			java.lang.Integer rank, java.lang.Long uploadTotal,

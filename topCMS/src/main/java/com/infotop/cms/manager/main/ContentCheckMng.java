@@ -1,7 +1,7 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.entity.main.ContentCheck;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.entity.main.ContentCheck;
 
 /**
  * 内容审核Manager接口

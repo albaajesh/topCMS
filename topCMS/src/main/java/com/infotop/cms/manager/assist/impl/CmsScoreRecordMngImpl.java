@@ -1,4 +1,4 @@
-package com.jeecms.cms.manager.assist.impl;
+package com.infotop.cms.manager.assist.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -8,15 +8,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.cms.dao.assist.CmsScoreRecordDao;
-import com.jeecms.cms.entity.assist.CmsScoreItem;
-import com.jeecms.cms.entity.assist.CmsScoreRecord;
-import com.jeecms.cms.entity.main.Content;
-import com.jeecms.cms.manager.assist.CmsScoreItemMng;
-import com.jeecms.cms.manager.assist.CmsScoreRecordMng;
-import com.jeecms.cms.manager.main.ContentMng;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.cms.dao.assist.CmsScoreRecordDao;
+import com.infotop.cms.entity.assist.CmsScoreItem;
+import com.infotop.cms.entity.assist.CmsScoreRecord;
+import com.infotop.cms.entity.main.Content;
+import com.infotop.cms.manager.assist.CmsScoreItemMng;
+import com.infotop.cms.manager.assist.CmsScoreRecordMng;
+import com.infotop.cms.manager.main.ContentMng;
 
 @Service
 @Transactional

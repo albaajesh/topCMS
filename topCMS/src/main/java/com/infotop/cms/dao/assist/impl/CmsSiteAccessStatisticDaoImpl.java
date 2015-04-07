@@ -1,4 +1,4 @@
-package com.jeecms.cms.dao.assist.impl;
+package com.infotop.cms.dao.assist.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -6,20 +6,20 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.assist.CmsSiteAccessStatisticDao;
-import com.jeecms.cms.entity.assist.CmsSiteAccessStatistic;
-import com.jeecms.common.hibernate3.Finder;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ALL;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ENGINE;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_KEYWORD;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_IP;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_PV;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITORS;
-import static com.jeecms.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITSECOND;
+import com.infotop.cms.dao.assist.CmsSiteAccessStatisticDao;
+import com.infotop.cms.entity.assist.CmsSiteAccessStatistic;
+import com.infotop.common.hibernate3.Finder;
+import com.infotop.common.hibernate3.HibernateBaseDao;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ALL;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_SOURCE;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_ENGINE;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_LINK;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_KEYWORD;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_AREA;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_IP;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_PV;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITORS;
+import static com.infotop.cms.entity.assist.CmsSiteAccessStatistic.STATISTIC_TARGET_VISITSECOND;
 
 /**
  * @author Tom

@@ -1,10 +1,10 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
 import java.io.FileNotFoundException;
 import java.sql.SQLException;
 import java.util.List;
 
-import com.jeecms.cms.entity.back.CmsField;
+import com.infotop.cms.entity.back.CmsField;
 
 public interface CmsDb2DataBackMng {
 	

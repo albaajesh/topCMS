@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.main;
+package com.infotop.cms.entity.main;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.main.base.BaseChannelTxt;
+import com.infotop.cms.entity.main.base.BaseChannelTxt;
 
 public class ChannelTxt extends BaseChannelTxt {
 	private static final long serialVersionUID = 1L;

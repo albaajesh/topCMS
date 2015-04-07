@@ -1,9 +1,9 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsVoteTopic;
+import com.infotop.cms.entity.assist.base.BaseCmsVoteTopic;
 
 public class CmsVoteTopic extends BaseCmsVoteTopic {
 	private static final long serialVersionUID = 1L;
@@ -49,7 +49,7 @@ public class CmsVoteTopic extends BaseCmsVoteTopic {
 	 */
 	public CmsVoteTopic (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.lang.String title,
 		java.lang.Integer totalCount,
 		java.lang.Integer multiSelect,

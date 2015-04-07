@@ -1,8 +1,8 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.List;
 
-import com.jeecms.core.entity.Config;
+import com.infotop.core.entity.Config;
 
 public interface ConfigDao {
 	public List<Config> getList();

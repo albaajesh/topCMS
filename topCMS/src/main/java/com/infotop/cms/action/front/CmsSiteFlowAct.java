@@ -1,4 +1,4 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
 
 import javax.servlet.http.HttpServletRequest;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.jeecms.cms.service.CmsSiteFlowCache;
-import com.jeecms.common.web.ResponseUtils;
+import com.infotop.cms.service.CmsSiteFlowCache;
+import com.infotop.common.web.ResponseUtils;
 
 @Controller
 public class CmsSiteFlowAct {

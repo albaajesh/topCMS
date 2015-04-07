@@ -1,4 +1,4 @@
-package com.jeecms.cms.staticpage.exception;
+package com.infotop.cms.staticpage.exception;
 
 /**
  * 

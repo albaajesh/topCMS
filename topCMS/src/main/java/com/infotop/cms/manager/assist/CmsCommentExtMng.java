@@ -1,7 +1,7 @@
-package com.jeecms.cms.manager.assist;
+package com.infotop.cms.manager.assist;
 
-import com.jeecms.cms.entity.assist.CmsComment;
-import com.jeecms.cms.entity.assist.CmsCommentExt;
+import com.infotop.cms.entity.assist.CmsComment;
+import com.infotop.cms.entity.assist.CmsCommentExt;
 
 public interface CmsCommentExtMng {
 	public CmsCommentExt save(String ip, String text, CmsComment comment);

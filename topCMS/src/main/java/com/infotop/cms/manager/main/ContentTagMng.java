@@ -1,10 +1,10 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
 import java.util.Collection;
 import java.util.List;
 
-import com.jeecms.cms.entity.main.ContentTag;
-import com.jeecms.common.page.Pagination;
+import com.infotop.cms.entity.main.ContentTag;
+import com.infotop.common.page.Pagination;
 
 public interface ContentTagMng {
 

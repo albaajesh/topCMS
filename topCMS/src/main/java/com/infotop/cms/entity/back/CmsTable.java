@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.back;
+package com.infotop.cms.entity.back;
 
-import com.jeecms.cms.entity.back.base.BaseCmsTable;
+import com.infotop.cms.entity.back.base.BaseCmsTable;
 
 public class CmsTable extends BaseCmsTable {
 	private static final long serialVersionUID = 1L;

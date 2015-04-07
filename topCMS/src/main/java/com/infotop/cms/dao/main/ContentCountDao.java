@@ -1,9 +1,9 @@
-package com.jeecms.cms.dao.main;
+package com.infotop.cms.dao.main;
 
 import net.sf.ehcache.Ehcache;
 
-import com.jeecms.cms.entity.main.ContentCount;
-import com.jeecms.common.hibernate3.Updater;
+import com.infotop.cms.entity.main.ContentCount;
+import com.infotop.common.hibernate3.Updater;
 
 public interface ContentCountDao {
 	public int clearCount(boolean week, boolean month);

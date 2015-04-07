@@ -1,4 +1,4 @@
-package com.jeecms.cms.task.job;
+package com.infotop.cms.task.job;
 
 import java.io.IOException;
 
@@ -13,8 +13,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
-import com.jeecms.cms.entity.assist.CmsTask;
-import com.jeecms.cms.staticpage.StaticPageSvc;
+import com.infotop.cms.entity.assist.CmsTask;
+import com.infotop.cms.staticpage.StaticPageSvc;
 
 import freemarker.template.TemplateException;
 

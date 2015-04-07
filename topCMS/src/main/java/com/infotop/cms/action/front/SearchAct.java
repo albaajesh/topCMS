@@ -1,6 +1,6 @@
-package com.jeecms.cms.action.front;
+package com.infotop.cms.action.front;
 
-import static com.jeecms.cms.Constants.TPLDIR_SPECIAL;
+import static com.infotop.cms.Constants.TPLDIR_SPECIAL;
 
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -20,14 +20,14 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.jeecms.cms.entity.assist.CmsSearchWords;
-import com.jeecms.cms.manager.assist.CmsSearchWordsMng;
-import com.jeecms.cms.service.SearchWordsCache;
-import com.jeecms.common.web.RequestUtils;
-import com.jeecms.common.web.ResponseUtils;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.web.util.CmsUtils;
-import com.jeecms.core.web.util.FrontUtils;
+import com.infotop.cms.entity.assist.CmsSearchWords;
+import com.infotop.cms.manager.assist.CmsSearchWordsMng;
+import com.infotop.cms.service.SearchWordsCache;
+import com.infotop.common.web.RequestUtils;
+import com.infotop.common.web.ResponseUtils;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.web.util.CmsUtils;
+import com.infotop.core.web.util.FrontUtils;
 
 @Controller
 public class SearchAct {

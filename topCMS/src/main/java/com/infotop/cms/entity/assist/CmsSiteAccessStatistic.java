@@ -1,6 +1,6 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsSiteAccessStatistic;
+import com.infotop.cms.entity.assist.base.BaseCmsSiteAccessStatistic;
 
 
 
@@ -36,7 +36,7 @@ public class CmsSiteAccessStatistic extends BaseCmsSiteAccessStatistic {
 	 */
 	public CmsSiteAccessStatistic (
 		java.lang.Integer id,
-		com.jeecms.core.entity.CmsSite site,
+		com.infotop.core.entity.CmsSite site,
 		java.util.Date statisticDate,
 		java.lang.Integer pv,
 		java.lang.Integer ip,

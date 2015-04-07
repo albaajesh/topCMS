@@ -1,10 +1,10 @@
-package com.jeecms.core.dao;
+package com.infotop.core.dao;
 
 import java.util.List;
 
-import com.jeecms.common.hibernate3.Updater;
-import com.jeecms.common.page.Pagination;
-import com.jeecms.core.entity.CmsDictionary;
+import com.infotop.common.hibernate3.Updater;
+import com.infotop.common.page.Pagination;
+import com.infotop.core.entity.CmsDictionary;
 
 public interface CmsDictionaryDao {
 	public Pagination getPage(String queryType,int pageNo, int pageSize);

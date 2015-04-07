@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.assist.base;
+package com.infotop.cms.entity.assist.base;
 
 import java.io.Serializable;
 
@@ -41,7 +41,7 @@ public abstract class BaseCmsVoteRecord  implements Serializable {
 	 */
 	public BaseCmsVoteRecord (
 		java.lang.Integer id,
-		com.jeecms.cms.entity.assist.CmsVoteTopic topic,
+		com.infotop.cms.entity.assist.CmsVoteTopic topic,
 		java.util.Date time,
 		java.lang.String ip,
 		java.lang.String cookie) {
@@ -69,8 +69,8 @@ public abstract class BaseCmsVoteRecord  implements Serializable {
 	private java.lang.String cookie;
 
 	// many to one
-	private com.jeecms.core.entity.CmsUser user;
-	private com.jeecms.cms.entity.assist.CmsVoteTopic topic;
+	private com.infotop.core.entity.CmsUser user;
+	private com.infotop.cms.entity.assist.CmsVoteTopic topic;
 
 
 
@@ -147,7 +147,7 @@ public abstract class BaseCmsVoteRecord  implements Serializable {
 	/**
 	 * Return the value associated with the column: user_id
 	 */
-	public com.jeecms.core.entity.CmsUser getUser () {
+	public com.infotop.core.entity.CmsUser getUser () {
 		return user;
 	}
 
@@ -155,7 +155,7 @@ public abstract class BaseCmsVoteRecord  implements Serializable {
 	 * Set the value related to the column: user_id
 	 * @param user the user_id value
 	 */
-	public void setUser (com.jeecms.core.entity.CmsUser user) {
+	public void setUser (com.infotop.core.entity.CmsUser user) {
 		this.user = user;
 	}
 
@@ -163,7 +163,7 @@ public abstract class BaseCmsVoteRecord  implements Serializable {
 	/**
 	 * Return the value associated with the column: votetopic_id
 	 */
-	public com.jeecms.cms.entity.assist.CmsVoteTopic getTopic () {
+	public com.infotop.cms.entity.assist.CmsVoteTopic getTopic () {
 		return topic;
 	}
 
@@ -171,7 +171,7 @@ public abstract class BaseCmsVoteRecord  implements Serializable {
 	 * Set the value related to the column: votetopic_id
 	 * @param topic the votetopic_id value
 	 */
-	public void setTopic (com.jeecms.cms.entity.assist.CmsVoteTopic topic) {
+	public void setTopic (com.infotop.cms.entity.assist.CmsVoteTopic topic) {
 		this.topic = topic;
 	}
 
@@ -179,9 +179,9 @@ public abstract class BaseCmsVoteRecord  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.assist.CmsVoteRecord)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.assist.CmsVoteRecord)) return false;
 		else {
-			com.jeecms.cms.entity.assist.CmsVoteRecord cmsVoteRecord = (com.jeecms.cms.entity.assist.CmsVoteRecord) obj;
+			com.infotop.cms.entity.assist.CmsVoteRecord cmsVoteRecord = (com.infotop.cms.entity.assist.CmsVoteRecord) obj;
 			if (null == this.getId() || null == cmsVoteRecord.getId()) return false;
 			else return (this.getId().equals(cmsVoteRecord.getId()));
 		}

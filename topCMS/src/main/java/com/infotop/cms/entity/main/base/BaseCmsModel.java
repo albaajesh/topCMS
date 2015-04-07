@@ -1,4 +1,4 @@
-package com.jeecms.cms.entity.main.base;
+package com.infotop.cms.entity.main.base;
 
 import java.io.Serializable;
 
@@ -97,7 +97,7 @@ public abstract class BaseCmsModel  implements Serializable {
 	private java.lang.Boolean def;
 
 	// collections
-	private java.util.Set<com.jeecms.cms.entity.main.CmsModelItem> items;
+	private java.util.Set<com.infotop.cms.entity.main.CmsModelItem> items;
 
 
 
@@ -318,7 +318,7 @@ public abstract class BaseCmsModel  implements Serializable {
 	/**
 	 * Return the value associated with the column: items
 	 */
-	public java.util.Set<com.jeecms.cms.entity.main.CmsModelItem> getItems () {
+	public java.util.Set<com.infotop.cms.entity.main.CmsModelItem> getItems () {
 		return items;
 	}
 
@@ -326,7 +326,7 @@ public abstract class BaseCmsModel  implements Serializable {
 	 * Set the value related to the column: items
 	 * @param items the items value
 	 */
-	public void setItems (java.util.Set<com.jeecms.cms.entity.main.CmsModelItem> items) {
+	public void setItems (java.util.Set<com.infotop.cms.entity.main.CmsModelItem> items) {
 		this.items = items;
 	}
 
@@ -334,9 +334,9 @@ public abstract class BaseCmsModel  implements Serializable {
 
 	public boolean equals (Object obj) {
 		if (null == obj) return false;
-		if (!(obj instanceof com.jeecms.cms.entity.main.CmsModel)) return false;
+		if (!(obj instanceof com.infotop.cms.entity.main.CmsModel)) return false;
 		else {
-			com.jeecms.cms.entity.main.CmsModel cmsModel = (com.jeecms.cms.entity.main.CmsModel) obj;
+			com.infotop.cms.entity.main.CmsModel cmsModel = (com.infotop.cms.entity.main.CmsModel) obj;
 			if (null == this.getId() || null == cmsModel.getId()) return false;
 			else return (this.getId().equals(cmsModel.getId()));
 		}

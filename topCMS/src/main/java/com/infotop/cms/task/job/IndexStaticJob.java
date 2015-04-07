@@ -1,4 +1,4 @@
-package com.jeecms.cms.task.job;
+package com.infotop.cms.task.job;
 
 import java.io.IOException;
 
@@ -15,10 +15,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.orm.hibernate3.SessionFactoryUtils;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
-import com.jeecms.cms.entity.assist.CmsTask;
-import com.jeecms.cms.staticpage.StaticPageSvc;
-import com.jeecms.core.entity.CmsSite;
-import com.jeecms.core.manager.CmsSiteMng;
+import com.infotop.cms.entity.assist.CmsTask;
+import com.infotop.cms.staticpage.StaticPageSvc;
+import com.infotop.core.entity.CmsSite;
+import com.infotop.core.manager.CmsSiteMng;
 
 import freemarker.template.TemplateException;
 

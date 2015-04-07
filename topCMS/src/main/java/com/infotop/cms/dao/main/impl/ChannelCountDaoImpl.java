@@ -1,4 +1,4 @@
-package com.jeecms.cms.dao.main.impl;
+package com.infotop.cms.dao.main.impl;
 
 import java.util.List;
 
@@ -8,9 +8,9 @@ import net.sf.ehcache.Element;
 import org.hibernate.Query;
 import org.springframework.stereotype.Repository;
 
-import com.jeecms.cms.dao.main.ChannelCountDao;
-import com.jeecms.cms.entity.main.ChannelCount;
-import com.jeecms.common.hibernate3.HibernateBaseDao;
+import com.infotop.cms.dao.main.ChannelCountDao;
+import com.infotop.cms.entity.main.ChannelCount;
+import com.infotop.common.hibernate3.HibernateBaseDao;
 
 @Repository
 public class ChannelCountDaoImpl extends

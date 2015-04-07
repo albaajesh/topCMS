@@ -1,7 +1,7 @@
-package com.jeecms.cms.manager.main;
+package com.infotop.cms.manager.main;
 
-import com.jeecms.cms.entity.main.Channel;
-import com.jeecms.cms.entity.main.ChannelTxt;
+import com.infotop.cms.entity.main.Channel;
+import com.infotop.cms.entity.main.ChannelTxt;
 
 /**
  * 栏目文本Manager接口

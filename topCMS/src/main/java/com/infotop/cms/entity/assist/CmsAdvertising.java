@@ -1,8 +1,8 @@
-package com.jeecms.cms.entity.assist;
+package com.infotop.cms.entity.assist;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.jeecms.cms.entity.assist.base.BaseCmsAdvertising;
+import com.infotop.cms.entity.assist.base.BaseCmsAdvertising;
 
 public class CmsAdvertising extends BaseCmsAdvertising {
 	private static final long serialVersionUID = 1L;
@@ -69,8 +69,8 @@ public class CmsAdvertising extends BaseCmsAdvertising {
 	 * Constructor for required fields
 	 */
 	public CmsAdvertising(java.lang.Integer id,
-			com.jeecms.cms.entity.assist.CmsAdvertisingSpace adspace,
-			com.jeecms.core.entity.CmsSite site, java.lang.String name,
+			com.infotop.cms.entity.assist.CmsAdvertisingSpace adspace,
+			com.infotop.core.entity.CmsSite site, java.lang.String name,
 			java.lang.String category, java.lang.Integer weight,
 			java.lang.Long displayCount, java.lang.Long clickCount,
 			java.lang.Boolean enabled) {
