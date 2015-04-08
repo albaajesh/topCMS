@@ -8,8 +8,8 @@
 			<generator class="foreign"><param name="property">comment</param></generator>
 		</id>
 		<property name="ip" column="ip" type="string" not-null="false" length="50"/>
-		<property name="text" column="text" type="org.springframework.orm.hibernate3.support.ClobStringType" not-null="false"/>
-		<property name="reply" column="reply" type="org.springframework.orm.hibernate3.support.ClobStringType" not-null="false"/>
+		<property name="text" column="text" type="org.hibernate.type.MaterializedClobType" not-null="false"/>
+		<property name="reply" column="reply" type="org.hibernate.type.MaterializedClobType" not-null="false"/>
 		<one-to-one name="comment" class="CmsComment" constrained="true"/>
 	</class>
 </hibernate-mapping>

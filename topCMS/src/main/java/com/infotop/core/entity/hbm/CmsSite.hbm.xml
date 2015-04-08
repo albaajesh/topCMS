@@ -40,7 +40,7 @@
 <!-- 			<cache usage="read-write"/> -->
 			<key column="site_id" not-null="true"/>
 			<map-key column="txt_name" type="string" length="30"/>
-			<element column="txt_value" type="org.springframework.orm.hibernate3.support.ClobStringType"/>
+			<element column="txt_value" type="org.hibernate.type.MaterializedClobType"/>
 		</map>
 		<map name="cfg" table="tc_site_cfg" cascade="all-delete-orphan">
 <!-- 			<cache usage="read-write"/> -->
