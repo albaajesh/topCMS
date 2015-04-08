@@ -33,5 +33,9 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/infotop-core-1.0.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/kaptcha-2.3.2.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/springside-core-4.2.1.GA.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/springside-core-4.2.1.GA-tests.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
