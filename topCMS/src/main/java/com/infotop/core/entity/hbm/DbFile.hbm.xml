@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.core.entity">
-	<class name="DbFile" table="jo_upload">
+	<class name="DbFile" table="to_upload">
 		<meta attribute="sync-DAO">false</meta>
 		<id name="id" type="string" column="filename"><generator class="assigned"/></id>
 		<property name="length" column="length" type="java.lang.Integer" not-null="true" length="19"/>

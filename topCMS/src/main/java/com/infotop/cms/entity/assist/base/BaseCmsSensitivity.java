@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_sensitivity table.
+ * This is an object that contains data related to the tc_sensitivity table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_sensitivity"
+ *  table="tc_sensitivity"
  */
 
 public abstract class BaseCmsSensitivity  implements Serializable {

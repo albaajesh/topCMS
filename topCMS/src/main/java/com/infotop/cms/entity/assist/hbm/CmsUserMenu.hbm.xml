@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsUserMenu"
-		table="jc_user_menu"
+		table="tc_user_menu"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>

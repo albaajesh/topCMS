@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_channel_count table.
+ * This is an object that contains data related to the tc_channel_count table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_channel_count"
+ *  table="tc_channel_count"
  */
 
 public abstract class BaseChannelCount  implements Serializable {

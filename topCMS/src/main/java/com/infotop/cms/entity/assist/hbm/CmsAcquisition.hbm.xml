@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.cms.entity.assist">
-	<class name="CmsAcquisition" table="jc_acquisition">
+	<class name="CmsAcquisition" table="tc_acquisition">
 		<meta attribute="sync-DAO">false</meta>
 		<id name="id" type="integer" column="acquisition_id"><generator class="identity"/></id>
 		<property name="name" column="acq_name" type="string" not-null="true" length="50"/>

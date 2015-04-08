@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.core.entity">
-	<class name="CmsUserExt" table="jc_user_ext">
+	<class name="CmsUserExt" table="tc_user_ext">
 		<meta attribute="sync-DAO">false</meta>
-<!-- 		<cache usage="read-write"/> -->
+<cache usage="read-write"/>
 		<id name="id" type="java.lang.Integer" column="user_id">
 			<generator class="foreign"><param name="property">user</param></generator>
 		</id>

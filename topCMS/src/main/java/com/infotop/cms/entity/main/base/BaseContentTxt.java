@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_content_txt table.
+ * This is an object that contains data related to the tc_content_txt table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_content_txt"
+ *  table="tc_content_txt"
  */
 
 public abstract class BaseContentTxt  implements Serializable {

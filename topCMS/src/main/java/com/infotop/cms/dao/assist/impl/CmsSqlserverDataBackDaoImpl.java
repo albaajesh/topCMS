@@ -401,7 +401,7 @@ public class CmsSqlserverDataBackDaoImpl extends JdbcDaoSupport implements
 				if (resultSetIndex == 7) {
 					while (rs.next()) {
 						if ((!rs.getString(2).trim().equals(
-								"FK_jc_channel_jc_channel"))
+								"FK_tc_channel_tc_channel"))
 								&& (rs.getString(2).startsWith("FK_"))) {
 							FKConstraintName = rs.getString(2).trim();
 							buffer.append(Constants.ONESQL_PREFIX);

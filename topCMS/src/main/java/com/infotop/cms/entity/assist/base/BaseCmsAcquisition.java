@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_acquisition table.
+ * This is an object that contains data related to the tc_acquisition table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_acquisition"
+ *  table="tc_acquisition"
  */
 
 public abstract class BaseCmsAcquisition  implements Serializable {

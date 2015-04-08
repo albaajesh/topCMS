@@ -163,7 +163,7 @@ public class ContentTagMngImpl implements ContentTagMng {
 			}
 		}
 		for (ContentTag tag : toRemove) {
-			//由于事务真正删除关联的sql语句还没有执行，这个时候jc_contenttag里至少还有一条数据。
+			//由于事务真正删除关联的sql语句还没有执行，这个时候tc_contenttag里至少还有一条数据。
 			if (dao.countContentRef(tag.getId()) <= 1) {
 				dao.deleteById(tag.getId());
 			} else {

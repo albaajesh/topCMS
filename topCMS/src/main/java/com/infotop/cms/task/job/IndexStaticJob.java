@@ -48,7 +48,7 @@ public class IndexStaticJob extends QuartzJobBean{
 		log.info("static index  page");
 		CmsSite site=cmsSiteMng.findById(siteId);
 		Session session = SessionFactoryUtils.getSession(sessionFactory, true); 
-		session=sessionFactory.openSession(); 
+		 session=sessionFactory.openSession(); 
 		session.beginTransaction();
 		site=(CmsSite) session.get(site.getClass(), site.getId());
 		try {

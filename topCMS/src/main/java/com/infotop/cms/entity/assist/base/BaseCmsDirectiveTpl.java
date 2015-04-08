@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_directive_tpl table.
+ * This is an object that contains data related to the tc_directive_tpl table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_directive_tpl"
+ *  table="tc_directive_tpl"
  */
 
 public abstract class BaseCmsDirectiveTpl  implements Serializable {

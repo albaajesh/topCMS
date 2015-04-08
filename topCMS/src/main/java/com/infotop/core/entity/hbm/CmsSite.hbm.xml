@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.core.entity">
-	<class name="CmsSite" table="jc_site">
+	<class name="CmsSite" table="tc_site">
 		<meta attribute="sync-DAO">false</meta>
-<!-- 		<cache usage="read-write"/> -->
+		<cache usage="read-write"/>
 		<id name="id" type="java.lang.Integer" column="site_id"><generator class="identity"/></id>
 		<property name="domain" column="domain" type="string" not-null="true" length="50"/>
 		<property name="path" column="site_path" type="string" not-null="true" length="20"/>
@@ -30,19 +30,19 @@
 		<one-to-one name="siteCompany" class="CmsSiteCompany" cascade="delete"/>
 		<many-to-one name="uploadFtp" column="ftp_upload_id" class="com.infotop.core.entity.Ftp" not-null="false"></many-to-one>
 		<many-to-one name="config" column="config_id" class="CmsConfig" not-null="true"></many-to-one>
-		<map name="attr" table="jc_site_attr" cascade="all-delete-orphan">
+		<map name="attr" table="tc_site_attr" cascade="all-delete-orphan">
 <!-- 			<cache usage="read-write"/> -->
 			<key column="site_id" not-null="true"/>
 			<map-key column="attr_name" type="string" length="30"/>
 			<element column="attr_value" type="string" length="255"/>
 		</map>
-		<map name="txt" table="jc_site_txt" cascade="all-delete-orphan">
+		<map name="txt" table="tc_site_txt" cascade="all-delete-orphan">
 <!-- 			<cache usage="read-write"/> -->
 			<key column="site_id" not-null="true"/>
 			<map-key column="txt_name" type="string" length="30"/>
 			<element column="txt_value" type="org.springframework.orm.hibernate3.support.ClobStringType"/>
 		</map>
-		<map name="cfg" table="jc_site_cfg" cascade="all-delete-orphan">
+		<map name="cfg" table="tc_site_cfg" cascade="all-delete-orphan">
 <!-- 			<cache usage="read-write"/> -->
 			<key column="site_id" not-null="true"/>
 			<map-key column="cfg_name" type="string" length="30"/>

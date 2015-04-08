@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_score_record table.
+ * This is an object that contains data related to the tc_score_record table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_score_record"
+ *  table="tc_score_record"
  */
 
 public abstract class BaseCmsScoreRecord  implements Serializable {

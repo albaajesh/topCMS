@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsMessage"
-		table="jc_message"
+		table="tc_message"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>

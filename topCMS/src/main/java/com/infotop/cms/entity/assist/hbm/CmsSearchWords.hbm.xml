@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsSearchWords"
-		table="jc_search_words"
+		table="tc_search_words"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>

@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.main">
 	<class
 		name="CmsThirdAccount"
-		table="jc_third_account"
+		table="tc_third_account"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<id

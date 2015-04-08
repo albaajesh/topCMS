@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsVoteSubTopic"
-		table="jc_vote_subtopic"
+		table="tc_vote_subtopic"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<id

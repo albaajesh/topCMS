@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsSiteAccessPages"
-		table="jc_site_access_pages"
+		table="tc_site_access_pages"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>

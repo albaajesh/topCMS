@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.core.entity">
 	<class
 		name="CmsConfigItem"
-		table="jc_config_item"
+		table="tc_config_item"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<id

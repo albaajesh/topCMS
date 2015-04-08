@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsOrigin"
-		table="jc_origin"
+		table="tc_origin"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<id

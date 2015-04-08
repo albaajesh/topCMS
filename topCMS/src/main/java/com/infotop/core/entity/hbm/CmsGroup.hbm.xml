@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.core.entity">
-	<class name="CmsGroup" table="jc_group">
+	<class name="CmsGroup" table="tc_group">
 		<meta attribute="sync-DAO">false</meta>
-<!-- 		<cache usage="read-write"/> -->
+<cache usage="read-write"/>
 		<id name="id" type="java.lang.Integer" column="group_id"><generator class="identity"/></id>
 		<property name="name" column="group_name" type="string" not-null="true" length="100"/>
 		<property name="priority" column="priority" type="integer" not-null="true" length="10"/>
@@ -13,13 +13,13 @@
 		<property name="needCaptcha" column="need_captcha" type="java.lang.Boolean" not-null="true"/>
 		<property name="needCheck" column="need_check" type="java.lang.Boolean" not-null="true"/>
 		<property name="regDef" column="is_reg_def" type="java.lang.Boolean" not-null="true"/>
-		<set name="viewChannels" table="jc_chnl_group_view" inverse="true">
-<!-- 			<cache usage="read-write"/> -->
+		<set name="viewChannels" table="tc_chnl_group_view" inverse="true">
+			<cache usage="read-write"/>
 			<key column="group_id"/>
 			<many-to-many column="channel_id" class="com.infotop.cms.entity.main.Channel"/>
 		</set>
-		<set name="contriChannels" table="jc_chnl_group_contri" inverse="true">
-<!-- 			<cache usage="read-write"/> -->
+		<set name="contriChannels" table="tc_chnl_group_contri" inverse="true">
+			<cache usage="read-write"/>
 			<key column="group_id"/>
 			<many-to-many column="channel_id" class="com.infotop.cms.entity.main.Channel"/>
 		</set>

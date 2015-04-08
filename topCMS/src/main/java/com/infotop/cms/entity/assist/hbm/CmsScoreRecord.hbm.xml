@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsScoreRecord"
-		table="jc_score_record"
+		table="tc_score_record"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>

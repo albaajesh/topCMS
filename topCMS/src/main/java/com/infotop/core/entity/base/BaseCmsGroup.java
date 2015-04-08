@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_group table.
+ * This is an object that contains data related to the tc_group table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_group"
+ *  table="tc_group"
  */
 
 public abstract class BaseCmsGroup  implements Serializable {

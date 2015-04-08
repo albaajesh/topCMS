@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.core.entity">
-	<class name="CmsConfig" table="jc_config">
+	<class name="CmsConfig" table="tc_config">
 		<meta attribute="sync-DAO">false</meta>
-<!-- 		<cache usage="read-write"/> -->
+		<cache usage="read-write"/>
 		<id name="id" type="java.lang.Integer" column="config_id"><generator class="assigned"/></id>
 		<property name="contextPath" column="context_path" type="string" not-null="false" length="20"/>
 		<property name="servletPoint" column="servlet_point" type="string" not-null="false" length="20"/>
@@ -42,7 +42,7 @@
 		<property name="personal" column="email_personal" type="string" not-null="false" length="100"/>
 		</component>
 		
-		<map name="attr" table="jc_config_attr" cascade="all-delete-orphan">
+		<map name="attr" table="tc_config_attr" cascade="all-delete-orphan">
 <!-- 			<cache usage="read-write"/> -->
 			<key column="config_id" not-null="true"/>
 			<map-key column="attr_name" type="string" length="30"/>

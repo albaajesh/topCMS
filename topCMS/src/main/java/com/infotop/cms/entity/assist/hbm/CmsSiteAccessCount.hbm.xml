@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsSiteAccessCount"
-		table="jc_site_access_count"
+		table="tc_site_access_count"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>

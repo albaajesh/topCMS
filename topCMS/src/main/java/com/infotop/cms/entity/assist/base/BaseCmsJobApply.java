@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_job_apply table.
+ * This is an object that contains data related to the tc_job_apply table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_job_apply"
+ *  table="tc_job_apply"
  */
 
 public abstract class BaseCmsJobApply  implements Serializable {

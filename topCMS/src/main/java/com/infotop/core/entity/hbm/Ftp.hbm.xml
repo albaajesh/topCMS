@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.core.entity">
-	<class name="Ftp" table="jo_ftp">
+	<class name="Ftp" table="to_ftp">
 		<meta attribute="sync-DAO">false</meta>
-<!-- 		<cache usage="read-write"/> -->
+<cache usage="read-write"/>
 		<id name="id" type="java.lang.Integer" column="ftp_id"><generator class="identity"/></id>
 		<property name="name" column="ftp_name" type="string" not-null="true" length="100"/>
 		<property name="ip" column="ip" type="string" not-null="true" length="50"/>

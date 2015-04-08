@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsFile"
-		table="jc_file"
+		table="tc_file"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<id

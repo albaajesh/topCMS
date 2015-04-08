@@ -6,12 +6,12 @@ import com.infotop.core.entity.CmsLog;
 
 
 /**
- * This is an object that contains data related to the jc_user table.
+ * This is an object that contains data related to the tc_user table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_user"
+ *  table="tc_user"
  */
 
 public abstract class BaseCmsUser  implements Serializable {

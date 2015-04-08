@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_third_account table.
+ * This is an object that contains data related to the tc_third_account table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_third_account"
+ *  table="tc_third_account"
  */
 
 public abstract class BaseCmsThirdAccount  implements Serializable {

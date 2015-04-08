@@ -206,77 +206,77 @@ public class CmsOracleDataBackDaoImpl extends JdbcDaoSupport implements
 	private boolean isDateTimeColumn(String tablename,int columnIndex){
 		if(StringUtils.isNotBlank(tablename)){
 			String upperTableName=tablename.toUpperCase();
-			if(upperTableName.equals("JC_ACQUISITION")){
+			if(upperTableName.equals("TC_ACQUISITION")){
 				if(columnIndex==7||columnIndex==8){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_ADVERTISING")){
+			if(upperTableName.equals("TC_ADVERTISING")){
 				if(columnIndex==10||columnIndex==11){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_COMMENT")){
+			if(upperTableName.equals("TC_COMMENT")){
 				if(columnIndex==6||columnIndex==7){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_CONTENT")){
+			if(upperTableName.equals("TC_CONTENT")){
 				if(columnIndex==7){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_CONTENT_CHECK")){
+			if(upperTableName.equals("TC_CONTENT_CHECK")){
 				if(columnIndex==6){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_CONTENT_EXT")){
+			if(upperTableName.equals("TC_CONTENT_EXT")){
 				if(columnIndex==8){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_GUESTBOOK")){
+			if(upperTableName.equals("TC_GUESTBOOK")){
 				if(columnIndex==7||columnIndex==8){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_LOG")){
+			if(upperTableName.equals("TC_LOG")){
 				if(columnIndex==5){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_MESSAGE")){
+			if(upperTableName.equals("TC_MESSAGE")){
 				if(columnIndex==4){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_RECEIVER_MESSAGE")){
+			if(upperTableName.equals("TC_RECEIVER_MESSAGE")){
 				if(columnIndex==4){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_SITE_FLOW")){
+			if(upperTableName.equals("TC_SITE_FLOW")){
 				if(columnIndex==5){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_USER")){
+			if(upperTableName.equals("TC_USER")){
 				if(columnIndex==6||columnIndex==8||columnIndex==14){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_USER_EXT")){
+			if(upperTableName.equals("TC_USER_EXT")){
 				if(columnIndex==4){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_VOTE_RECORD")){
+			if(upperTableName.equals("TC_VOTE_RECORD")){
 				if(columnIndex==4){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_VOTE_TOPIC")){
+			if(upperTableName.equals("TC_VOTE_TOPIC")){
 				if(columnIndex==5||columnIndex==6){
 					return true;
 				}
@@ -291,27 +291,27 @@ public class CmsOracleDataBackDaoImpl extends JdbcDaoSupport implements
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_JOB_APPLY")){
+			if(upperTableName.equals("TC_JOB_APPLY")){
 				if(columnIndex==4){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_WORKFLOW_EVENT")){
+			if(upperTableName.equals("TC_WORKFLOW_EVENT")){
 				if(columnIndex==5||columnIndex==6){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_WORKFLOW_RECORD")){
+			if(upperTableName.equals("TC_WORKFLOW_RECORD")){
 				if(columnIndex==5){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_TASK")){
+			if(upperTableName.equals("TC_TASK")){
 				if(columnIndex==19){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_USER_RESUME")){
+			if(upperTableName.equals("TC_USER_RESUME")){
 				if(columnIndex==8||columnIndex==16){
 					return true;
 				}
@@ -323,73 +323,73 @@ public class CmsOracleDataBackDaoImpl extends JdbcDaoSupport implements
 	private boolean isColbColumn(String tablename,int columnIndex){
 		if(StringUtils.isNotBlank(tablename)){
 			String upperTableName=tablename.toUpperCase();
-			if(upperTableName.equals("JC_ACQUISITION")){
+			if(upperTableName.equals("TC_ACQUISITION")){
 				//PLAN_LIST
 				if(columnIndex==15){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_ADVERTISING")){
+			if(upperTableName.equals("TC_ADVERTISING")){
 				//AD_CODE
 				if(columnIndex==6){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_CHANNEL_TXT")){
+			if(upperTableName.equals("TC_CHANNEL_TXT")){
 				//TXT TXT1 TXT2 TXT3
 				if(columnIndex==2||columnIndex==3||columnIndex==4||columnIndex==5){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_COMMENT_EXT")){
+			if(upperTableName.equals("TC_COMMENT_EXT")){
 				//TEXT REPLY
 				if(columnIndex==3||columnIndex==4){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_CONTENT_TXT")){
+			if(upperTableName.equals("TC_CONTENT_TXT")){
 				//TXT TXT1 TXT2 TXT3
 				if(columnIndex==2||columnIndex==3||columnIndex==4||columnIndex==5){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_GUESTBOOK_EXT")){
+			if(upperTableName.equals("TC_GUESTBOOK_EXT")){
 				//CONTENT REPLY
 				if(columnIndex==3||columnIndex==4){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_MESSAGE")){
+			if(upperTableName.equals("TC_MESSAGE")){
 				//MSG_CONTENT
 				if(columnIndex==3){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_RECEIVER_MESSAGE")){
+			if(upperTableName.equals("TC_RECEIVER_MESSAGE")){
 				//MSG_CONTENT
 				if(columnIndex==3){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_SITE_TXT")){
+			if(upperTableName.equals("TC_SITE_TXT")){
 				//TXT_VALUE
 				if(columnIndex==3){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_SITE_COMPANY")){
+			if(upperTableName.equals("TC_SITE_COMPANY")){
 				//DESCRIPTION
 				if(columnIndex==7){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_VOTE_REPLY")){
+			if(upperTableName.equals("TC_VOTE_REPLY")){
 				//REPLY
 				if(columnIndex==2){
 					return true;
 				}
 			}
-			if(upperTableName.equals("JC_USER_RESUME")){
+			if(upperTableName.equals("TC_USER_RESUME")){
 				//JOB_DESCRIPTION
 				if(columnIndex==18){
 					return true;

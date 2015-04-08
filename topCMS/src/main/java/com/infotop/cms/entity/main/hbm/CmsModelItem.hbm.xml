@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.cms.entity.main">
-	<class name="CmsModelItem" table="jc_model_item">
+	<class name="CmsModelItem" table="tc_model_item">
 		<meta attribute="sync-DAO">false</meta>
 		<id name="id" type="java.lang.Integer" column="modelitem_id"><generator class="identity"/></id>
 		<property name="field" column="field" type="string" not-null="true" length="50"/>

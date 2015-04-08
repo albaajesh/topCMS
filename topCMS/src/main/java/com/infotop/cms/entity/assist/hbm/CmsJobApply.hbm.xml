@@ -6,7 +6,7 @@
 <hibernate-mapping package="com.infotop.cms.entity.assist">
 	<class
 		name="CmsJobApply"
-		table="jc_job_apply"
+		table="tc_job_apply"
 	>
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>

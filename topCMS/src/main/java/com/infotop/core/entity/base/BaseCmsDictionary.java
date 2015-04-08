@@ -3,12 +3,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_dictionary table.
+ * This is an object that contains data related to the tc_dictionary table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_dictionary"
+ *  table="tc_dictionary"
  */
 
 public abstract class BaseCmsDictionary  implements Serializable {

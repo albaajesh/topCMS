@@ -6,12 +6,12 @@ import com.infotop.cms.entity.main.CmsModel;
 
 
 /**
- * This is an object that contains data related to the jc_channel table.
+ * This is an object that contains data related to the tc_channel table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_channel"
+ *  table="tc_channel"
  */
 
 public abstract class BaseChannelModel  implements Serializable {

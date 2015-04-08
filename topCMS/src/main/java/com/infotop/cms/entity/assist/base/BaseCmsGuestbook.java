@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_guestbook table.
+ * This is an object that contains data related to the tc_guestbook table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_guestbook"
+ *  table="tc_guestbook"
  */
 
 public abstract class BaseCmsGuestbook  implements Serializable {

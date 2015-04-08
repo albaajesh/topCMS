@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_role table.
+ * This is an object that contains data related to the tc_role table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_role"
+ *  table="tc_role"
  */
 
 public abstract class BaseCmsRole  implements Serializable {

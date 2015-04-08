@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.core.entity">
-	<class name="CmsLog" table="jc_log">
+	<class name="CmsLog" table="tc_log">
 		<meta attribute="sync-DAO">false</meta>
 		<id name="id" type="integer" column="log_id"><generator class="identity"/></id>
 		<property name="category" column="category" type="integer" not-null="true" length="10"/>

@@ -6,10 +6,10 @@
 <hibernate-mapping package="com.infotop.core.entity">
 	<class
 		name="CmsSiteCompany"
-		table="jc_site_company"
+		table="tc_site_company"
 	>
 		<meta attribute="sync-DAO">false</meta>
-<!-- 		<cache usage="read-write"/> -->
+<cache usage="read-write"/>
 		<id
 			name="id"
 			type="integer"

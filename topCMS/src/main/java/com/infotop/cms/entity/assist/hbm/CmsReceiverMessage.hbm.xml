@@ -4,7 +4,7 @@
 	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
 
 <hibernate-mapping package="com.infotop.cms.entity.assist">
-	<class name="CmsReceiverMessage" table="jc_receiver_message">
+	<class name="CmsReceiverMessage" table="tc_receiver_message">
 		<meta attribute="sync-DAO">false</meta>
 		<id
 			name="id"

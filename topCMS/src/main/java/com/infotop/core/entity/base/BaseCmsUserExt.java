@@ -4,12 +4,12 @@ import java.io.Serializable;
 
 
 /**
- * This is an object that contains data related to the jc_user_ext table.
+ * This is an object that contains data related to the tc_user_ext table.
  * Do not modify this class because it will be overwritten if the configuration file
  * related to this class is modified.
  *
  * @hibernate.class
- *  table="jc_user_ext"
+ *  table="tc_user_ext"
  */
 
 public abstract class BaseCmsUserExt  implements Serializable {

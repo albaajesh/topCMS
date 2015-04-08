@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping package="com.infotop.cms.entity.assist">
-	<class name="CmsVoteTopic" table="jc_vote_topic">
+	<class name="CmsVoteTopic" table="tc_vote_topic">
 		<meta attribute="sync-DAO">false</meta>
 		<cache usage="read-write"/>
 		<id name="id" type="integer" column="votetopic_id"><generator class="identity"/></id>
