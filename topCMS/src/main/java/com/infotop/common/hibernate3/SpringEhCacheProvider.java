@@ -13,9 +13,6 @@ import net.sf.ehcache.config.DiskStoreConfiguration;
 
 
 import org.hibernate.cache.CacheException;
-import org.hibernate.cache.Cache;
-import org.hibernate.cache.CacheProvider;
-import org.hibernate.cache.Timestamper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.io.Resource;
