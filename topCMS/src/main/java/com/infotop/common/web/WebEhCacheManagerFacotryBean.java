@@ -54,7 +54,7 @@ public class WebEhCacheManagerFacotryBean  implements FactoryBean<CacheManager>,
 	 * 
 	 * @param diskStoreLocation
 	 */
-	public void setdiskStoreLocation(Resource diskStoreLocation) {
+	public void setDiskStoreLocation(Resource diskStoreLocation) {
 		this.diskStoreLocation = diskStoreLocation;
 	}
 
